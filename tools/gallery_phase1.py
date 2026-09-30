@@ -205,6 +205,9 @@ def assert_phase1(html: str, meta: dict[str, list]) -> None:
         "flag-band",
         "linear-gradient(to right,#169B62 33.3%,#ffffff 33.3%,#ffffff 66.6%,#FF883E 66.6%)",
         "flag-ie",
+        "flag-fi",
+        "https://devlij.github.io/jason-ds-vision-netherlands-preview/",
+        "https://devlij.github.io/jason-ds-vision-finland-preview/",
         'viewBox="0 0 33 22"',
         'fill="#169B62"',
         'fill="#FF883E"',
@@ -249,6 +252,8 @@ def assert_phase1(html: str, meta: dict[str, list]) -> None:
         "Norway",
         "Denmark",
         "Switzerland",
+        "Netherlands",
+        "Finland",
         "Sweden",
         "Ireland",
     ]

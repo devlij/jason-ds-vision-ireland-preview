@@ -34,11 +34,19 @@ MONTHS = [
 
 # Later scenes append here. Do not re-list a scene that already has a file.
 # Pins are the public viewpoint, not a surveyed tripod mark.
+# Republic of Ireland only. Northern Ireland belongs to the UK gallery.
 SCENES: list[tuple[str, str, str, float, float, str]] = [
-    # Republic of Ireland only. Northern Ireland belongs to the UK gallery.
-    # Append one public viewpoint per scene when a still is published.
-    # (entry_id, site, city, latitude, longitude, "Europe/Dublin")
-    # This seed ships no pins. Do not invent coordinates.
+    # IE-01-001–010 Candidate stills, 30 September 2026. Not surveyed tripod marks.
+    ("IE-01-001", "Trinity College", "Dublin", 53.34440, -6.25731, "Europe/Dublin"),
+    ("IE-01-002", "Ha'penny Bridge", "Dublin", 53.34630, -6.26320, "Europe/Dublin"),
+    ("IE-01-003", "Temple Bar", "Dublin", 53.34542, -6.26390, "Europe/Dublin"),
+    ("IE-01-004", "Dublin Castle", "Dublin", 53.34285, -6.26740, "Europe/Dublin"),
+    ("IE-01-005", "St Stephen's Green", "Dublin", 53.33860, -6.26000, "Europe/Dublin"),
+    ("IE-01-006", "Custom House", "Dublin", 53.34770, -6.25280, "Europe/Dublin"),
+    ("IE-01-007", "Guinness Storehouse", "Dublin", 53.34180, -6.28670, "Europe/Dublin"),
+    ("IE-01-008", "Wellington Monument", "Dublin", 53.34905, -6.30314, "Europe/Dublin"),
+    ("IE-01-009", "Howth Harbour", "Howth", 53.38980, -6.07020, "Europe/Dublin"),
+    ("IE-01-010", "Killiney Hill", "Killiney", 53.26558, -6.11184, "Europe/Dublin"),
 ]
 
 

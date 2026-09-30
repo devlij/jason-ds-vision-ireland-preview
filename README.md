@@ -16,7 +16,7 @@ Phase-1 gallery shell, matching the Spain / Sweden A7 page: GA4 `G-PDJ4WSS725`, 
 
 `tools/ie.json` is an empty array. The band is structure only. Cosmo delivers the Irish entries later.
 
-`data.json` has zero scenes. No masters and no aerials are in this seed. Tomorrow’s stills can land under `assets/ireland/<City>/ie-01-NNN-…`.
+`data.json` carries IE-01-001 through IE-01-010 as Candidate stills for 30 September 2026. Masters sit under `assets/ireland/<City>/ie-01-NNN-…`. Nothing in this batch is Approved. Aerial clips are a backfill. Newgrange, the Boyne Valley, Glendalough, and the Cliffs of Moher are left for a later pass.
 
 9:16 masters can sit on disk later. The 9:16 tab and download stay hidden until `format_9x16_approval_status` is set to `Approved` by Jason. Narration controls appear only for Aria or Warm, model `avocado_v2:MAI_01`, status Approved, and an mp3 file. There is no day/night toggle on the card. A motion control is rendered only when a motion file exists. This seed ships no audio.
 
