@@ -1,0 +1,17 @@
+IE-01-001–010 Candidate stills for the Republic of Ireland.
+Finished 30 September 2026. Not Approved. Cosmo owns QC and any merge.
+Retrievals are the true Europe/Dublin times after the 07:24 sunrise. Not backdated.
+Cloud cover 0% at every pin, so aerial clips were eligible and were not produced. Backfill.
+Newgrange, the Boyne Valley, Glendalough, and the Cliffs of Moher are left for a follow-up.
+tools/ie.json stays [].
+
+IE-01-001 Trinity College, Dublin · 2026-09-30T08:57:20+01:00 · 30 September 2026 · 08:57 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-09-30
+IE-01-002 Ha'penny Bridge, Dublin · 2026-09-30T08:57:22+01:00 · 30 September 2026 · 08:57 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-09-30
+IE-01-003 Temple Bar, Dublin · 2026-09-30T08:57:25+01:00 · 30 September 2026 · 08:57 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-09-30
+IE-01-004 Dublin Castle, Dublin · 2026-09-30T08:57:27+01:00 · 30 September 2026 · 08:57 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-09-30
+IE-01-005 St Stephen's Green, Dublin · 2026-09-30T08:57:30+01:00 · 30 September 2026 · 08:57 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-09-30
+IE-01-006 Custom House, Dublin · 2026-09-30T08:57:32+01:00 · 30 September 2026 · 08:57 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-09-30
+IE-01-007 Guinness Storehouse, Dublin · 2026-09-30T08:57:35+01:00 · 30 September 2026 · 08:57 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-09-30
+IE-01-008 Wellington Monument, Dublin · 2026-09-30T08:57:37+01:00 · 30 September 2026 · 08:57 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-09-30
+IE-01-009 Howth Harbour, Howth · 2026-09-30T08:57:39+01:00 · 30 September 2026 · 08:57 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-09-30
+IE-01-010 Killiney Hill, Killiney · 2026-09-30T08:57:42+01:00 · 30 September 2026 · 08:57 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-09-30

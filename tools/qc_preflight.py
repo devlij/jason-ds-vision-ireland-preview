@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """QC pre-flight for the Ireland gallery shell. Exits non-zero on any failure.
 
-The seed ships no scenes, no masters, and no word-of-the-day entries.
-Scene-batch checks run only when EXPECTED_IDS is filled in a later stills commit.
+IE-01-001–010 are the first Candidate stills (30 September 2026).
+tools/ie.json stays empty. Scene-batch checks run when EXPECTED_IDS is filled.
 """
 
 from __future__ import annotations
@@ -15,15 +15,15 @@ from pathlib import Path
 from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from composite_masters import CANVAS, DESCRIPTION, assert_art50
+from composite_masters import CANVAS, DESCRIPTION, assert_art50, read_text_chunks
 
 ROOT = Path(__file__).resolve().parents[1]
 ART50_DESCRIPTION = (
     "AI-generated artistic interpretation from the Jason D's Vision Ireland gallery. "
     "Created with generative AI; not a photograph."
 )
-# Empty until a stills commit names the scenes it actually published.
-EXPECTED_IDS: list[str] = []
+# IE-01-001–010 Candidate stills, finished 30 September 2026. Not Approved.
+EXPECTED_IDS: list[str] = [f"IE-01-{n:03d}" for n in range(1, 11)]
 FORBIDDEN = (
     "real-time conditions",
     "photograph of",
@@ -96,6 +96,9 @@ def check_masters(errors: list[str], scene: dict, note: str) -> None:
             assert_art50(path)
         except SystemExit as err:
             errors.append(str(err))
+        comment = read_text_chunks(path).get("Comment", ("", ""))[1]
+        if "embedded 2026-09-30." not in comment:
+            errors.append(f"{entry_id} {fmt} Art. 50 comment is not the 2026-09-30 finish date")
         if note and sha256(path) not in note:
             errors.append(f"{entry_id} approval note missing sha256 for {fmt}")
 
@@ -155,8 +158,26 @@ def main() -> None:
         stamps: set[str] = set()
         for entry_id in EXPECTED_IDS:
             scene = by_id.get(entry_id) or {}
-            note = check_note(errors, entry_id, candidate=scene.get("approval_status") != "Approved")
-            check_weather(errors, entry_id, stamps)
+            if scene.get("approval_status") != "Candidate":
+                errors.append(f"{entry_id} approval_status is not Candidate")
+            for key in (
+                "format_16x9_approval_status",
+                "format_4x5_approval_status",
+                "format_9x16_approval_status",
+            ):
+                if scene.get(key) != "Candidate":
+                    errors.append(f"{entry_id} {key} is not Candidate")
+            if scene.get("motion"):
+                errors.append(f"{entry_id} motion is set without an aerial file")
+            note = check_note(errors, entry_id, candidate=True)
+            weather = check_weather(errors, entry_id, stamps)
+            if weather:
+                if weather.get("is_day") != 1 or weather.get("daynight") != "day":
+                    errors.append(f"{entry_id} weather is not genuine daylight")
+                sunrise = (weather.get("sunrise") or "")[11:16]
+                minute = (weather.get("retrieval_timestamp") or "")[11:16]
+                if not sunrise or minute <= sunrise:
+                    errors.append(f"{entry_id} retrieval is not after sunrise")
             check_masters(errors, scene, note)
 
     html = (ROOT / "index.html").read_text() if (ROOT / "index.html").is_file() else ""
@@ -177,15 +198,28 @@ def main() -> None:
             errors.append("lightbox interval is not 4000ms")
         if "https://ireland.jdvision.org/" not in html:
             errors.append("Ireland canonical missing")
-        if "const SCENES = [];" not in html:
-            errors.append("index.html is not an empty scene list")
+        if not EXPECTED_IDS:
+            if "const SCENES = [];" not in html:
+                errors.append("index.html is not an empty scene list")
+        elif "const SCENES = [];" in html:
+            errors.append("index.html is still an empty scene list")
         if "avocado_v2:MAI_01" not in html:
             errors.append("narration hook is missing")
         if '"src":' in html.split('id="narr-manifest"', 1)[-1][:800]:
             errors.append("narration manifest is not empty")
         for entry_id in EXPECTED_IDS:
-            if entry_id not in html:
+            start = html.find(f'"entry_id":"{entry_id}"')
+            if start < 0:
+                start = html.find(f'"entry_id": "{entry_id}"')
+            if start < 0:
                 errors.append(f"{entry_id} missing from index.html")
+                continue
+            end = html.find('"entry_id":', start + 12)
+            chunk = html[start:end if end > start else start + 2500]
+            if '"approval_status":"Approved"' in chunk or '"approval_status": "Approved"' in chunk:
+                errors.append(f"{entry_id} is Approved in index.html")
+            if '"format_9x16_approval_status":"Approved"' in chunk or '"format_9x16_approval_status": "Approved"' in chunk:
+                errors.append(f"{entry_id} 9:16 is Approved in index.html")
 
     robots = (ROOT / "robots.txt").read_text() if (ROOT / "robots.txt").is_file() else ""
     if "Sitemap: https://ireland.jdvision.org/sitemap.xml" not in robots:
