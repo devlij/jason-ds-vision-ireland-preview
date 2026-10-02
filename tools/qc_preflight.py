@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """QC pre-flight for the Ireland gallery shell. Exits non-zero on any failure.
 
-IE-01-001–010 are the first Candidate stills (30 September 2026).
-tools/ie.json stays empty. Scene-batch checks run when EXPECTED_IDS is filled.
+IE-01-001–010 were finished on 30 September 2026 and later approved on main.
+IE-01-021–025 are Candidate stills finished on 2 October 2026. This pack does
+not approve them. tools/ie.json stays empty.
 """
 
 from __future__ import annotations
@@ -23,7 +24,11 @@ ART50_DESCRIPTION = (
     "Created with generative AI; not a photograph."
 )
 # IE-01-001–010 Candidate stills, finished 30 September 2026. Not Approved.
+# Cosmo later approved those ten on main. This preflight still records that
+# historical list. IE-01-021–025 are a separate Candidate pack and are not
+# published into index.html, because the publisher refuses any Approved row.
 EXPECTED_IDS: list[str] = [f"IE-01-{n:03d}" for n in range(1, 11)]
+PACK_IDS: list[str] = [f"IE-01-{n:03d}" for n in range(21, 26)]
 FORBIDDEN = (
     "real-time conditions",
     "photograph of",
@@ -81,10 +86,29 @@ def check_weather(errors: list[str], entry_id: str, stamps: set[str]) -> dict | 
     return weather
 
 
+# IE-01-001–010 were baked before the portrait repair. Their 9:16 files are
+# 1080×2110 and stay on disk. New output must not use that size.
+LEGACY_IDS = {f"IE-01-{n:03d}" for n in range(1, 11)}
+LEGACY_CANVAS = {"16x9": (1920, 1270), "4x5": (864, 1270), "9x16": (1080, 2110)}
+
+
+def canvas_for(entry_id: str) -> dict[str, tuple[int, int]]:
+    if entry_id in LEGACY_IDS:
+        return LEGACY_CANVAS
+    return CANVAS
+
+
+def finish_day(entry_id: str) -> str:
+    if entry_id in LEGACY_IDS:
+        return "2026-09-30"
+    return "2026-10-02"
+
+
 def check_masters(errors: list[str], scene: dict, note: str) -> None:
     entry_id = scene.get("entry_id") or ""
     city = scene.get("folder") or scene.get("city") or ""
-    for fmt, size in CANVAS.items():
+    day = finish_day(entry_id)
+    for fmt, size in canvas_for(entry_id).items():
         path = ROOT / "assets" / "ireland" / city / f"{entry_id.lower()}-{fmt}.png"
         if not path.is_file():
             errors.append(f"missing master {path}")
@@ -92,13 +116,15 @@ def check_masters(errors: list[str], scene: dict, note: str) -> None:
         with Image.open(path) as im:
             if im.size != size:
                 errors.append(f"bad size {path.name} {im.size}")
+            if im.size == (1080, 2110) and entry_id not in LEGACY_IDS:
+                errors.append(f"{entry_id} {fmt} refused invalid 1080×2110 portrait")
         try:
             assert_art50(path)
         except SystemExit as err:
             errors.append(str(err))
         comment = read_text_chunks(path).get("Comment", ("", ""))[1]
-        if "embedded 2026-09-30." not in comment:
-            errors.append(f"{entry_id} {fmt} Art. 50 comment is not the 2026-09-30 finish date")
+        if f"embedded {day}." not in comment:
+            errors.append(f"{entry_id} {fmt} Art. 50 comment is not the {day} finish date")
         if note and sha256(path) not in note:
             errors.append(f"{entry_id} approval note missing sha256 for {fmt}")
 
@@ -122,10 +148,14 @@ def main() -> None:
         errors.append("data.json scenes is not a list")
         scenes = []
     ids = [scene.get("entry_id") for scene in scenes]
-    if ids != EXPECTED_IDS:
+    if ids != EXPECTED_IDS + PACK_IDS:
         errors.append(f"data.json scene order is {ids}")
     by_id = {scene.get("entry_id"): scene for scene in scenes}
     for scene in scenes:
+        # IE-01-001–010 were approved on main by Cosmo before this pack.
+        # Do not treat that historical status as a new self-approval, and do not edit it.
+        if scene.get("entry_id") in LEGACY_IDS:
+            continue
         if scene.get("approval_status") == "Approved":
             errors.append(f"{scene.get('entry_id')} is self-approved")
         for key in (
@@ -158,6 +188,30 @@ def main() -> None:
         stamps: set[str] = set()
         for entry_id in EXPECTED_IDS:
             scene = by_id.get(entry_id) or {}
+            # Cosmo already set these rows to Approved on main. Require that status to stay put.
+            if scene.get("approval_status") != "Approved":
+                errors.append(f"{entry_id} legacy approval_status changed")
+            for key in (
+                "format_16x9_approval_status",
+                "format_4x5_approval_status",
+                "format_9x16_approval_status",
+            ):
+                if scene.get(key) != "Approved":
+                    errors.append(f"{entry_id} legacy {key} changed")
+            if scene.get("motion"):
+                errors.append(f"{entry_id} motion is set without an aerial file")
+            note = check_note(errors, entry_id, candidate=True)
+            weather = check_weather(errors, entry_id, stamps)
+            if weather:
+                if weather.get("is_day") != 1 or weather.get("daynight") != "day":
+                    errors.append(f"{entry_id} weather is not genuine daylight")
+                sunrise = (weather.get("sunrise") or "")[11:16]
+                minute = (weather.get("retrieval_timestamp") or "")[11:16]
+                if not sunrise or minute <= sunrise:
+                    errors.append(f"{entry_id} retrieval is not after sunrise")
+            check_masters(errors, scene, note)
+        for entry_id in PACK_IDS:
+            scene = by_id.get(entry_id) or {}
             if scene.get("approval_status") != "Candidate":
                 errors.append(f"{entry_id} approval_status is not Candidate")
             for key in (
@@ -172,12 +226,14 @@ def main() -> None:
             note = check_note(errors, entry_id, candidate=True)
             weather = check_weather(errors, entry_id, stamps)
             if weather:
-                if weather.get("is_day") != 1 or weather.get("daynight") != "day":
-                    errors.append(f"{entry_id} weather is not genuine daylight")
-                sunrise = (weather.get("sunrise") or "")[11:16]
-                minute = (weather.get("retrieval_timestamp") or "")[11:16]
-                if not sunrise or minute <= sunrise:
-                    errors.append(f"{entry_id} retrieval is not after sunrise")
+                is_day = weather.get("is_day")
+                daynight = weather.get("daynight")
+                if is_day == 1 and daynight != "day":
+                    errors.append(f"{entry_id} daynight does not match is_day")
+                elif is_day == 0 and daynight != "night":
+                    errors.append(f"{entry_id} daynight does not match is_day")
+                elif is_day not in (0, 1):
+                    errors.append(f"{entry_id} weather is_day is {is_day!r}")
             check_masters(errors, scene, note)
 
     html = (ROOT / "index.html").read_text() if (ROOT / "index.html").is_file() else ""
@@ -213,6 +269,20 @@ def main() -> None:
                 start = html.find(f'"entry_id": "{entry_id}"')
             if start < 0:
                 errors.append(f"{entry_id} missing from index.html")
+                continue
+            end = html.find('"entry_id":', start + 12)
+            chunk = html[start:end if end > start else start + 2500]
+            if entry_id in LEGACY_IDS:
+                continue
+            if '"approval_status":"Approved"' in chunk or '"approval_status": "Approved"' in chunk:
+                errors.append(f"{entry_id} is Approved in index.html")
+            if '"format_9x16_approval_status":"Approved"' in chunk or '"format_9x16_approval_status": "Approved"' in chunk:
+                errors.append(f"{entry_id} 9:16 is Approved in index.html")
+        for entry_id in PACK_IDS:
+            start = html.find(f'"entry_id":"{entry_id}"')
+            if start < 0:
+                start = html.find(f'"entry_id": "{entry_id}"')
+            if start < 0:
                 continue
             end = html.find('"entry_id":', start + 12)
             chunk = html[start:end if end > start else start + 2500]

@@ -393,6 +393,198 @@
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-021",
+   "country": "Ireland",
+   "region": "Dún Laoghaire–Rathdown",
+   "city": "Dún Laoghaire",
+   "folder": "Dún Laoghaire",
+   "site": "East Pier lighthouse",
+   "place": "East Pier",
+   "caption": "East Pier lighthouse, Dún Laoghaire",
+   "scenario_label": "2 October 2026 · 05:50 Europe/Dublin",
+   "composition": "Night, before sunrise · the granite East Pier lighthouse at the pier head · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the granite East Pier lighthouse at the pier head in Dún Laoghaire, before sunrise under an overcast sky",
+   "description": "From the granite promenade of the East Pier the view looks toward the pier-head lighthouse, a short round tower of grey ashlar granite with a lantern room and a gallery. Low granite battery walls sit at the base. The pier lamps are lit, and the lantern glows. It is before sunrise, about 14.3°C, under an overcast sky.",
+   "viewpoint": "Public walk on the East Pier, looking toward the lighthouse at the pier head. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.dlrcoco.ie/dun-laoghaire-harbour/harbour-history/east-pier-lighthouse",
+    "https://www.archiseek.com/1847-lighthouse-east-pier-dun-laoghaire-co-dublin/"
+   ],
+   "anchors": [
+    "A short granite tower at the East Pier head, the light established in 1847 and the tower heightened in the 1890s",
+    "Low granite battery walls sit around the base of the tower",
+    "The promenade is the East Pier at Dún Laoghaire; this is not the Howth East Pier light"
+   ],
+   "solar": "Night. Model sunrise 07:27 and sunset 18:58 Europe/Dublin on 2 October 2026. The 05:50 scenario is about 97 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 75.2° (east-northeast) and elevation -15.2°. The sky is overcast, cloud cover 91%. The 07:27 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Dún Laoghaire/ie-01-021-16x9.png",
+   "file_4x5": "assets/ireland/Dún Laoghaire/ie-01-021-4x5.png",
+   "file_9x16": "assets/ireland/Dún Laoghaire/ie-01-021-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-022",
+   "country": "Ireland",
+   "region": "Dublin",
+   "city": "Dublin",
+   "folder": "Dublin",
+   "site": "Kilmainham Gaol",
+   "place": "Entrance court",
+   "caption": "Kilmainham Gaol, Dublin",
+   "scenario_label": "2 October 2026 · 05:50 Europe/Dublin",
+   "composition": "Night, before sunrise · the entrance court and granite doorway of Kilmainham Gaol · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the Kilmainham Gaol entrance court in Dublin, the granite arched doorway and limestone wings, before sunrise under a clear sky",
+   "description": "From the entrance court the view looks at the granite front of Kilmainham Gaol, a rusticated facade with a round-arched doorway and a carved panel in the tympanum. Limestone wings with barred windows enclose the court, and iron railings stand on a granite plinth. The Victorian east-wing hall is not in this exterior frame. It is before sunrise, about 14.3°C, under a clear sky.",
+   "viewpoint": "Public side of the entrance court on Inchicore Road, looking at the arched doorway. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.kilmainhamgaolmuseum.ie/the-building/",
+    "https://www.buildingsofireland.ie/buildings-search/building/50080046/kilmainham-gaol-inchicore-road-kilmainham-dublin-8-co-dublin"
+   ],
+   "anchors": [
+    "The entrance court is enclosed by the granite entrance block and later limestone wings",
+    "A round-arched doorway has rusticated stone and a carved panel in the tympanum",
+    "The Victorian East Wing interior, the panopticon hall, is not in this exterior frame"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 05:50 scenario is about 98 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 75.0° (east-northeast) and elevation -15.2°. The sky is clear, cloud cover 4%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Dublin/ie-01-022-16x9.png",
+   "file_4x5": "assets/ireland/Dublin/ie-01-022-4x5.png",
+   "file_9x16": "assets/ireland/Dublin/ie-01-022-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-023",
+   "country": "Ireland",
+   "region": "Cork",
+   "city": "Cork",
+   "folder": "Cork",
+   "site": "St Fin Barre's Cathedral",
+   "place": "West front",
+   "caption": "St Fin Barre's Cathedral, Cork",
+   "scenario_label": "2 October 2026 · 05:50 Europe/Dublin",
+   "composition": "Night, before sunrise · the west front and three spires of St Fin Barre's Cathedral · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the west front of St Fin Barre's Cathedral in Cork, three limestone spires and a rose window, before sunrise under an overcast sky",
+   "description": "From the west the view looks at St Fin Barre's Cathedral, a Cork-limestone Gothic Revival church with three spires, three pointed portals, and a rose window. Two spires rise on the west front and the third stands over the crossing. It is before sunrise, about 14.4°C, under an overcast sky.",
+   "viewpoint": "Public ground west of the cathedral, looking at the west front. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.stfinbarres.ie/present-cathedral/",
+    "https://www.corkcity.ie/en/cork-heritage-open-day/buildings/sacred-spaces/st-fin-barres-cathedral/"
+   ],
+   "anchors": [
+    "Three limestone spires: two on the west front and one over the crossing",
+    "The west front has three pointed portals and a rose window",
+    "William Burges's French Gothic Revival cathedral, in Cork limestone, above the south channel of the Lee"
+   ],
+   "solar": "Night. Model sunrise 07:36 and sunset 19:09 Europe/Dublin on 2 October 2026. The 05:50 scenario is about 106 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 73.6° (east-northeast) and elevation -16.9°. The sky is overcast, cloud cover 100%. The 07:36 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Cork/ie-01-023-16x9.png",
+   "file_4x5": "assets/ireland/Cork/ie-01-023-4x5.png",
+   "file_9x16": "assets/ireland/Cork/ie-01-023-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-024",
+   "country": "Ireland",
+   "region": "Cork",
+   "city": "Cork",
+   "folder": "Cork",
+   "site": "The English Market",
+   "place": "Princes Street hall",
+   "caption": "The English Market, Cork",
+   "scenario_label": "2 October 2026 · 05:50 Europe/Dublin",
+   "composition": "Night, before sunrise · the closed Victorian hall of the English Market, fountain in the aisle · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the English Market interior in Cork, a closed Victorian hall with a cast-iron fountain under a glass roof, before sunrise",
+   "description": "Inside the English Market the view looks along the closed hall, a Victorian covered market with cast-iron columns, a gallery, and a glass roof. A cast-iron fountain stands in the central aisle. The stalls are shuttered and carry no readable names. Through the glass the sky is still dark. It is before sunrise, about 14.4°C, and the sky over Cork is overcast.",
+   "viewpoint": "Inside the Princes Street hall, looking along the central aisle toward the fountain. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.corkcity.ie/en/english-market/history/the-history-of-the-english-market/",
+    "https://en.wikipedia.org/wiki/Princes_Street_Market_(Cork)"
+   ],
+   "anchors": [
+    "A covered Victorian market hall with cast-iron columns, a gallery, and a glass roof",
+    "A cast-iron fountain stands in the central aisle",
+    "Stall names are omitted; the Grand Parade street front is not this interior"
+   ],
+   "solar": "Night. Model sunrise 07:36 and sunset 19:09 Europe/Dublin on 2 October 2026. The 05:50 scenario is about 106 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 73.6° (east-northeast) and elevation -16.9°. The sky is overcast, cloud cover 100%. The 07:36 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "urban",
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Cork/ie-01-024-16x9.png",
+   "file_4x5": "assets/ireland/Cork/ie-01-024-4x5.png",
+   "file_9x16": "assets/ireland/Cork/ie-01-024-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-025",
+   "country": "Ireland",
+   "region": "Cork",
+   "city": "Kinsale",
+   "folder": "Kinsale",
+   "site": "Charles Fort",
+   "place": "Ramparts",
+   "caption": "Charles Fort, Kinsale",
+   "scenario_label": "2 October 2026 · 05:50 Europe/Dublin",
+   "composition": "Night, before sunrise · the limestone rampart of Charles Fort above Kinsale Harbour · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Charles Fort at Kinsale, limestone bastions and a pepper-pot sentry box above the harbour, before sunrise",
+   "description": "From the rampart the view looks along the battered limestone bastions of Charles Fort, with a pepper-pot sentry box on the wall and Kinsale Harbour below. Distant lights of the town show across the water. This is a ground-level view, not a plan of the star. It is before sunrise, about 14.4°C, under a partly cloudy sky.",
+   "viewpoint": "On the rampart walk at Charles Fort, Summer Cove, looking along a bastion over Kinsale Harbour. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/places-to-visit/charles-fort-military-fortress/",
+    "https://en.wikipedia.org/wiki/Charles_Fort_(Ireland)"
+   ],
+   "anchors": [
+    "A star fort of battered limestone bastions above Kinsale Harbour",
+    "The view is from the rampart, not an aerial plan of the five bastions",
+    "James Fort, on the opposite shore, is not this frame"
+   ],
+   "solar": "Night. Model sunrise 07:36 and sunset 19:09 Europe/Dublin on 2 October 2026. The 05:50 scenario is about 106 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 73.7° (east-northeast) and elevation -17.0°. The sky is partly cloudy, cloud cover 73%. The 07:36 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "coastal"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Kinsale/ie-01-025-16x9.png",
+   "file_4x5": "assets/ireland/Kinsale/ie-01-025-4x5.png",
+   "file_9x16": "assets/ireland/Kinsale/ie-01-025-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
   }
  ]
 }
