@@ -393,6 +393,199 @@
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-036",
+   "country": "Ireland",
+   "region": "Clare",
+   "city": "Ballyvaughan",
+   "folder": "Ballyvaughan",
+   "site": "Poulnabrone dolmen",
+   "place": "Poulnabrone",
+   "caption": "Poulnabrone dolmen, Ballyvaughan",
+   "scenario_label": "2 October 2026 · 06:33 Europe/Dublin",
+   "composition": "Night, before sunrise · the portal tomb and its sloping capstone on the Burren pavement · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Poulnabrone dolmen near Ballyvaughan, a portal tomb on the Burren limestone, before sunrise",
+   "description": "From the limestone pavement the view looks at Poulnabrone, a portal tomb. Two upright portal stones mark the entrance, with a sill stone between them, and a trapezoidal capstone slopes down toward the back. A second slab lies on the ground behind the tomb, and a low cairn of loose stone rings the base. Ballyvaughan is not in this frame. It is before sunrise, about 11.7°C, under an overcast sky.",
+   "viewpoint": "Public limestone pavement at Poulnabrone on the Burren plateau, looking at the portal entrance. Ballyvaughan is the nearby town and is not in this frame. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/unguided-sites/poulnabrone-portal-tomb/",
+    "https://en.wikipedia.org/wiki/Poulnabrone_dolmen"
+   ],
+   "anchors": [
+    "Poulnabrone is a portal tomb on the Burren limestone pavement",
+    "Two portal stones and a sill stone mark the entrance, and the capstone slopes down toward the back",
+    "A low stone cairn surrounds the base, and a fallen slab lies behind the tomb"
+   ],
+   "solar": "Night. Model sunrise 07:39 and sunset 19:11 Europe/Dublin on 2 October 2026. The 06:33 scenario is about 66 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 81.5° (east) and elevation -10.8°. The sky is overcast, cloud cover 100%. The 07:39 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Ballyvaughan/ie-01-036-16x9.png",
+   "file_4x5": "assets/ireland/Ballyvaughan/ie-01-036-4x5.png",
+   "file_9x16": "assets/ireland/Ballyvaughan/ie-01-036-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-037",
+   "country": "Ireland",
+   "region": "Clare",
+   "city": "Ennis",
+   "folder": "Ennis",
+   "site": "Ennis Friary",
+   "place": "Abbey Street",
+   "caption": "Ennis Friary, Ennis",
+   "scenario_label": "2 October 2026 · 06:33 Europe/Dublin",
+   "composition": "Night, before sunrise · the friary tower and the cloister arcade · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Ennis Friary, the Franciscan church and cloister in Ennis, before sunrise",
+   "description": "From the churchyard the view looks at Ennis Friary, a medieval Franciscan house of grey limestone. A square bell tower with pinnacles rises over the church, and pointed arches open along a cloister walk. Tall lancet windows mark the east end. It is before sunrise, about 13.0°C, under an overcast sky.",
+   "viewpoint": "Public ground in the friary churchyard on Abbey Street, looking at the tower and the cloister arcade. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/places-to-visit/ennis-friary/",
+    "https://en.wikipedia.org/wiki/Ennis_Friary"
+   ],
+   "anchors": [
+    "Ennis Friary is the medieval Franciscan house in the town",
+    "A square limestone bell tower with pinnacles stands over the church",
+    "A cloister arcade of pointed arches runs beside the church"
+   ],
+   "solar": "Night. Model sunrise 07:38 and sunset 19:10 Europe/Dublin on 2 October 2026. The 06:33 scenario is about 65 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 81.7° (east) and elevation -10.7°. The sky is overcast, cloud cover 100%. The 07:38 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Ennis/ie-01-037-16x9.png",
+   "file_4x5": "assets/ireland/Ennis/ie-01-037-4x5.png",
+   "file_9x16": "assets/ireland/Ennis/ie-01-037-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-038",
+   "country": "Ireland",
+   "region": "Kilkenny",
+   "city": "Kilkenny city",
+   "folder": "Kilkenny city",
+   "site": "St Canice's Cathedral",
+   "place": "Church Lane",
+   "caption": "St Canice's Cathedral, Kilkenny city",
+   "scenario_label": "2 October 2026 · 06:33 Europe/Dublin",
+   "composition": "Night, before sunrise · the Gothic cathedral and the flat-topped round tower · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of St Canice's Cathedral in Kilkenny, a Gothic church with a round tower beside the south transept, before sunrise",
+   "description": "From the churchyard the view looks at St Canice's Cathedral, a cruciform Early English church of limestone with a low central tower and battlemented walls. Beside the south transept stands the round tower, a tapering stone cylinder with a flat open top and a doorway raised above the ground. It is before sunrise, about 13.3°C, under a partly cloudy sky.",
+   "viewpoint": "Public ground in the cathedral churchyard, looking toward the south transept and the round tower. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.stcanicescathedral.ie/kilkenny-round-tower/",
+    "https://en.wikipedia.org/wiki/St._Canice%27s_Cathedral"
+   ],
+   "anchors": [
+    "St Canice's is a cruciform Gothic cathedral of limestone with a low central tower",
+    "The round tower stands beside the south transept",
+    "The round tower has a flat open summit, not a conical cap, and its doorway is raised above the ground"
+   ],
+   "solar": "Night. Model sunrise 07:31 and sunset 19:03 Europe/Dublin on 2 October 2026. The 06:33 scenario is about 58 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 83.2° (east) and elevation -9.7°. The sky is partly cloudy, cloud cover 75%. The 07:31 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Kilkenny city/ie-01-038-16x9.png",
+   "file_4x5": "assets/ireland/Kilkenny city/ie-01-038-4x5.png",
+   "file_9x16": "assets/ireland/Kilkenny city/ie-01-038-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-039",
+   "country": "Ireland",
+   "region": "Wexford",
+   "city": "Fethard-on-Sea",
+   "folder": "Fethard-on-Sea",
+   "site": "Hook Lighthouse",
+   "place": "Hook Head",
+   "caption": "Hook Lighthouse, Fethard-on-Sea",
+   "scenario_label": "2 October 2026 · 06:33 Europe/Dublin",
+   "composition": "Night, before sunrise · the white tower with two black bands on Hook Head · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Hook Lighthouse on Hook Head, a white medieval tower with two black bands, before sunrise",
+   "description": "From the headland the view looks at Hook Lighthouse, a broad medieval cylindrical tower painted white with two black bands. A lantern and gallery finish the top. The sea meets the rocks of Hook Head beside the tower. Fethard-on-Sea is the nearby town and is not in this frame. It is before sunrise, about 15.4°C, under an overcast sky.",
+   "viewpoint": "Public ground on Hook Head, looking at the lighthouse. Fethard-on-Sea is the nearby town and is not in this frame. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Hook_Lighthouse",
+    "https://www.irishlights.ie/safety-navigation/our-lighthouses/hook-head.aspx"
+   ],
+   "anchors": [
+    "Hook Lighthouse is the medieval tower on Hook Head",
+    "The shaft is a broad cylinder, white with two black bands",
+    "A lantern and gallery stand at the top, with the sea at the point"
+   ],
+   "solar": "Night. Model sunrise 07:30 and sunset 19:02 Europe/Dublin on 2 October 2026. The 06:33 scenario is about 57 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 83.5° (east) and elevation -9.5°. The sky is overcast, cloud cover 100%. The 07:30 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal",
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Fethard-on-Sea/ie-01-039-16x9.png",
+   "file_4x5": "assets/ireland/Fethard-on-Sea/ie-01-039-4x5.png",
+   "file_9x16": "assets/ireland/Fethard-on-Sea/ie-01-039-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-040",
+   "country": "Ireland",
+   "region": "Wexford",
+   "city": "Wexford town",
+   "folder": "Wexford town",
+   "site": "Irish National Heritage Park",
+   "place": "Ferrycarrig",
+   "caption": "Irish National Heritage Park, Wexford town",
+   "scenario_label": "2 October 2026 · 06:33 Europe/Dublin",
+   "composition": "Night, before sunrise · the reconstructed crannog and ringfort at Ferrycarrig · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the Irish National Heritage Park at Ferrycarrig, a thatched crannog in the water and a ringfort on the bank, in light rain before sunrise",
+   "description": "From the bank the view looks at two reconstructions at the Irish National Heritage Park. A crannog, a thatched roundhouse on timber posts, stands in the water and is reached by a short walkway. Beside it a ringfort, a circular earthen bank, encloses another thatched roundhouse. The park is at Ferrycarrig, outside Wexford town, and the town is not in this frame. It is before sunrise, about 14.8°C, with slight rain under full cloud cover.",
+   "viewpoint": "Public ground at the Irish National Heritage Park, Ferrycarrig, looking across the reconstructions toward the water. Wexford town is nearby and is not in this frame. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://irishheritage.ie/the-park/",
+    "https://irishheritage.ie/the-park/about-the-park/"
+   ],
+   "anchors": [
+    "The crannog is a thatched roundhouse raised on posts in the water, with a timber walkway",
+    "The ringfort is a circular earthen bank enclosing a thatched roundhouse",
+    "Both are reconstructions at Ferrycarrig, not ancient masonry"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 19:00 Europe/Dublin on 2 October 2026. The 06:33 scenario is about 55 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 83.8° (east) and elevation -9.3°. The sky has slight rain, cloud cover 100%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Wexford town/ie-01-040-16x9.png",
+   "file_4x5": "assets/ireland/Wexford town/ie-01-040-4x5.png",
+   "file_9x16": "assets/ireland/Wexford town/ie-01-040-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
   }
  ]
 }
