@@ -393,6 +393,197 @@
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-046",
+   "country": "Ireland",
+   "region": "Donegal",
+   "city": "Glenveagh",
+   "folder": "Glenveagh",
+   "site": "Glenveagh Castle",
+   "place": "Castle gardens",
+   "caption": "Glenveagh Castle, Glenveagh",
+   "scenario_label": "2 October 2026 · 06:56 Europe/Dublin",
+   "composition": "Night, before sunrise · the granite castle and gardens beside Lough Veagh · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Glenveagh Castle, a grey granite castellated mansion beside Lough Veagh, with garden lawns in front and the glen behind, before sunrise under cloud",
+   "description": "From the garden path the view looks at Glenveagh Castle, a castellated mansion of grey granite beside Lough Veagh. The four-storey keep has stepped battlements and a round corner turret, and a lower wing with pointed windows sits against it. Lawn and shrubs fill the pleasure grounds in front of the walls, and the glen hills rise behind the lake. It is a nineteenth-century house in the national park, not a ruined medieval fortress. It is before sunrise, about 12.7°C, under an overcast sky.",
+   "viewpoint": "Public path in the castle gardens, looking toward the granite castle, with Lough Veagh and the glen behind it. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Glenveagh_Castle",
+    "https://www.nationalparks.ie/glenveagh/things-to-do/"
+   ],
+   "anchors": [
+    "A four-storey granite keep with stepped battlements and a round corner turret stands beside Lough Veagh",
+    "A lower wing with pointed windows adjoins the keep, and the pleasure-ground planting is in front of the walls",
+    "This is a nineteenth-century castellated mansion in the national park, not a ruined medieval fortress"
+   ],
+   "solar": "Night. Model sunrise 07:36 and sunset 19:05 Europe/Dublin on 2 October 2026. The 06:56 scenario is about 40 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 87.0° (east) and elevation -6.4°. The sky is overcast, cloud cover 100%. The 07:36 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Glenveagh/ie-01-046-16x9.png",
+   "file_4x5": "assets/ireland/Glenveagh/ie-01-046-4x5.png",
+   "file_9x16": "assets/ireland/Glenveagh/ie-01-046-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-047",
+   "country": "Ireland",
+   "region": "Sligo",
+   "city": "Drumcliffe",
+   "folder": "Drumcliffe",
+   "site": "Benbulben",
+   "place": "Valley road",
+   "caption": "Benbulben, Drumcliffe",
+   "scenario_label": "2 October 2026 · 06:56 Europe/Dublin",
+   "composition": "Night, before sunrise · the table mountain from the valley road · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Benbulben from the valley road near Drumcliffe, a flat-topped limestone mountain with a sheer cliff, before sunrise under cloud",
+   "description": "From the valley road the view looks at Benbulben, a flat-topped mountain rather than a peak. A sheer limestone cliff forms the cap, greener slopes fall away below it, and scree lies at the foot. Pasture and a low stone wall run along the empty road. Drumcliffe churchyard is not in this frame. It is before sunrise, about 9.2°C, under an overcast sky.",
+   "viewpoint": "Public valley road near Drumcliffe, looking at the flat summit and the limestone cliff. The churchyard is not in this frame. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Benbulbin",
+    "https://www.geolsoc.org.uk/science-and-policy/100-great-geosites/fire-and-ice/benbulben/"
+   ],
+   "anchors": [
+    "The viewpoint is the valley road, looking at the mountain, not from the summit",
+    "Benbulben is a flat-topped limestone plateau: a sheer cliff cap over a sloping green base",
+    "Drumcliffe churchyard is not in this frame"
+   ],
+   "solar": "Night. Model sunrise 07:37 and sunset 19:07 Europe/Dublin on 2 October 2026. The 06:56 scenario is about 41 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 86.7° (east) and elevation -6.7°. The sky is overcast, cloud cover 100%. The 07:37 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "mountain"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Drumcliffe/ie-01-047-16x9.png",
+   "file_4x5": "assets/ireland/Drumcliffe/ie-01-047-4x5.png",
+   "file_9x16": "assets/ireland/Drumcliffe/ie-01-047-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-048",
+   "country": "Ireland",
+   "region": "Tipperary",
+   "city": "Cahir",
+   "folder": "Cahir",
+   "site": "Cahir Castle",
+   "place": "River Suir",
+   "caption": "Cahir Castle, Cahir",
+   "scenario_label": "2 October 2026 · 06:56 Europe/Dublin",
+   "composition": "Night, before sunrise · the island fortress on the Suir · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Cahir Castle on its rocky island in the River Suir, a limestone keep, curtain walls, and a round tower, before sunrise under cloud",
+   "description": "From the town bank the view looks across the Suir at Cahir Castle, which fills a rocky island. A tall rectangular keep rises inside thick curtain walls, and a round tower stands with them. The river wraps the rock. It is the medieval island fortress, not a church and not a wooden fort. It is before sunrise, about 13.8°C, under an overcast sky.",
+   "viewpoint": "Public ground on the town bank of the Suir, looking across the water at the castle on its rocky island. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Cahir_Castle",
+    "https://heritageireland.ie/places-to-visit/cahir-castle/"
+   ],
+   "anchors": [
+    "The castle stands on a rocky island in the River Suir",
+    "A tall rectangular keep, curtain walls, and a round tower form the island fortress",
+    "The viewpoint is the town bank, looking across the water, not from the air"
+   ],
+   "solar": "Night. Model sunrise 07:34 and sunset 19:06 Europe/Dublin on 2 October 2026. The 06:56 scenario is about 38 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 87.4° (east) and elevation -6.5°. The sky is overcast, cloud cover 100%. The 07:34 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Cahir/ie-01-048-16x9.png",
+   "file_4x5": "assets/ireland/Cahir/ie-01-048-4x5.png",
+   "file_9x16": "assets/ireland/Cahir/ie-01-048-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-049",
+   "country": "Ireland",
+   "region": "Limerick",
+   "city": "Limerick city",
+   "folder": "Limerick city",
+   "site": "King John's Castle",
+   "place": "King's Island",
+   "caption": "King John's Castle, Limerick city",
+   "scenario_label": "2 October 2026 · 06:56 Europe/Dublin",
+   "composition": "Night, before sunrise · the twin round towers over the Shannon · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of King John's Castle in Limerick, two round limestone towers and a narrow gateway on the Shannon, before sunrise under cloud",
+   "description": "From the Shannon bank the view looks at King John's Castle on King's Island. Two massive round towers flank a tall narrow gateway on the river front, with arrow loops in the stone and battlements along the top. The river fills the foreground. The frame is that Norman front, not a square of four identical towers. It is before sunrise, about 13.9°C, under an overcast sky.",
+   "viewpoint": "Public ground on the Shannon bank beside Thomond Bridge, looking at the twin round towers of the river front. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/King_John%27s_Castle_(Limerick)",
+    "https://www.archiseek.com/king-johns-castle-limerick/"
+   ],
+   "anchors": [
+    "The river front is two massive round towers with a tall narrow gateway between them",
+    "The castle stands on King's Island beside the Shannon",
+    "The frame is the Norman river front, not a square of four identical towers and not a glass visitor centre"
+   ],
+   "solar": "Night. Model sunrise 07:37 and sunset 19:09 Europe/Dublin on 2 October 2026. The 06:56 scenario is about 41 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 86.8° (east) and elevation -6.9°. The sky is overcast, cloud cover 100%. The 07:37 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Limerick city/ie-01-049-16x9.png",
+   "file_4x5": "assets/ireland/Limerick city/ie-01-049-4x5.png",
+   "file_9x16": "assets/ireland/Limerick city/ie-01-049-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-050",
+   "country": "Ireland",
+   "region": "Meath",
+   "city": "Trim",
+   "folder": "Trim",
+   "site": "Trim Castle",
+   "place": "River Boyne",
+   "caption": "Trim Castle, Trim",
+   "scenario_label": "2 October 2026 · 06:56 Europe/Dublin",
+   "composition": "Night, before sunrise · the cruciform keep on the Boyne · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Trim Castle on the River Boyne, the pale limestone cruciform keep and a stretch of curtain wall, before sunrise under cloud",
+   "description": "From the meadow on the south bank the view looks at Trim Castle. The keep is a large pale-limestone tower of cruciform plan, a central block with a rectangular projection on each face, three storeys high, with empty window openings. A curtain wall runs beside it, and the Boyne is in the foreground. The Yellow Steeple across the river is a separate ruin and is not in this frame. It is before sunrise, about 11.9°C, under an overcast sky.",
+   "viewpoint": "Public meadow on the south bank of the Boyne, looking at the cruciform keep. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/places-to-visit/trim-castle/",
+    "https://en.wikipedia.org/wiki/Trim_Castle"
+   ],
+   "anchors": [
+    "The keep is cruciform: a central block with a rectangular projection on each face",
+    "It stands on the south bank of the Boyne, with curtain wall beside it",
+    "The Yellow Steeple across the river is not this keep and is not in this frame"
+   ],
+   "solar": "Night. Model sunrise 07:30 and sunset 19:01 Europe/Dublin on 2 October 2026. The 06:56 scenario is about 34 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 88.2° (east) and elevation -5.8°. The sky is overcast, cloud cover 93%. The 07:30 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Trim/ie-01-050-16x9.png",
+   "file_4x5": "assets/ireland/Trim/ie-01-050-4x5.png",
+   "file_9x16": "assets/ireland/Trim/ie-01-050-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
   }
  ]
 }
