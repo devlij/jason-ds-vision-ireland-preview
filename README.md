@@ -8,13 +8,13 @@ GitHub Pages may 404 on that host while TLS finishes. Until the custom domain an
 
 `CNAME` (`ireland.jdvision.org`) and `.nojekyll` stay in the repo. Do not delete or overwrite them.
 
-All scenes ship as **Candidate** until Cosmo QC. This seed does not approve anything. The word-of-day band reads `tools/ie.json`.
+All scenes ship as **Candidate** until Cosmo QC. This seed does not approve anything, and it does not invent word-of-the-day entries.
 
 ## What is here
 
 Phase-1 gallery shell, matching the Spain / Sweden A7 page: GA4 `G-PDJ4WSS725`, canonical `https://ireland.jdvision.org/`, Open Graph, Twitter card, robots, sitemap, image sitemap, JSON-LD, Irish flag band (`#169B62` / `#ffffff` / `#FF883E`, 6px), country switcher with Ireland last and current, word-of-day band, search and region / day-night / mood filters, related scenes, copy-link, lightbox (navigation above the image, controls below, 4 second slideshow), and narration hooks.
 
-`tools/ie.json` is the 365-item Irish word-of-day list. The band rotates it by day of year: local-language kicker, bold word, italic phrase, English glosses, and `Day N of 365`.
+`tools/ie.json` is an empty array. The band is structure only. Cosmo delivers the Irish entries later.
 
 `data.json` carries IE-01-001 through IE-01-010 as Candidate stills for 30 September 2026. Masters sit under `assets/ireland/<City>/ie-01-NNN-…`. Nothing in this batch is Approved. Aerial clips are a backfill. Newgrange, the Boyne Valley, Glendalough, and the Cliffs of Moher are left for a later pass.
 

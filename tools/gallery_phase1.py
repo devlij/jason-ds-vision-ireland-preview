@@ -10,8 +10,8 @@ same region first, then most shared mood tags, then entry id.
 Day or night comes from the scene's own Open-Meteo ``is_day`` flag.
 A thumbnail is emitted only when that master file exists.
 
-``tools/ie.json`` is the 365-item Irish word-of-day list. The page
-rotates it by day of year. Do not replace it with an empty array.
+This seed publishes zero scenes. ``tools/ie.json`` stays an empty array
+until Cosmo delivers verified Irish word-of-the-day entries.
 """
 
 from __future__ import annotations
