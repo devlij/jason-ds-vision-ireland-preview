@@ -2,7 +2,8 @@
 """QC pre-flight for the Ireland gallery shell. Exits non-zero on any failure.
 
 IE-01-001–010 are the first Candidate stills (30 September 2026).
-tools/ie.json stays empty. Scene-batch checks run when EXPECTED_IDS is filled.
+tools/ie.json is the 365-item word-of-day list embedded in the band.
+Scene-batch checks run when EXPECTED_IDS is filled.
 """
 
 from __future__ import annotations
@@ -137,8 +138,16 @@ def main() -> None:
                 errors.append(f"{scene.get('entry_id')} {key} is self-approved")
 
     ie = json.loads((ROOT / "tools" / "ie.json").read_text())
-    if ie != []:
-        errors.append("tools/ie.json must stay an empty array until Cosmo delivers entries")
+    if not isinstance(ie, list) or len(ie) != 365:
+        errors.append(f"tools/ie.json must be the 365-item Irish word list, got {type(ie).__name__} {len(ie) if isinstance(ie, list) else ''}".rstrip())
+    else:
+        for i, row in enumerate(ie, start=1):
+            if not isinstance(row, dict):
+                errors.append(f"tools/ie.json item {i} is not an object")
+                continue
+            for key in ("word", "word_en", "phrase", "phrase_en"):
+                if not isinstance(row.get(key), str) or not row[key].strip():
+                    errors.append(f"tools/ie.json item {i} is missing {key}")
 
     cname = (ROOT / "CNAME").read_text().strip()
     if cname != "ireland.jdvision.org":
@@ -205,6 +214,20 @@ def main() -> None:
             errors.append("index.html is still an empty scene list")
         if "avocado_v2:MAI_01" not in html:
             errors.append("narration hook is missing")
+        if "https://norway.jdvision.org/" not in html or "https://denmark.jdvision.org/" not in html:
+            errors.append("Norway or Denmark switcher still points away from jdvision.org")
+        if "jason-ds-vision-norway-preview" in html or "jason-ds-vision-denmark-preview" in html:
+            errors.append("Norway or Denmark switcher still uses a github.io preview URL")
+        if "Focal an lae" not in html:
+            errors.append("Irish word-of-day kicker is missing")
+        if isinstance(ie, list) and len(ie) == 365:
+            embedded = html.split('id="wotd-data">', 1)[-1].split("</script>", 1)[0]
+            try:
+                band = json.loads(embedded)
+            except json.JSONDecodeError:
+                band = None
+            if band != ie:
+                errors.append("index.html word-of-day band is not tools/ie.json")
         if '"src":' in html.split('id="narr-manifest"', 1)[-1][:800]:
             errors.append("narration manifest is not empty")
         for entry_id in EXPECTED_IDS:
