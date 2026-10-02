@@ -205,6 +205,10 @@ def main() -> None:
             errors.append("index.html is still an empty scene list")
         if "avocado_v2:MAI_01" not in html:
             errors.append("narration hook is missing")
+        if "https://norway.jdvision.org/" not in html or "https://denmark.jdvision.org/" not in html:
+            errors.append("Norway or Denmark switcher still points away from jdvision.org")
+        if "jason-ds-vision-norway-preview" in html or "jason-ds-vision-denmark-preview" in html:
+            errors.append("Norway or Denmark switcher still uses a github.io preview URL")
         if '"src":' in html.split('id="narr-manifest"', 1)[-1][:800]:
             errors.append("narration manifest is not empty")
         for entry_id in EXPECTED_IDS:
