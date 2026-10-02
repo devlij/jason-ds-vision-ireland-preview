@@ -1,0 +1,11 @@
+IE-01-016–020 Candidate stills for the Republic of Ireland.
+Finished 2 October 2026. Not Approved. Cosmo owns QC and any merge.
+Retrievals are the true Europe/Dublin times before sunrise (07:28 in the city, 07:27 at Howth). Not backdated.
+It is night at every pin, so a daylight aerial was not eligible and was not produced. Backfill.
+tools/ie.json stays []. Portrait masters are 1080×1920. A 1080×2110 canvas is refused.
+
+IE-01-016 National Museum of Ireland — Archaeology, Dublin · 2026-10-02T05:39:22+01:00 · 2 October 2026 · 05:39 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-017 Grafton Street, Dublin · 2026-10-02T05:39:24+01:00 · 2 October 2026 · 05:39 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-018 Temple Bar, Dublin · 2026-10-02T05:39:27+01:00 · 2 October 2026 · 05:39 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-019 The Custom House, Dublin · 2026-10-02T05:39:29+01:00 · 2 October 2026 · 05:39 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-020 Howth Harbour, Howth · 2026-10-02T05:39:31+01:00 · 2 October 2026 · 05:39 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02

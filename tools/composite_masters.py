@@ -5,9 +5,12 @@ The photograph stays free of tint, scrim, shadow, and type. A 190px #0e0e12
 bar is added under the photo, with a 2px hairline between them.
 
 Masters
-  16:9  1920×1270   photo 1920×1080
-  4:5    864×1270   photo 864×1080
-  9:16  1080×2110   photo 1080×1920
+  16:9  1920×1270   photo 1920×1080 + 190px bar
+  4:5    864×1270   photo 864×1080 + 190px bar
+  9:16  1080×1920   photo 1080×1730 + 190px bar
+
+True 9:16 at 1080 wide is exactly 1080×1920. The old 1080×2110 canvas
+(a 1080×1920 photo plus the 190px bar) is invalid and is refused.
 
 EU AI Act Art. 50: five PNG text chunks are inserted before IEND after the
 image is encoded, so IDAT is not rewritten to attach the metadata.
@@ -62,8 +65,10 @@ INK = (255, 255, 255)
 INK_SCENARIO = (214, 214, 222)
 INK_DISCLOSURE = (176, 176, 186)
 
-PHOTO = {"16x9": (1920, 1080), "4x5": (864, 1080), "9x16": (1080, 1920)}
-CANVAS = {"16x9": (1920, 1270), "4x5": (864, 1270), "9x16": (1080, 2110)}
+PHOTO = {"16x9": (1920, 1080), "4x5": (864, 1080), "9x16": (1080, 1730)}
+CANVAS = {"16x9": (1920, 1270), "4x5": (864, 1270), "9x16": (1080, 1920)}
+# Historical invalid portrait: photo 1080×1920 + 190px bar. Never emit this.
+INVALID_CANVAS = {(1080, 2110)}
 PNG_SIG = b"\x89PNG\r\n\x1a\n"
 ART50_KEYS = ("Title", "Description", "Copyright", "Software", "Comment")
 
@@ -205,6 +210,27 @@ def assert_art50(path: Path) -> None:
             continue
         if chunks.get(key) != val:
             raise SystemExit(f"metadata mismatch {path} {key}: {chunks.get(key)!r}")
+
+
+def assert_output_size(fmt: str, photo_size: tuple[int, int], canvas_size: tuple[int, int]) -> None:
+    """Refuse the invalid 1080×2110 portrait. True 9:16 is 1080×1920."""
+    if canvas_size in INVALID_CANVAS or canvas_size == (1080, 2110):
+        raise SystemExit(
+            f"refusing {canvas_size[0]}×{canvas_size[1]} output; true 9:16 is 1080×1920 "
+            "(photo 1080×1730 + 190px bar)"
+        )
+    if photo_size != PHOTO[fmt] or canvas_size != CANVAS[fmt]:
+        raise SystemExit(f"{fmt} size {canvas_size} photo {photo_size} is not the bake contract")
+    if fmt == "9x16":
+        if photo_size != (1080, 1730) or canvas_size != (1080, 1920):
+            raise SystemExit(
+                f"refusing portrait photo {photo_size} canvas {canvas_size}; "
+                "true 9:16 is 1080×1920"
+            )
+        if photo_size[1] + BAR_H != canvas_size[1]:
+            raise SystemExit("9:16 photo plus the 190px bar must equal 1920")
+        if canvas_size[0] * 16 != canvas_size[1] * 9:
+            raise SystemExit(f"portrait canvas {canvas_size} is not exactly 9:16")
 
 
 def fit(im: Image.Image, tw: int, th: int) -> Image.Image:
@@ -368,6 +394,8 @@ def _photo_for(fmt: str, paths: dict[str, Path]) -> Image.Image:
 
 
 def save_master(im: Image.Image, path: Path, photo: Image.Image, comment: str = COMMENT) -> None:
+    if im.size in INVALID_CANVAS or im.size == (1080, 2110):
+        raise SystemExit(f"refusing {im.size[0]}×{im.size[1]} output; true 9:16 is 1080×1920")
     path.parent.mkdir(parents=True, exist_ok=True)
     im.save(path, format="PNG", compress_level=9)
     inject_art50(path, comment)
@@ -375,6 +403,8 @@ def save_master(im: Image.Image, path: Path, photo: Image.Image, comment: str = 
         saved.load()
         if saved.size != im.size:
             raise SystemExit(f"bad size {path} {saved.size}")
+        if saved.size in INVALID_CANVAS or saved.size == (1080, 2110):
+            raise SystemExit(f"refusing {saved.size[0]}×{saved.size[1]} output; true 9:16 is 1080×1920")
         top = saved.crop((0, 0, photo.width, photo.height)).convert("RGB")
         if ImageChops.difference(top, photo).getbbox() is not None:
             raise SystemExit(f"photo pixels were altered: {path}")
@@ -415,8 +445,7 @@ def composite_one(
         if photo.size != PHOTO[fmt]:
             raise SystemExit(f"{entry_id} {fmt} photo {photo.size}")
         finished = draw_label_bar(photo, caption, scenario_label)
-        if finished.size != CANVAS[fmt]:
-            raise SystemExit(f"{entry_id} {fmt} canvas {finished.size}")
+        assert_output_size(fmt, photo.size, finished.size)
         save_master(finished, outs[fmt], photo, comment_for(comment_day))
     return outs["16x9"], outs["4x5"], outs["9x16"]
 
