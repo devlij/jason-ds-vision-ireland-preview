@@ -242,7 +242,11 @@ def assert_phase1(html: str, meta: dict[str, list]) -> None:
     if "Ireland" not in current or "flag-ie" not in current:
         raise SystemExit("aria-current page is not the Ireland chip")
     if nav.find(">Ireland<") < nav.find(">Sweden<"):
-        raise SystemExit("Ireland must be last in the switcher")
+        raise SystemExit("Ireland must follow Sweden")
+    if "https://uk.jdvision.org/" not in nav or ">United Kingdom<" not in nav:
+        raise SystemExit("country switcher is missing the United Kingdom link")
+    if nav.find(">United Kingdom<") < nav.find(">Ireland<"):
+        raise SystemExit("United Kingdom must follow Ireland")
     order = [
         "Germany",
         "Italy",
@@ -256,6 +260,7 @@ def assert_phase1(html: str, meta: dict[str, list]) -> None:
         "Finland",
         "Sweden",
         "Ireland",
+        "United Kingdom",
     ]
     positions = [nav.find(name) for name in order]
     if any(pos < 0 for pos in positions) or positions != sorted(positions):
