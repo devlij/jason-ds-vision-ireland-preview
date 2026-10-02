@@ -1,0 +1,11 @@
+IE-01-031–035 Candidate stills for the Republic of Ireland.
+Finished 2 October 2026. Not Approved. Cosmo owns QC and any merge.
+Retrievals are the true Europe/Dublin times before sunrise (07:42 at Poll na bPéist, 07:40 at Muckross House and Ross Castle, 07:45 at Skellig Michael, 07:43 at Gallarus Oratory). Not backdated.
+It is night at every pin, so a daylight aerial was not eligible and was not produced. Backfill.
+tools/ie.json stays []. Portrait masters are 1080×1920. A 1080×2110 canvas is refused.
+
+IE-01-031 Poll na bPéist, Kilronan · 2026-10-02T06:18:29+01:00 · 2 October 2026 · 06:18 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-032 Muckross House, Killarney · 2026-10-02T06:18:31+01:00 · 2 October 2026 · 06:18 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-033 Ross Castle, Killarney · 2026-10-02T06:18:34+01:00 · 2 October 2026 · 06:18 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-034 Skellig Michael, Portmagee · 2026-10-02T06:18:36+01:00 · 2 October 2026 · 06:18 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-035 Gallarus Oratory, Ballydavid · 2026-10-02T06:18:39+01:00 · 2 October 2026 · 06:18 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02

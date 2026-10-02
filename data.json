@@ -393,6 +393,197 @@
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-031",
+   "country": "Ireland",
+   "region": "Galway",
+   "city": "Kilronan",
+   "folder": "Kilronan",
+   "site": "Poll na bPéist",
+   "place": "Inis Mór",
+   "caption": "Poll na bPéist, Kilronan",
+   "scenario_label": "2 October 2026 · 06:18 Europe/Dublin",
+   "composition": "Night, before sunrise · the rectangular sea pool in the limestone of Inis Mór · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Poll na bPéist on Inis Mór, a rectangular sea pool cut into limestone pavement, before sunrise",
+   "description": "From the limestone pavement the view looks at Poll na bPéist, a rectangular pool of dark seawater cut into the flat rock. A wave breaks over the seaward lip. Grey clints and grykes surround the pool, and the Atlantic lies beyond the edge. Kilronan harbour is not in this frame. It is before sunrise, about 15.1°C, with light drizzle under full cloud cover.",
+   "viewpoint": "Public limestone pavement at Poll na bPéist on the south-west coast of Inis Mór, looking at the rectangular pool and the Atlantic beyond it. Kilronan is the harbour village and is not in this frame. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Poll_na_bP%C3%A9ist",
+    "https://en.wikipedia.org/wiki/Inishmore"
+   ],
+   "anchors": [
+    "Poll na bPéist is a rectangular pool cut by the sea into the limestone pavement of Inis Mór",
+    "The pool sits at the cliff edge, with the Atlantic beyond the seaward lip",
+    "The surrounding rock is bare karst, clints and grykes, without a built rim"
+   ],
+   "solar": "Night. Model sunrise 07:42 and sunset 19:13 Europe/Dublin on 2 October 2026. The 06:18 scenario is about 84 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 78.0° (east-northeast) and elevation -13.3°. The sky has light drizzle, cloud cover 100%. The 07:42 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Kilronan/ie-01-031-16x9.png",
+   "file_4x5": "assets/ireland/Kilronan/ie-01-031-4x5.png",
+   "file_9x16": "assets/ireland/Kilronan/ie-01-031-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-032",
+   "country": "Ireland",
+   "region": "Kerry",
+   "city": "Killarney",
+   "folder": "Killarney",
+   "site": "Muckross House",
+   "place": "Muckross demesne",
+   "caption": "Muckross House, Killarney",
+   "scenario_label": "2 October 2026 · 06:18 Europe/Dublin",
+   "composition": "Night, before sunrise · the limestone front of Muckross House and its lawn · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Muckross House in Killarney, the Elizabethan-revival limestone mansion on its lawn, before sunrise",
+   "description": "From the lawn the view looks at Muckross House, a limestone mansion in the Elizabethan revival, with mullioned windows, steep gables, clustered chimneys, and a porte-cochère. Trees stand at the edge of the grass. The lake is not the subject of this frame. It is before sunrise, about 14.8°C, under an overcast sky.",
+   "viewpoint": "Public lawn in front of Muckross House, looking at the limestone entrance front. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.muckross-house.ie/",
+    "https://en.wikipedia.org/wiki/Muckross_House"
+   ],
+   "anchors": [
+    "Muckross House is the Elizabethan-revival limestone mansion of 1843 in Killarney National Park",
+    "The entrance front has mullioned windows, gables, clustered chimneys, and a porte-cochère",
+    "The house stands on a lawn in the demesne beside Muckross Lake"
+   ],
+   "solar": "Night. Model sunrise 07:40 and sunset 19:13 Europe/Dublin on 2 October 2026. The 06:18 scenario is about 82 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 78.5° (east-northeast) and elevation -13.4°. The sky is overcast, cloud cover 93%. The 07:40 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Killarney/ie-01-032-16x9.png",
+   "file_4x5": "assets/ireland/Killarney/ie-01-032-4x5.png",
+   "file_9x16": "assets/ireland/Killarney/ie-01-032-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-033",
+   "country": "Ireland",
+   "region": "Kerry",
+   "city": "Killarney",
+   "folder": "Killarney",
+   "site": "Ross Castle",
+   "place": "Lough Leane",
+   "caption": "Ross Castle, Killarney",
+   "scenario_label": "2 October 2026 · 06:18 Europe/Dublin",
+   "composition": "Night, before sunrise · the tower house of Ross Castle on Lough Leane · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Ross Castle on Lough Leane, a stone tower house at the water, before sunrise",
+   "description": "From the shore the view looks at Ross Castle, a square stone keep with bartizans on the lakeward corners and a lower stone range beside it, standing at the edge of Lough Leane. The water is dark and the mountains are only a faint line. It is before sunrise, about 14.8°C, under an overcast sky.",
+   "viewpoint": "Public ground on the shore of Lough Leane, looking at the keep of Ross Castle. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/places-to-visit/ross-castle/",
+    "https://en.wikipedia.org/wiki/Ross_Castle"
+   ],
+   "anchors": [
+    "Ross Castle is the O'Donoghue tower house on the shore of Lough Leane",
+    "The keep is a square stone tower with bartizans on the lakeward corners",
+    "A lower stone range stands against the keep at the water"
+   ],
+   "solar": "Night. Model sunrise 07:40 and sunset 19:13 Europe/Dublin on 2 October 2026. The 06:18 scenario is about 82 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 78.5° (east-northeast) and elevation -13.4°. The sky is overcast, cloud cover 98%. The 07:40 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Killarney/ie-01-033-16x9.png",
+   "file_4x5": "assets/ireland/Killarney/ie-01-033-4x5.png",
+   "file_9x16": "assets/ireland/Killarney/ie-01-033-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-034",
+   "country": "Ireland",
+   "region": "Kerry",
+   "city": "Portmagee",
+   "folder": "Portmagee",
+   "site": "Skellig Michael",
+   "place": "monastic terrace",
+   "caption": "Skellig Michael, Portmagee",
+   "scenario_label": "2 October 2026 · 06:18 Europe/Dublin",
+   "composition": "Night, before sunrise · the monastic terraces and beehive huts above the Atlantic · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the monastic terraces and beehive huts on Skellig Michael above the Atlantic, before sunrise",
+   "description": "From the terrace the view looks across dry-stone walls and corbelled beehive huts, with the Atlantic below the cliff. The huts are small and windowless. This is the monastery on the rock, seen from the ground, not from the air. Portmagee is not in this frame. It is before sunrise, about 15.7°C, under an overcast sky.",
+   "viewpoint": "On the monastic terrace of Skellig Michael, looking across the beehive huts and dry-stone terraces toward the Atlantic. This is a ground-level view, not an aerial. Portmagee is the mainland departure point and is not in this frame. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/places-to-visit/skellig-michael/",
+    "https://en.wikipedia.org/wiki/Skellig_Michael"
+   ],
+   "anchors": [
+    "The monastery of Skellig Michael is a terrace of dry-stone beehive huts above the Atlantic",
+    "The huts are corbelled and windowless",
+    "The view is from the terrace itself, not from the air"
+   ],
+   "solar": "Night. Model sunrise 07:45 and sunset 19:16 Europe/Dublin on 2 October 2026. The 06:18 scenario is about 87 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 77.5° (east-northeast) and elevation -13.8°. The sky is overcast, cloud cover 100%. The 07:45 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "coastal"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Portmagee/ie-01-034-16x9.png",
+   "file_4x5": "assets/ireland/Portmagee/ie-01-034-4x5.png",
+   "file_9x16": "assets/ireland/Portmagee/ie-01-034-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-035",
+   "country": "Ireland",
+   "region": "Kerry",
+   "city": "Ballydavid",
+   "folder": "Ballydavid",
+   "site": "Gallarus Oratory",
+   "place": "Gallarus",
+   "caption": "Gallarus Oratory, Ballydavid",
+   "scenario_label": "2 October 2026 · 06:18 Europe/Dublin",
+   "composition": "Night, before sunrise · the dry-stone oratory and its inclined doorway · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Gallarus Oratory near Ballydavid, a dry-stone boat-shaped church, before sunrise",
+   "description": "From the field the view looks at Gallarus Oratory, a dry-stone church with the profile of an upturned boat. The west doorway has inward-leaning jambs and a plain lintel. The stones are laid without mortar. Low ground and a dark sky close the view. It is before sunrise, about 12.8°C, under an overcast sky.",
+   "viewpoint": "Public ground beside Gallarus Oratory, looking at the west doorway. Ballydavid is the nearby village and is not the subject. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/unguided-sites/gallarus-oratory/",
+    "https://en.wikipedia.org/wiki/Gallarus_Oratory"
+   ],
+   "anchors": [
+    "Gallarus Oratory is a dry-stone church with the profile of an upturned boat",
+    "The west doorway has inward-leaning jambs and a plain lintel",
+    "The walls are corbelled stone without mortar"
+   ],
+   "solar": "Night. Model sunrise 07:43 and sunset 19:15 Europe/Dublin on 2 October 2026. The 06:18 scenario is about 85 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 77.9° (east-northeast) and elevation -13.7°. The sky is overcast, cloud cover 99%. The 07:43 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Ballydavid/ie-01-035-16x9.png",
+   "file_4x5": "assets/ireland/Ballydavid/ie-01-035-4x5.png",
+   "file_9x16": "assets/ireland/Ballydavid/ie-01-035-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
   }
  ]
 }
