@@ -393,6 +393,197 @@
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-056",
+   "country": "Ireland",
+   "region": "Donegal",
+   "city": "Leabgarrow",
+   "folder": "Leabgarrow",
+   "site": "Arranmore Island",
+   "place": "Rinrawros Point",
+   "caption": "Arranmore Island, Leabgarrow",
+   "scenario_label": "2 October 2026 · 07:22 Europe/Dublin",
+   "composition": "Night, before sunrise · cliff coast and the white lighthouse at Rinrawros Point · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the white Arranmore lighthouse on the cliff coast at Rinrawros Point, before sunrise in dense drizzle",
+   "description": "From the cliff path the view looks toward the Arranmore lighthouse, a white cylindrical tower on the edge of the north-west cliffs, with the Atlantic below. The harbour at Leabgarrow is not in this frame. It is before sunrise, about 12.4°C, in dense drizzle.",
+   "viewpoint": "Public cliff path near Rinrawros Point, looking toward the lighthouse and the Atlantic. The catalogue pin is in the Leabgarrow area, not on this cliff. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.irishlights.ie/tourism/our-lighthouses/aranmore.aspx",
+    "https://en.wikipedia.org/wiki/Arranmore"
+   ],
+   "anchors": [
+    "A white cylindrical lighthouse tower stands on the cliff at Rinrawros Point, the north-west corner of Arranmore",
+    "The west and north coasts of the island are cliff, with the Atlantic below the light",
+    "Leabgarrow harbour and the ferry are not the subject of this frame"
+   ],
+   "solar": "Night. Model sunrise 07:38 and sunset 19:07 Europe/Dublin on 2 October 2026. The 07:22 scenario is about 16 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 91.8° (east) and elevation -3.0°. The sky is dense drizzle, cloud cover 100%. The 07:38 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Leabgarrow/ie-01-056-16x9.png",
+   "file_4x5": "assets/ireland/Leabgarrow/ie-01-056-4x5.png",
+   "file_9x16": "assets/ireland/Leabgarrow/ie-01-056-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-057",
+   "country": "Ireland",
+   "region": "Cork",
+   "city": "Ballingeary",
+   "folder": "Ballingeary",
+   "site": "Gougane Barra",
+   "place": "St Finbarr's Oratory",
+   "caption": "Gougane Barra, Ballingeary",
+   "scenario_label": "2 October 2026 · 07:22 Europe/Dublin",
+   "composition": "Night, before sunrise · St Finbarr's Oratory on the lake island · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of St Finbarr's Oratory, a small limestone chapel on the island in Gougane Barra lake, before sunrise in light drizzle",
+   "description": "From the lake shore the view looks across the water to St Finbarr's Oratory on the small island. The oratory is a low gabled chapel of grey limestone, with a pitched roof, a stone cross on the gable, and a round-headed door. Steep wooded slopes close the valley. It is before sunrise, about 13.7°C, in light drizzle.",
+   "viewpoint": "Public shore of Gougane Barra lake, looking toward the oratory on the island. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.buildingsofireland.ie/buildings-search/building/20908001/st-finbarrs-oratory-derreennacusha-cork",
+    "https://en.wikipedia.org/wiki/Gougane_Barra"
+   ],
+   "anchors": [
+    "A small gabled limestone oratory stands on the island in Gougane Barra lake",
+    "The chapel has a pitched roof, a stone cross on the gable, and a round-headed doorway",
+    "The lake sits in a steep valley of the Shehy Mountains, and a short causeway reaches the island"
+   ],
+   "solar": "Night. Model sunrise 07:39 and sunset 19:12 Europe/Dublin on 2 October 2026. The 07:22 scenario is about 17 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 91.4° (east) and elevation -3.4°. The sky is light drizzle, cloud cover 100%. The 07:39 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Ballingeary/ie-01-057-16x9.png",
+   "file_4x5": "assets/ireland/Ballingeary/ie-01-057-4x5.png",
+   "file_9x16": "assets/ireland/Ballingeary/ie-01-057-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-058",
+   "country": "Ireland",
+   "region": "Galway",
+   "city": "Kinvara",
+   "folder": "Kinvara",
+   "site": "Dunguaire Castle",
+   "place": "Galway Bay",
+   "caption": "Dunguaire Castle, Kinvara",
+   "scenario_label": "2 October 2026 · 07:22 Europe/Dublin",
+   "composition": "Night, before sunrise · the tower house on a rock in Galway Bay · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Dunguaire Castle, a grey limestone tower house on a rock in Galway Bay at Kinvara, before sunrise under cloud",
+   "description": "From the rocky shore the view looks at Dunguaire Castle, a grey limestone tower house standing on a rock where the water meets the bay. The keep is square, with a battlemented top and a lower wall around the court. Kinvara village is outside the frame. It is before sunrise, about 12.9°C, under an overcast sky.",
+   "viewpoint": "Public rocky shore beside the castle, looking at the tower house from outside the walls. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Dunguaire_Castle",
+    "https://www.dunguairecastle.com/"
+   ],
+   "anchors": [
+    "A square limestone tower house stands on a rock at the edge of Galway Bay",
+    "The keep has a battlemented parapet, and a lower bawn wall encloses the courtyard",
+    "The viewpoint is the shore outside Kinvara; the village street is not the subject"
+   ],
+   "solar": "Night. Model sunrise 07:38 and sunset 19:10 Europe/Dublin on 2 October 2026. The 07:22 scenario is about 16 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 91.6° (east) and elevation -3.2°. The sky is overcast, cloud cover 100%. The 07:38 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "coastal"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Kinvara/ie-01-058-16x9.png",
+   "file_4x5": "assets/ireland/Kinvara/ie-01-058-4x5.png",
+   "file_9x16": "assets/ireland/Kinvara/ie-01-058-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-059",
+   "country": "Ireland",
+   "region": "Fingal",
+   "city": "Malahide",
+   "folder": "Malahide",
+   "site": "Malahide Castle",
+   "place": "walled garden",
+   "caption": "Malahide Castle, Malahide",
+   "scenario_label": "2 October 2026 · 07:22 Europe/Dublin",
+   "composition": "Night, before sunrise · the battlemented castle and the walled garden · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Malahide Castle, a battlemented stone front with round towers, and the wall of the walled garden, before sunrise",
+   "description": "From the demesne the view takes in Malahide Castle, a long battlemented stone front with a round tower at each end, and a high garden wall in front of it. A faint light is in the east, and the sun is still below the horizon. It is before sunrise, about 14.7°C, under a mainly clear sky.",
+   "viewpoint": "Public ground in the demesne, looking toward the castle front with the garden wall in the same view. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.buildingsofireland.ie/buildings-search/building/11344019/malahide-castle-fingal",
+    "https://en.wikipedia.org/wiki/Malahide_Castle"
+   ],
+   "anchors": [
+    "The castle front is battlemented stone, with a circular tower at each end",
+    "A high garden wall of the Talbot Botanic Gardens is in the same ground-level view",
+    "The Great Hall and the glasshouses are not the subject of this exterior frame"
+   ],
+   "solar": "Night. Model sunrise 07:27 and sunset 18:58 Europe/Dublin on 2 October 2026. The 07:22 scenario is about 5 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 93.8° (east) and elevation -1.5°. The sky is mainly clear, cloud cover 35%. The 07:27 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Malahide/ie-01-059-16x9.png",
+   "file_4x5": "assets/ireland/Malahide/ie-01-059-4x5.png",
+   "file_9x16": "assets/ireland/Malahide/ie-01-059-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-060",
+   "country": "Ireland",
+   "region": "Kerry",
+   "city": "Beaufort",
+   "folder": "Beaufort",
+   "site": "Gap of Dunloe",
+   "place": "mountain pass",
+   "caption": "Gap of Dunloe, Beaufort",
+   "scenario_label": "2 October 2026 · 07:22 Europe/Dublin",
+   "composition": "Night, before sunrise · the mountain pass between the Reeks and Purple Mountain · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the Gap of Dunloe, a narrow mountain pass with a dark lake between steep slopes, before sunrise under cloud",
+   "description": "From the road in the pass the view looks along the Gap of Dunloe. Steep sandstone mountains rise on both sides, with a dark lake in the valley floor and dry-stone walls along the road. The MacGillycuddy's Reeks stand on one side and Purple Mountain on the other. It is before sunrise, about 14.6°C, under an overcast sky.",
+   "viewpoint": "Public road inside the Gap of Dunloe, looking along the pass. Beaufort is the village to the north, not this standing point. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Gap_of_Dunloe",
+    "https://gapofdunloe.com/"
+   ],
+   "anchors": [
+    "A narrow pass runs between the MacGillycuddy's Reeks and the Purple Mountain group",
+    "A dark lake lies in the valley floor, with the road and dry-stone walls along it",
+    "The viewpoint is inside the gap, not the village of Beaufort"
+   ],
+   "solar": "Night. Model sunrise 07:41 and sunset 19:13 Europe/Dublin on 2 October 2026. The 07:22 scenario is about 19 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 91.1° (east) and elevation -3.6°. The sky is overcast, cloud cover 100%. The 07:41 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "mountain"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Beaufort/ie-01-060-16x9.png",
+   "file_4x5": "assets/ireland/Beaufort/ie-01-060-4x5.png",
+   "file_9x16": "assets/ireland/Beaufort/ie-01-060-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
   }
  ]
 }
