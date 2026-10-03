@@ -393,6 +393,199 @@
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-016",
+   "country": "Ireland",
+   "region": "Dublin",
+   "city": "Dublin",
+   "folder": "Dublin",
+   "site": "National Museum of Ireland — Archaeology",
+   "place": "Kildare Street",
+   "caption": "National Museum of Ireland — Archaeology, Dublin",
+   "scenario_label": "2 October 2026 · 05:39 Europe/Dublin",
+   "composition": "Night, before sunrise · Kildare Street looking at the colonnade in front of the rotunda · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the National Museum of Ireland Archaeology on Kildare Street at night, the granite rotunda and half-round sandstone colonnade",
+   "description": "From the pavement of Kildare Street the view looks at the National Museum of Ireland — Archaeology, a granite rotunda with a half-round colonnade of pale sandstone columns and a stone balustrade. Two-storey pavilions frame the colonnade. The matching library rotunda across Leinster House is not in this frame. It is before sunrise, about 14.4°C, under a mostly clear sky.",
+   "viewpoint": "Public pavement on Kildare Street, looking at the west front of the museum, the half-round colonnade, and the rotunda behind it. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.museum.ie/en-ie/museums/archaeology",
+    "https://en.wikipedia.org/wiki/National_Museum_of_Ireland_%E2%80%93_Archaeology"
+   ],
+   "anchors": [
+    "The Kildare Street front is a granite rotunda with a half-round Doric colonnade of sandstone columns and a balustrade",
+    "Two-storey pavilions frame the colonnade",
+    "The National Library rotunda faces it across Leinster House and is not in this frame"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 05:39 scenario is about 109 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 72.6° (east-northeast) and elevation -16.9°. The sky is mostly clear, cloud cover 11%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Dublin/ie-01-016-16x9.png",
+   "file_4x5": "assets/ireland/Dublin/ie-01-016-4x5.png",
+   "file_9x16": "assets/ireland/Dublin/ie-01-016-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-017",
+   "country": "Ireland",
+   "region": "Dublin",
+   "city": "Dublin",
+   "folder": "Dublin",
+   "site": "Grafton Street",
+   "place": "Grafton Street",
+   "caption": "Grafton Street, Dublin",
+   "scenario_label": "2 October 2026 · 05:39 Europe/Dublin",
+   "composition": "Night, before sunrise · the pedestrian street looking toward the red-brick cafe with the dark mosaic front · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Grafton Street in Dublin at night, a pedestrian shopping street and the red-brick cafe with a dark mosaic front and no readable name",
+   "description": "From the paving the view looks along Grafton Street, a pedestrian shopping street with no carriageway. Victorian brick and stone shops line the street. The cafe is the red-brick building with a dark mosaic shopfront and tall arched windows; the mosaic carries no readable name. It is before sunrise, about 14.4°C, under a mostly clear sky.",
+   "viewpoint": "Public paving on Grafton Street, looking along the pedestrian street toward the red-brick cafe. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Grafton_Street",
+    "https://en.wikipedia.org/wiki/Bewley%27s"
+   ],
+   "anchors": [
+    "Grafton Street is the pedestrian shopping street between College Green and St Stephen's Green",
+    "The cafe is the red-brick building with a dark mosaic shopfront and tall arched windows",
+    "Readable shop names are omitted"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 05:39 scenario is about 109 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 72.6° (east-northeast) and elevation -16.9°. The sky is mostly clear, cloud cover 11%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Dublin/ie-01-017-16x9.png",
+   "file_4x5": "assets/ireland/Dublin/ie-01-017-4x5.png",
+   "file_9x16": "assets/ireland/Dublin/ie-01-017-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-018",
+   "country": "Ireland",
+   "region": "Dublin",
+   "city": "Dublin",
+   "folder": "Dublin",
+   "site": "Temple Bar",
+   "place": "Temple Bar",
+   "caption": "Temple Bar, Dublin",
+   "scenario_label": "2 October 2026 · 05:39 Europe/Dublin",
+   "composition": "Night, before sunrise · cobbles looking along painted pub fronts in the cultural quarter · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of a cobbled Temple Bar lane in Dublin at night, painted pub fronts with blank boards and no readable names",
+   "description": "From the cobbles the view looks along a Temple Bar lane of painted pub fronts, sash windows, and flower baskets. Fascia boards are left blank, so no pub name is in the frame. The lane is the quarter south of the Liffey, not a half-timber stage set. It is before sunrise, about 14.4°C, under a mostly clear sky.",
+   "viewpoint": "Public cobbles in Temple Bar, south of the Liffey, looking along a lane of pub fronts. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Temple_Bar,_Dublin",
+    "https://www.templebar.ie/"
+   ],
+   "anchors": [
+    "A narrow cobbled street in Temple Bar, south of the Liffey",
+    "Painted pub fronts with sash windows and flower baskets",
+    "Readable pub names are omitted"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 05:39 scenario is about 109 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 72.6° (east-northeast) and elevation -16.9°. The sky is mostly clear, cloud cover 11%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "urban",
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Dublin/ie-01-018-16x9.png",
+   "file_4x5": "assets/ireland/Dublin/ie-01-018-4x5.png",
+   "file_9x16": "assets/ireland/Dublin/ie-01-018-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-019",
+   "country": "Ireland",
+   "region": "Dublin",
+   "city": "Dublin",
+   "folder": "Dublin",
+   "site": "The Custom House",
+   "place": "Custom House Quay",
+   "caption": "The Custom House, Dublin",
+   "scenario_label": "2 October 2026 · 05:39 Europe/Dublin",
+   "composition": "Night, before sunrise · Custom House Quay looking along the portico and dome, with the Liffey in front · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the Custom House in Dublin at night from Custom House Quay, the Portland-stone portico and dome with the Liffey in front",
+   "description": "From Custom House Quay the view looks along the south front of the Custom House, a Portland-stone neoclassical building with a Corinthian portico, a pediment, and a dome with one figure on top. The Liffey runs along the near edge of the frame. This is the quay beside the portico, not the long view from the south bank. It is before sunrise, about 14.4°C, under a mostly clear sky.",
+   "viewpoint": "Public quay on Custom House Quay, at the river edge beside the south portico, looking along the facade and up to the dome. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/The_Custom_House",
+    "https://en.wikipedia.org/wiki/James_Gandon"
+   ],
+   "anchors": [
+    "James Gandon's Custom House, the Portland-stone south front on the Liffey",
+    "A Corinthian portico and pediment, with a dome and one figure above it",
+    "The viewpoint is Custom House Quay beside the portico"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 05:39 scenario is about 109 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 72.7° (east-northeast) and elevation -16.9°. The sky is mostly clear, cloud cover 11%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Dublin/ie-01-019-16x9.png",
+   "file_4x5": "assets/ireland/Dublin/ie-01-019-4x5.png",
+   "file_9x16": "assets/ireland/Dublin/ie-01-019-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-020",
+   "country": "Ireland",
+   "region": "Fingal",
+   "city": "Howth",
+   "folder": "Howth",
+   "site": "Howth Harbour",
+   "place": "Howth Harbour",
+   "caption": "Howth Harbour, Howth",
+   "scenario_label": "2 October 2026 · 05:39 Europe/Dublin",
+   "composition": "Night, before sunrise · fishing boats in the basin with Ireland's Eye beyond the harbour mouth · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Howth Harbour at night, fishing boats in the basin and Ireland's Eye beyond the mouth",
+   "description": "From the east side of Howth Harbour the view looks across fishing boats in the granite basin toward Ireland's Eye, a low rocky island with a martello tower beyond the mouth. Hulls carry no readable names. The East Pier lighthouse is not the subject of this frame. It is before sunrise, about 14.4°C, under a mainly clear sky.",
+   "viewpoint": "Public ground on the east side of Howth Harbour, among the fishing boats, looking out toward Ireland's Eye. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Howth",
+    "https://en.wikipedia.org/wiki/Ireland%27s_Eye"
+   ],
+   "anchors": [
+    "Fishing boats lie in the granite basin of Howth Harbour",
+    "Ireland's Eye is the low island beyond the harbour mouth, with a martello tower",
+    "The East Pier lighthouse is not the subject of this frame"
+   ],
+   "solar": "Night. Model sunrise 07:27 and sunset 18:58 Europe/Dublin on 2 October 2026. The 05:39 scenario is about 108 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 72.8° (east-northeast) and elevation -16.7°. The sky is mainly clear, cloud cover 32%. The 07:27 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Howth/ie-01-020-16x9.png",
+   "file_4x5": "assets/ireland/Howth/ie-01-020-4x5.png",
+   "file_9x16": "assets/ireland/Howth/ie-01-020-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
   }
  ]
 }
