@@ -1,0 +1,11 @@
+IE-01-051–055 Candidate stills for the Republic of Ireland.
+Finished 2 October 2026. Not Approved. Cosmo owns QC and any merge.
+Retrievals are the true Europe/Dublin times before sunrise (07:28 at Carlingford Lough, 07:35 at Clonmacnoise, 07:35 at Athlone Castle, 07:31 at the Rock of Dunamase, 07:37 at Glencar Waterfall). Not backdated.
+It is night at every pin, so a daylight aerial was not eligible and was not produced. Backfill.
+tools/ie.json stays []. Portrait masters are 1080×1920. A 1080×2110 canvas is refused.
+
+IE-01-051 Carlingford Lough, Carlingford · 2026-10-02T07:08:58+01:00 · 2 October 2026 · 07:08 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-052 Clonmacnoise, Shannonbridge · 2026-10-02T07:09:01+01:00 · 2 October 2026 · 07:09 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-053 Athlone Castle, Athlone · 2026-10-02T07:09:03+01:00 · 2 October 2026 · 07:09 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-054 Rock of Dunamase, Portlaoise · 2026-10-02T07:09:06+01:00 · 2 October 2026 · 07:09 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-055 Glencar Waterfall, Glencar · 2026-10-02T07:09:08+01:00 · 2 October 2026 · 07:09 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02

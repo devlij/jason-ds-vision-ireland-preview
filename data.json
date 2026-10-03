@@ -393,6 +393,198 @@
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-051",
+   "country": "Ireland",
+   "region": "Louth",
+   "city": "Carlingford",
+   "folder": "Carlingford",
+   "site": "Carlingford Lough",
+   "place": "Harbour",
+   "caption": "Carlingford Lough, Carlingford",
+   "scenario_label": "2 October 2026 · 07:08 Europe/Dublin",
+   "composition": "Night, before sunrise · the stone harbour and Slieve Foye on the lough · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Carlingford harbour, two stone piers and fishing boats on the lough, with Slieve Foye rising behind the town, before sunrise under broken cloud",
+   "description": "From the western quay the view looks along Carlingford harbour. Two limestone piers enclose the tidal basin, with fishing boats at the moorings and the lough opening beyond them. Slieve Foye rises immediately behind the town. The ridge across the water is the far shore, and a small ruined castle on the rock at the north end of the harbour is not the subject of this frame. It is before sunrise, about 12.3°C, under a partly cloudy sky.",
+   "viewpoint": "Public standing point on the western stone quay at Carlingford harbour, looking along the piers toward the lough, with Slieve Foye behind the town. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.buildingsofireland.ie/buildings-search/building/13825044/liberties-of-carlingford-carlingford-co-louth",
+    "https://en.wikipedia.org/wiki/Carlingford,_County_Louth"
+   ],
+   "anchors": [
+    "Two limestone piers enclose the tidal harbour, and the western pier is the quay",
+    "Slieve Foye rises immediately behind the town on the Cooley Peninsula",
+    "The ruined castle at the north end of the harbour is secondary; the subject is the harbour and the mountain backdrop"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:58 Europe/Dublin on 2 October 2026. The 07:08 scenario is about 19 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 91.1° (east) and elevation -3.6°. The sky is partly cloudy, cloud cover 66%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal",
+    "mountain"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Carlingford/ie-01-051-16x9.png",
+   "file_4x5": "assets/ireland/Carlingford/ie-01-051-4x5.png",
+   "file_9x16": "assets/ireland/Carlingford/ie-01-051-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-052",
+   "country": "Ireland",
+   "region": "Offaly",
+   "city": "Shannonbridge",
+   "folder": "Shannonbridge",
+   "site": "Clonmacnoise",
+   "place": "Shannon bank",
+   "caption": "Clonmacnoise, Shannonbridge",
+   "scenario_label": "2 October 2026 · 07:09 Europe/Dublin",
+   "composition": "Night, before sunrise · the early monastic ruins above the Shannon · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Clonmacnoise, the round tower, roofless cathedral, and a high cross above the River Shannon, before sunrise under cloud",
+   "description": "From the graveyard the view looks across the monastic enclosure at Clonmacnoise. A round tower stands beside the long roofless cathedral, a ringed high cross is in the foreground, and a smaller church nearer the Shannon has a round tower attached to it. The river meadow lies beyond the walls. The outdoor crosses are replicas; the original high crosses are kept in the visitor centre and are not the stones in this frame. It is before sunrise, about 12.5°C, under an overcast sky.",
+   "viewpoint": "Public path inside the monastic enclosure, looking toward the round tower and cathedral, with the Shannon meadow beyond. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/places-to-visit/clonmacnoise-monastic-site/",
+    "https://en.wikipedia.org/wiki/Clonmacnoise"
+   ],
+   "anchors": [
+    "A round tower stands beside the roofless cathedral inside the enclosure above the Shannon",
+    "A smaller church nearer the river has a round tower attached to the building",
+    "The ringed cross in the graveyard is a replica; the original high crosses are in the visitor centre"
+   ],
+   "solar": "Night. Model sunrise 07:35 and sunset 19:06 Europe/Dublin on 2 October 2026. The 07:09 scenario is about 26 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 89.7° (east) and elevation -4.7°. The sky is overcast, cloud cover 96%. The 07:35 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Shannonbridge/ie-01-052-16x9.png",
+   "file_4x5": "assets/ireland/Shannonbridge/ie-01-052-4x5.png",
+   "file_9x16": "assets/ireland/Shannonbridge/ie-01-052-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-053",
+   "country": "Ireland",
+   "region": "Westmeath",
+   "city": "Athlone",
+   "folder": "Athlone",
+   "site": "Athlone Castle",
+   "place": "Shannon bridge",
+   "caption": "Athlone Castle, Athlone",
+   "scenario_label": "2 October 2026 · 07:09 Europe/Dublin",
+   "composition": "Night, before sunrise · the polygonal keep above the Shannon bridge · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Athlone Castle, the polygonal limestone keep rising above the stone arches of the Shannon bridge, before sunrise under cloud",
+   "description": "From the quay the view looks at Athlone Castle. The freestanding polygonal limestone keep, with a machicolated parapet, stands inside a thick curtain wall with bastions. The multi-arch stone town bridge crosses the Shannon in front of the walls, so the keep reads above the bridge. It is before sunrise, about 12.6°C, under an overcast sky.",
+   "viewpoint": "Public quay beside the Shannon, looking toward the keep with the town bridge in the foreground. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.buildingsofireland.ie/buildings-search/building/15000352/athlone-castle-the-quay-athlone-and-bigmeadow-athlone-co-westmeath",
+    "https://en.wikipedia.org/wiki/Athlone_Castle"
+   ],
+   "anchors": [
+    "The keep is a freestanding polygonal stone tower inside a curtain wall with bastions",
+    "The multi-arch town bridge crosses the Shannon in front of the castle",
+    "The machicolated parapet is the early-nineteenth-century remodelling; the keep is not a roofed house"
+   ],
+   "solar": "Night. Model sunrise 07:35 and sunset 19:06 Europe/Dublin on 2 October 2026. The 07:09 scenario is about 26 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 89.7° (east) and elevation -4.6°. The sky is overcast, cloud cover 99%. The 07:35 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Athlone/ie-01-053-16x9.png",
+   "file_4x5": "assets/ireland/Athlone/ie-01-053-4x5.png",
+   "file_9x16": "assets/ireland/Athlone/ie-01-053-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-054",
+   "country": "Ireland",
+   "region": "Laois",
+   "city": "Portlaoise",
+   "folder": "Portlaoise",
+   "site": "Rock of Dunamase",
+   "place": "Limestone outcrop",
+   "caption": "Rock of Dunamase, Portlaoise",
+   "scenario_label": "2 October 2026 · 07:09 Europe/Dublin",
+   "composition": "Night, before sunrise · the castle ruin on the limestone outcrop · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the Rock of Dunamase, ruined curtain walls and a broken gatehouse on a limestone outcrop above the Laois plain, before sunrise under cloud",
+   "description": "From the pasture at the base the view looks up at the Rock of Dunamase. A grey limestone outcrop rises out of the flat ground, curtain walls climb the rock, a broken gatehouse stands partway up, and roofless walls crown the summit. It is before sunrise, about 12.2°C, under an overcast sky.",
+   "viewpoint": "Public approach in the field below the rock, looking up at the ruin. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/unguided-sites/rock-of-dunamase/",
+    "https://laois.ie/heritage-and-conservation/laois-heritage-trail/rock-of-dunamase"
+   ],
+   "anchors": [
+    "The castle stands on a limestone outcrop that rises abruptly from the plain",
+    "A broken gatehouse and curtain walls climb the rock toward the summit",
+    "The walls on the summit are roofless; this is a ruin, not an inhabited castle"
+   ],
+   "solar": "Night. Model sunrise 07:31 and sunset 19:03 Europe/Dublin on 2 October 2026. The 07:09 scenario is about 22 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 90.3° (east) and elevation -4.2°. The sky is overcast, cloud cover 100%. The 07:31 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Portlaoise/ie-01-054-16x9.png",
+   "file_4x5": "assets/ireland/Portlaoise/ie-01-054-4x5.png",
+   "file_9x16": "assets/ireland/Portlaoise/ie-01-054-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-055",
+   "country": "Ireland",
+   "region": "Leitrim",
+   "city": "Glencar",
+   "folder": "Glencar",
+   "site": "Glencar Waterfall",
+   "place": "Glencar valley",
+   "caption": "Glencar Waterfall, Glencar",
+   "scenario_label": "2 October 2026 · 07:09 Europe/Dublin",
+   "composition": "Night, before sunrise · the cascade in the wooded Glencar valley · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Glencar Waterfall, a single cascade dropping into a pool among trees in the Glencar valley, before sunrise under cloud",
+   "description": "From the path at the base the view looks at Glencar Waterfall. A single cascade drops over a dark rock lip into a small pool, with ferns and close trees around it. This is the wooded fall near Glencar Lough, not the tall cliff fall farther along the valley. It is before sunrise, about 10.1°C, under an overcast sky.",
+   "viewpoint": "Public path at the foot of the fall, looking at the cascade and the pool. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.discoverireland.ie/leitrim/glencar-waterfall",
+    "https://en.wikipedia.org/wiki/Sruth_in_Aghaidh_an_Aird"
+   ],
+   "anchors": [
+    "A single cascade drops into a pool in a wooded glen",
+    "Ferns and close trees frame the fall; the valley is enclosed",
+    "This is the Glencar Waterfall near the lough, not the separate cliff fall called Sruth in Aghaidh an Aird"
+   ],
+   "solar": "Night. Model sunrise 07:37 and sunset 19:07 Europe/Dublin on 2 October 2026. The 07:09 scenario is about 28 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 89.3° (east) and elevation -4.9°. The sky is overcast, cloud cover 100%. The 07:37 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "mountain"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Glencar/ie-01-055-16x9.png",
+   "file_4x5": "assets/ireland/Glencar/ie-01-055-4x5.png",
+   "file_9x16": "assets/ireland/Glencar/ie-01-055-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
   }
  ]
 }
