@@ -1,0 +1,11 @@
+IE-01-036–040 Candidate stills for the Republic of Ireland.
+Finished 2 October 2026. Not Approved. Cosmo owns QC and any merge.
+Retrievals are the true Europe/Dublin times before sunrise (07:39 at Poulnabrone, 07:38 at Ennis Friary, 07:31 at St Canice's Cathedral, 07:30 at Hook Lighthouse, 07:28 at the Irish National Heritage Park). Not backdated.
+It is night at every pin, so a daylight aerial was not eligible and was not produced. Backfill.
+tools/ie.json stays []. Portrait masters are 1080×1920. A 1080×2110 canvas is refused.
+
+IE-01-036 Poulnabrone dolmen, Ballyvaughan · 2026-10-02T06:33:14+01:00 · 2 October 2026 · 06:33 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-037 Ennis Friary, Ennis · 2026-10-02T06:33:16+01:00 · 2 October 2026 · 06:33 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-038 St Canice's Cathedral, Kilkenny city · 2026-10-02T06:33:18+01:00 · 2 October 2026 · 06:33 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-039 Hook Lighthouse, Fethard-on-Sea · 2026-10-02T06:33:20+01:00 · 2 October 2026 · 06:33 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02
+IE-01-040 Irish National Heritage Park, Wexford town · 2026-10-02T06:33:23+01:00 · 2 October 2026 · 06:33 Europe/Dublin · aerial: backfill · Art. 50 comment 2026-10-02

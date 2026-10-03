@@ -47,6 +47,12 @@ SCENES: list[tuple[str, str, str, float, float, str]] = [
     ("IE-01-008", "Wellington Monument", "Dublin", 53.34905, -6.30314, "Europe/Dublin"),
     ("IE-01-009", "Howth Harbour", "Howth", 53.38980, -6.07020, "Europe/Dublin"),
     ("IE-01-010", "Killiney Hill", "Killiney", 53.26558, -6.11184, "Europe/Dublin"),
+    # IE-01-036–040 Candidate stills. Catalogue pins, not surveyed tripod marks.
+    ("IE-01-036", "Poulnabrone dolmen", "Ballyvaughan", 53.0486, -9.1399, "Europe/Dublin"),
+    ("IE-01-037", "Ennis Friary", "Ennis", 52.8453, -8.9807, "Europe/Dublin"),
+    ("IE-01-038", "St Canice's Cathedral", "Kilkenny city", 52.6543, -7.2557, "Europe/Dublin"),
+    ("IE-01-039", "Hook Lighthouse", "Fethard-on-Sea", 52.1239, -6.9293, "Europe/Dublin"),
+    ("IE-01-040", "Irish National Heritage Park", "Wexford town", 52.3486, -6.5192, "Europe/Dublin"),
 ]
 
 
