@@ -393,6 +393,200 @@
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-011",
+   "country": "Ireland",
+   "region": "Dublin",
+   "city": "Dublin",
+   "folder": "Dublin",
+   "site": "Christ Church Cathedral",
+   "place": "Christchurch Place",
+   "caption": "Christ Church Cathedral, Dublin",
+   "scenario_label": "2 October 2026 · 05:28 Europe/Dublin",
+   "composition": "Night, before sunrise · Christchurch Place looking at the south front, the central tower, and the bridge to the Synod Hall · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Christ Church Cathedral in Dublin at night, the limestone tower and south front with a flying buttress and the stone bridge to the Synod Hall",
+   "description": "From the pavement of Christchurch Place the view looks at Christ Church Cathedral, a grey limestone church with a central tower, corner pinnacles, and a short stone spire. A large flying buttress braces the south transept, and an enclosed stone bridge links the cathedral to the Synod Hall. It is before sunrise, about 14.4°C, under a mostly clear sky.",
+   "viewpoint": "Public pavement on Christchurch Place, south of the cathedral, looking north toward the south front, the central tower, and the enclosed bridge to the Synod Hall. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://christchurchcathedral.ie/",
+    "https://en.wikipedia.org/wiki/Christ_Church_Cathedral,_Dublin"
+   ],
+   "anchors": [
+    "Christ Church Cathedral is the limestone church on Christchurch Place, with a central tower, corner pinnacles, and a short stone spire",
+    "A large flying buttress braces the south transept facing the street",
+    "An enclosed stone bridge links the cathedral to the Synod Hall"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 05:28 scenario is about 120 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 70.2° (east-northeast) and elevation -18.4°. The sky is mostly clear, cloud cover 18%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Dublin/ie-01-011-16x9.png",
+   "file_4x5": "assets/ireland/Dublin/ie-01-011-4x5.png",
+   "file_9x16": "assets/ireland/Dublin/ie-01-011-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-012",
+   "country": "Ireland",
+   "region": "Dublin",
+   "city": "Dublin",
+   "folder": "Dublin",
+   "site": "Dublin Castle",
+   "place": "Upper Castle Yard",
+   "caption": "Dublin Castle, Dublin",
+   "scenario_label": "2 October 2026 · 05:28 Europe/Dublin",
+   "composition": "Night, before sunrise · the Upper Castle Yard looking toward the round Record Tower and the Chapel Royal · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Dublin Castle at night, the round stone Record Tower and the pale Chapel Royal beside red-brick Georgian ranges",
+   "description": "From the cobbles of the Upper Castle Yard the view looks toward the Record Tower, a round medieval stone tower with a crenellated parapet. The pale Gothic Chapel Royal stands beside the tower, and red-brick Georgian ranges with limestone trim enclose the yard. This yard view is the Record Tower, not the Bedford Tower gatehouse. It is before sunrise, about 14.3°C, under a mostly clear sky.",
+   "viewpoint": "Inside the Upper Castle Yard, looking toward the Record Tower, with the Chapel Royal beside it and the Georgian brick range around the court. This is not the Bedford Tower view. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.dublincastle.ie/",
+    "https://en.wikipedia.org/wiki/Dublin_Castle"
+   ],
+   "anchors": [
+    "The Record Tower is a round medieval stone tower with a crenellated parapet in the Upper Castle Yard",
+    "The pale Gothic Chapel Royal stands beside the tower",
+    "Red-brick Georgian ranges with limestone dressings enclose the yard, and the Bedford Tower is not this view"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 05:28 scenario is about 120 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 70.2° (east-northeast) and elevation -18.4°. The sky is mostly clear, cloud cover 18%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Dublin/ie-01-012-16x9.png",
+   "file_4x5": "assets/ireland/Dublin/ie-01-012-4x5.png",
+   "file_9x16": "assets/ireland/Dublin/ie-01-012-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-013",
+   "country": "Ireland",
+   "region": "Dublin",
+   "city": "Dublin",
+   "folder": "Dublin",
+   "site": "St Stephen's Green",
+   "place": "The lake",
+   "caption": "St Stephen's Green, Dublin",
+   "scenario_label": "2 October 2026 · 05:28 Europe/Dublin",
+   "composition": "Night, before sunrise · the lake looking across the water toward Fusiliers' Arch at the Grafton Street corner · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of St Stephen's Green in Dublin at night, the lake and willows with Fusiliers' Arch beyond the water",
+   "description": "From a path beside the lake the view looks across the water of St Stephen's Green toward Fusiliers' Arch, a low rusticated granite arch at the Grafton Street corner. Willows and lawns lie between the water and the arch, and Georgian brick houses of the square show above the trees. It is before sunrise, about 14.3°C, under a mostly clear sky.",
+   "viewpoint": "Public path beside the lake in St Stephen's Green, looking across the water toward Fusiliers' Arch at the northwest Grafton Street corner. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/St_Stephen%27s_Green",
+    "https://en.wikipedia.org/wiki/Fusiliers%27_Arch"
+   ],
+   "anchors": [
+    "The lake of St Stephen's Green, with lawns and willows around the water",
+    "Fusiliers' Arch is the single rusticated granite gate at the Grafton Street corner",
+    "Georgian brick houses of the square show above the park trees"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 05:28 scenario is about 120 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 70.2° (east-northeast) and elevation -18.4°. The sky is mostly clear, cloud cover 18%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "urban",
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Dublin/ie-01-013-16x9.png",
+   "file_4x5": "assets/ireland/Dublin/ie-01-013-4x5.png",
+   "file_9x16": "assets/ireland/Dublin/ie-01-013-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-014",
+   "country": "Ireland",
+   "region": "Dublin",
+   "city": "Dublin",
+   "folder": "Dublin",
+   "site": "Merrion Square",
+   "place": "Northwest corner",
+   "caption": "Merrion Square, Dublin",
+   "scenario_label": "2 October 2026 · 05:28 Europe/Dublin",
+   "composition": "Night, before sunrise · the northwest corner of the park, the Oscar Wilde memorial in front of the north Georgian terrace · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Merrion Square in Dublin at night, the reclining Oscar Wilde memorial and the red-brick Georgian terrace behind it",
+   "description": "From the lawn at the northwest corner of Merrion Square the view takes in the Oscar Wilde memorial, a reclining figure on a pale boulder in a green stone jacket. Two stone pillars stand with the figure, and the north side of the square is a red-brick Georgian terrace with fanlights and iron balconies. Marks on the stone are not readable text. It is before sunrise, about 14.3°C, under a clear sky.",
+   "viewpoint": "Public ground inside Merrion Square park, at the northwest corner, looking toward the Oscar Wilde memorial with the north Georgian terrace behind it. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Merrion_Square",
+    "https://en.wikipedia.org/wiki/Oscar_Wilde_Memorial_Sculpture"
+   ],
+   "anchors": [
+    "The Oscar Wilde memorial is a reclining figure on a large pale boulder, with a green stone jacket",
+    "Two stone pillars stand with the figure, one carrying a bronze torso, and carved marks are not readable text",
+    "The north terrace of Merrion Square is a red-brick Georgian row with fanlights and iron balconies"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 05:28 scenario is about 120 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 70.2° (east-northeast) and elevation -18.4°. The sky is clear, cloud cover 0%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "urban",
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Dublin/ie-01-014-16x9.png",
+   "file_4x5": "assets/ireland/Dublin/ie-01-014-4x5.png",
+   "file_9x16": "assets/ireland/Dublin/ie-01-014-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-015",
+   "country": "Ireland",
+   "region": "Dublin",
+   "city": "Dublin",
+   "folder": "Dublin",
+   "site": "Phoenix Park — Wellington Monument",
+   "place": "Phoenix Park",
+   "caption": "Wellington Monument, Dublin",
+   "scenario_label": "2 October 2026 · 05:28 Europe/Dublin",
+   "composition": "Night, before sunrise · open parkland lawns looking toward the granite obelisk · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the Wellington Monument in Phoenix Park, Dublin, at night, a plain granite obelisk standing over wide lawns",
+   "description": "From the open grass of Phoenix Park the view looks across the lawns at the Wellington Monument, a tall plain granite obelisk on a square pedestal. The shaft tapers to a pyramid top, with no figure above it and no animals at the base. It is before sunrise, about 14.2°C, under a mainly clear sky.",
+   "viewpoint": "Public lawn in the southeast of Phoenix Park, set back from the pedestal, looking toward the Wellington Monument across open grass. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Wellington_Monument,_Dublin",
+    "https://www.phoenixpark.ie/"
+   ],
+   "anchors": [
+    "The Wellington Monument is the granite obelisk in the southeast of Phoenix Park",
+    "A plain tapering shaft on a square pedestal, with no statue on the tip and no animals at the base",
+    "Open parkland lawns and distant tree belts surround the shaft"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 05:28 scenario is about 120 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 70.2° (east-northeast) and elevation -18.5°. The sky is mainly clear, cloud cover 21%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Dublin/ie-01-015-16x9.png",
+   "file_4x5": "assets/ireland/Dublin/ie-01-015-4x5.png",
+   "file_9x16": "assets/ireland/Dublin/ie-01-015-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
   }
  ]
 }
