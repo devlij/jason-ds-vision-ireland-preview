@@ -393,6 +393,200 @@
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-041",
+   "country": "Ireland",
+   "region": "Waterford",
+   "city": "Waterford city",
+   "folder": "Waterford city",
+   "site": "Reginald's Tower",
+   "place": "The Quay",
+   "caption": "Reginald's Tower, Waterford city",
+   "scenario_label": "2 October 2026 · 06:45 Europe/Dublin",
+   "composition": "Night, before sunrise · the round stone tower on the Waterford quay beside the Suir · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Reginald's Tower, a round medieval stone tower with a conical roof on the Waterford quay, the River Suir beside it, before sunrise under cloud",
+   "description": "From the quay the view looks at Reginald's Tower, a circular medieval stone tower with thick limestone walls and a conical roof. It stands at the eastern end of the quay, where a short length of the old city wall meets the tower, and the River Suir runs wide beside it. The standing masonry is the medieval tower. The earlier Viking fort on this site is not the stone in the frame. It is before sunrise, about 14.9°C, under an overcast sky.",
+   "viewpoint": "Public quay at the eastern end of Waterford's quays, looking at the round tower and the River Suir. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/places-to-visit/reginalds-tower/",
+    "https://en.wikipedia.org/wiki/Reginald%27s_Tower"
+   ],
+   "anchors": [
+    "A circular stone tower with a conical roof stands at the eastern end of the quay",
+    "The River Suir runs beside the tower, and a short length of the old city wall meets it",
+    "The standing tower is medieval stone on a Viking-era site; the frame is not a wooden fort"
+   ],
+   "solar": "Night. Model sunrise 07:31 and sunset 19:03 Europe/Dublin on 2 October 2026. The 06:45 scenario is about 46 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 85.8° (east) and elevation -7.7°. The sky is overcast, cloud cover 100%. The 07:31 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Waterford city/ie-01-041-16x9.png",
+   "file_4x5": "assets/ireland/Waterford city/ie-01-041-4x5.png",
+   "file_9x16": "assets/ireland/Waterford city/ie-01-041-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-042",
+   "country": "Ireland",
+   "region": "Wicklow",
+   "city": "Roundwood",
+   "folder": "Roundwood",
+   "site": "Lough Tay (Guinness Lake)",
+   "place": "Lough Tay",
+   "caption": "Lough Tay (Guinness Lake), Roundwood",
+   "scenario_label": "2 October 2026 · 06:45 Europe/Dublin",
+   "composition": "Night, before sunrise · the dark lake and white northern beach beneath Djouce · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Lough Tay, a dark lake with a white sand crescent and Djouce rising beyond it, seen from the mountain road before sunrise",
+   "description": "From the mountain road the view looks across Lough Tay. The water is dark and peaty. A crescent of white sand lines the far northern shore, and the broad shoulder of Djouce rises beyond it. A steep mountainside closes the other side of the valley. The shore is private, so this frame is the public view from the road and not a path down to the beach. Roundwood is the nearby town and is not in this frame. It is before sunrise, about 11.5°C, under an overcast sky.",
+   "viewpoint": "Public pull-in on the R759 above Lough Tay, near the Wicklow Way, looking across the lake toward the white beach and Djouce. The shore is private and is not the standing point. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://visitwicklow.ie/listing/lough-tay-guinness-lake/",
+    "https://en.wikipedia.org/wiki/Lough_Tay"
+   ],
+   "anchors": [
+    "Lough Tay is a dark peaty lake between Djouce and the cliffs of Luggala",
+    "A white sand crescent lines the northern shore",
+    "The public view is from the road above; the shore itself is private"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 06:45 scenario is about 43 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 86.4° (east) and elevation -7.1°. The sky is overcast, cloud cover 99%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "mountain"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Roundwood/ie-01-042-16x9.png",
+   "file_4x5": "assets/ireland/Roundwood/ie-01-042-4x5.png",
+   "file_9x16": "assets/ireland/Roundwood/ie-01-042-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-043",
+   "country": "Ireland",
+   "region": "Mayo",
+   "city": "Westport",
+   "folder": "Westport",
+   "site": "Croagh Patrick",
+   "place": "Clew Bay",
+   "caption": "Croagh Patrick, Westport",
+   "scenario_label": "2 October 2026 · 06:45 Europe/Dublin",
+   "composition": "Night, before sunrise · the quartzite cone of Croagh Patrick above the drumlin islands of Clew Bay · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Croagh Patrick, a quartzite cone above Clew Bay, with drumlin islands in the water, before sunrise under cloud",
+   "description": "From the shore of Clew Bay the view looks toward Croagh Patrick, a steep quartzite cone. Low green drumlin islands scatter across the dark water in front of the mountain. A faint pale line of the pilgrim path climbs the shoulder, and a small chapel sits on the summit. Westport is not in this frame. It is before sunrise, about 9.7°C, under an overcast sky.",
+   "viewpoint": "Public shore of Clew Bay near Murrisk, looking toward the cone, with drumlin islands in the water. Westport town is not in this frame. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Croagh_Patrick",
+    "https://en.wikipedia.org/wiki/Clew_Bay"
+   ],
+   "anchors": [
+    "Croagh Patrick is a steep quartzite cone above Clew Bay",
+    "Drumlin islands lie in the bay in front of the mountain",
+    "A pilgrim path climbs the shoulder, and a small chapel stands on the summit"
+   ],
+   "solar": "Night. Model sunrise 07:42 and sunset 19:12 Europe/Dublin on 2 October 2026. The 06:45 scenario is about 57 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 83.6° (east) and elevation -9.1°. The sky is overcast, cloud cover 100%. The 07:42 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "mountain",
+    "coastal"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Westport/ie-01-043-16x9.png",
+   "file_4x5": "assets/ireland/Westport/ie-01-043-4x5.png",
+   "file_9x16": "assets/ireland/Westport/ie-01-043-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-044",
+   "country": "Ireland",
+   "region": "Mayo",
+   "city": "Keel (Achill Island)",
+   "folder": "Keel (Achill Island)",
+   "site": "Keem Bay",
+   "place": "Keem Strand",
+   "caption": "Keem Bay, Keel (Achill Island)",
+   "scenario_label": "2 October 2026 · 06:45 Europe/Dublin",
+   "composition": "Night, before sunrise · the horseshoe strand beneath the slopes of Croaghaun · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Keem Bay, a horseshoe beach beneath the slopes of Croaghaun on Achill Island, in slight rain before sunrise",
+   "description": "From the sand the view looks into Keem Bay, a horseshoe of steep slopes at the west end of Achill. The slopes of Croaghaun close the cove. Pale sand curves around grey-green water, and a small stream crosses the beach. Keel village is not in this frame. It is before sunrise, about 14.4°C, with slight rain under full cloud cover.",
+   "viewpoint": "Public sand at the back of Keem Strand, looking into the horseshoe. Keel village is not in this frame. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Keem_Bay",
+    "https://en.wikipedia.org/wiki/Achill_Island"
+   ],
+   "anchors": [
+    "Keem is a horseshoe beach at the west end of Achill Island",
+    "The slopes of Croaghaun enclose the cove",
+    "A small stream crosses the pale sand"
+   ],
+   "solar": "Night. Model sunrise 07:44 and sunset 19:14 Europe/Dublin on 2 October 2026. The 06:45 scenario is about 59 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 83.1° (east) and elevation -9.4°. The sky has slight rain, cloud cover 100%. The 07:44 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal",
+    "mountain"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Keel (Achill Island)/ie-01-044-16x9.png",
+   "file_4x5": "assets/ireland/Keel (Achill Island)/ie-01-044-4x5.png",
+   "file_9x16": "assets/ireland/Keel (Achill Island)/ie-01-044-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-045",
+   "country": "Ireland",
+   "region": "Donegal",
+   "city": "Teelin",
+   "folder": "Teelin",
+   "site": "Slieve League cliffs",
+   "place": "Bunglass",
+   "caption": "Slieve League cliffs, Teelin",
+   "scenario_label": "2 October 2026 · 06:45 Europe/Dublin",
+   "composition": "Night, before sunrise · the sea cliffs from the Bunglass viewpoint · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the Slieve League cliffs from the Bunglass viewpoint near Teelin, layered rock falling toward the Atlantic, before sunrise under cloud",
+   "description": "From the Bunglass viewpoint the view looks along the Slieve League cliffs. Layered quartzite in grey, rust, and dull green falls toward the Atlantic, with scree on the slope and grass at the standing point. Teelin village is not in this frame. It is before sunrise, about 13.0°C, under an overcast sky.",
+   "viewpoint": "Public ground at the Bunglass viewpoint, looking along the cliff face toward the Atlantic. Teelin is the nearby village and is not in this frame. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Slieve_League",
+    "https://www.sliabhliag.com/visitor-information/"
+   ],
+   "anchors": [
+    "The viewpoint is Bunglass, looking along the cliff, not from the sea",
+    "The face is steep quartzite with scree, high above the Atlantic",
+    "Teelin village is not in this frame"
+   ],
+   "solar": "Night. Model sunrise 07:38 and sunset 19:08 Europe/Dublin on 2 October 2026. The 06:45 scenario is about 53 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 84.2° (east) and elevation -8.4°. The sky is overcast, cloud cover 100%. The 07:38 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal",
+    "mountain"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Teelin/ie-01-045-16x9.png",
+   "file_4x5": "assets/ireland/Teelin/ie-01-045-4x5.png",
+   "file_9x16": "assets/ireland/Teelin/ie-01-045-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
   }
  ]
 }
