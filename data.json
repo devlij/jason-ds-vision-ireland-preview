@@ -393,6 +393,199 @@
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-026",
+   "country": "Ireland",
+   "region": "Cork",
+   "city": "Cork",
+   "folder": "Cork",
+   "site": "Shandon Bells",
+   "place": "St Anne's Church",
+   "caption": "Shandon Bells, Cork",
+   "scenario_label": "2 October 2026 · 06:04 Europe/Dublin",
+   "composition": "Night, before sunrise · the two-tone tower of St Anne's Church, Shandon, with its clock faces and salmon vane · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the Shandon Bells tower in Cork, red sandstone meeting pale limestone, clock faces and a gilded salmon vane, before sunrise",
+   "description": "From the churchyard the view looks up at the tower of St Anne's, Shandon. One face is red sandstone and the adjoining face is pale limestone. Pale clock dials sit on the tower, an open belfry stands above them, and a pepper-pot cupola carries a gilded salmon weather vane. The church is on the hill north of the Lee. It is before sunrise, about 14.2°C, under an overcast sky.",
+   "viewpoint": "Public ground beside St Anne's Church, Shandon, looking up at the tower corner. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.stanneshandon.ie/explore/the-shandon-tower/",
+    "https://en.wikipedia.org/wiki/Church_of_St_Anne,_Shandon"
+   ],
+   "anchors": [
+    "The tower of St Anne's, Shandon, built in the 1720s, with the pepper-pot and the salmon vane",
+    "Red sandstone and pale limestone meet at the corner of the tower",
+    "The clock faces and the belfry of the Shandon Bells are on this tower"
+   ],
+   "solar": "Night. Model sunrise 07:36 and sunset 19:09 Europe/Dublin on 2 October 2026. The 06:04 scenario is about 92 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 76.4° (east-northeast) and elevation -14.9°. The sky is overcast, cloud cover 100%. The 07:36 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "urban",
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Cork/ie-01-026-16x9.png",
+   "file_4x5": "assets/ireland/Cork/ie-01-026-4x5.png",
+   "file_9x16": "assets/ireland/Cork/ie-01-026-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-027",
+   "country": "Ireland",
+   "region": "Cork",
+   "city": "Goleen",
+   "folder": "Goleen",
+   "site": "Mizen Head",
+   "place": "Signal station",
+   "caption": "Mizen Head, Goleen",
+   "scenario_label": "2 October 2026 · 06:04 Europe/Dublin",
+   "composition": "Night, before sunrise · the concrete arch to the Mizen Head signal station · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the concrete arch bridge to the white signal station at Mizen Head, Goleen, above a dark sea chasm, before sunrise",
+   "description": "From the clifftop path the view looks along a single concrete arch to the signal station on the rock beyond. The station is a low white building with a dark roof, not the Fastnet tower. The Atlantic sits in the chasm under the arch. It is before sunrise, about 14.8°C, under an overcast sky.",
+   "viewpoint": "On the clifftop path at Mizen Head, looking across the arched bridge toward the signal station. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://mizenhead.ie/",
+    "https://en.wikipedia.org/wiki/Mizen_Head"
+   ],
+   "anchors": [
+    "A single concrete arch carries the path across the chasm at Mizen Head",
+    "The signal station is the low white building on the far rock",
+    "The Fastnet lighthouse, offshore, is not this building"
+   ],
+   "solar": "Night. Model sunrise 07:41 and sunset 19:14 Europe/Dublin on 2 October 2026. The 06:04 scenario is about 97 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 75.5° (east-northeast) and elevation -15.8°. The sky is overcast, cloud cover 100%. The 07:41 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Goleen/ie-01-027-16x9.png",
+   "file_4x5": "assets/ireland/Goleen/ie-01-027-4x5.png",
+   "file_9x16": "assets/ireland/Goleen/ie-01-027-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-028",
+   "country": "Ireland",
+   "region": "Galway",
+   "city": "Galway",
+   "folder": "Galway",
+   "site": "Eyre Square",
+   "place": "Browne Doorway",
+   "caption": "Eyre Square, Galway",
+   "scenario_label": "2 October 2026 · 06:04 Europe/Dublin",
+   "composition": "Night, before sunrise · the freestanding Browne Doorway and its oriel in Eyre Square · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the Browne Doorway in Eyre Square, Galway, a freestanding limestone arch with an oriel window above it, before sunrise",
+   "description": "From the square the view looks at the Browne Doorway, a freestanding limestone screen. A round-arched door sits between columns, and a projecting oriel window stands directly above it. Carved arms are on the stone. The Latin line and the date are not rendered as readable text. The hooker fountain is not in this frame. It is before sunrise, about 13.1°C, under an overcast sky.",
+   "viewpoint": "Public ground at the north side of Eyre Square, looking at the Browne Doorway. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.visitgalway.ie/explore/heritage-and-history/statues-monuments-memorials/the-browne-doorway/",
+    "https://en.wikipedia.org/wiki/Eyre_Square"
+   ],
+   "anchors": [
+    "The Browne Doorway is a freestanding limestone doorway and oriel, re-erected in Eyre Square in 1905",
+    "The lower part is a round arch between columns; the upper part is the oriel window",
+    "It is not still attached to the house on Lower Abbeygate Street, and it is not the fountain"
+   ],
+   "solar": "Night. Model sunrise 07:39 and sunset 19:10 Europe/Dublin on 2 October 2026. The 06:04 scenario is about 95 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 75.6° (east-northeast) and elevation -14.9°. The sky is overcast, cloud cover 100%. The 07:39 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "urban",
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Galway/ie-01-028-16x9.png",
+   "file_4x5": "assets/ireland/Galway/ie-01-028-4x5.png",
+   "file_9x16": "assets/ireland/Galway/ie-01-028-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-029",
+   "country": "Ireland",
+   "region": "Galway",
+   "city": "Galway",
+   "folder": "Galway",
+   "site": "Galway Cathedral",
+   "place": "River Corrib",
+   "caption": "Galway Cathedral, Galway",
+   "scenario_label": "2 October 2026 · 06:04 Europe/Dublin",
+   "composition": "Night, before sunrise · the green copper dome of Galway Cathedral above the River Corrib · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Galway Cathedral's green copper dome above the River Corrib, a limestone church with one dome, before sunrise",
+   "description": "From the riverbank the view looks across the Corrib at Galway Cathedral. The church is grey limestone with one large green copper dome. A rose window faces the water. It is not a Gothic church and it has no spire. The cathedral stands on the west bank beside the Salmon Weir. It is before sunrise, about 13.6°C, under an overcast sky.",
+   "viewpoint": "Public bank of the River Corrib by the Salmon Weir, looking toward the cathedral dome. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.galwaycathedral.ie/",
+    "https://en.wikipedia.org/wiki/Cathedral_of_Our_Lady_Assumed_into_Heaven_and_St_Nicholas,_Galway"
+   ],
+   "anchors": [
+    "Galway Cathedral is the limestone church on the west bank of the Corrib, opened in 1965",
+    "One copper dome, gone green, rises over the roof",
+    "The view is across the river, not an interior and not a Gothic spire"
+   ],
+   "solar": "Night. Model sunrise 07:39 and sunset 19:10 Europe/Dublin on 2 October 2026. The 06:04 scenario is about 95 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 75.6° (east-northeast) and elevation -14.9°. The sky is overcast, cloud cover 100%. The 07:39 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Galway/ie-01-029-16x9.png",
+   "file_4x5": "assets/ireland/Galway/ie-01-029-4x5.png",
+   "file_9x16": "assets/ireland/Galway/ie-01-029-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-030",
+   "country": "Ireland",
+   "region": "Galway",
+   "city": "Letterfrack",
+   "folder": "Letterfrack",
+   "site": "Diamond Hill",
+   "place": "Kylemore valley",
+   "caption": "Diamond Hill, Letterfrack",
+   "scenario_label": "2 October 2026 · 06:04 Europe/Dublin",
+   "composition": "Night, before sunrise · the quartzite trail on Diamond Hill above the Kylemore valley · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the mountain trail on Diamond Hill in Connemara National Park, the quartzite cone above the Kylemore valley, before sunrise",
+   "description": "From the path the view looks up the quartzite trail toward the cone of Diamond Hill. Heather and bog sit beside the path. Below, the Kylemore valley holds a long lough, and Kylemore Abbey is a small grey building by the water, with the Twelve Bens beyond. This is a ground-level trail view, not an aerial of the park. It is before sunrise, about 14.5°C, under an overcast sky.",
+   "viewpoint": "On the Diamond Hill trail in Connemara National Park, looking toward the summit and down into the Kylemore valley. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.nationalparks.ie/connemara/",
+    "https://en.wikipedia.org/wiki/Diamond_Hill_(Ireland)"
+   ],
+   "anchors": [
+    "Diamond Hill is the quartzite cone in Connemara National Park, above Letterfrack",
+    "The path is the walking trail, seen from the ground",
+    "Kylemore Abbey and the lough lie in the valley below and are not the foreground"
+   ],
+   "solar": "Night. Model sunrise 07:43 and sunset 19:14 Europe/Dublin on 2 October 2026. The 06:04 scenario is about 99 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 74.8° (east-northeast) and elevation -15.3°. The sky is overcast, cloud cover 100%. The 07:43 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "mountain"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Candidate",
+   "file_16x9": "assets/ireland/Letterfrack/ie-01-030-16x9.png",
+   "file_4x5": "assets/ireland/Letterfrack/ie-01-030-4x5.png",
+   "file_9x16": "assets/ireland/Letterfrack/ie-01-030-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
   }
  ]
 }
