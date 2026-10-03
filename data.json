@@ -473,6 +473,45 @@
    "license_anchor": "#license"
   },
   {
+   "entry_id": "IE-01-013",
+   "country": "Ireland",
+   "region": "Dublin",
+   "city": "Dublin",
+   "folder": "Dublin",
+   "site": "St Stephen's Green",
+   "place": "The lake",
+   "caption": "Fusiliers' Arch",
+   "scenario_label": "2 October 2026 · 05:28 Europe/Dublin",
+   "composition": "Night, before sunrise · the lake looking across the water toward Fusiliers' Arch at the Grafton Street corner · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of St Stephen's Green in Dublin at night, the lake and willows with Fusiliers' Arch beyond the water",
+   "description": "From a path beside the lake the view looks across the water of St Stephen's Green toward Fusiliers' Arch, a low rusticated granite arch at the Grafton Street corner. Willows and lawns lie between the water and the arch, and Georgian brick houses of the square show above the trees. It is before sunrise, about 14.3°C, under a mostly clear sky.",
+   "viewpoint": "Public path beside the lake in St Stephen's Green, looking across the water toward Fusiliers' Arch at the northwest Grafton Street corner. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/St_Stephen%27s_Green",
+    "https://en.wikipedia.org/wiki/Fusiliers%27_Arch"
+   ],
+   "anchors": [
+    "The lake of St Stephen's Green, with lawns and willows around the water",
+    "Fusiliers' Arch is the single rusticated granite gate at the Grafton Street corner",
+    "Georgian brick houses of the square show above the park trees"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 05:28 scenario is about 120 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 70.2° (east-northeast) and elevation -18.4°. The sky is mostly clear, cloud cover 18%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "urban",
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Dublin/ie-01-013-16x9.png",
+   "file_4x5": "assets/ireland/Dublin/ie-01-013-4x5.png",
+   "file_9x16": "assets/ireland/Dublin/ie-01-013-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
    "entry_id": "IE-01-014",
    "country": "Ireland",
    "region": "Dublin",
@@ -584,6 +623,44 @@
    "file_16x9": "assets/ireland/Dublin/ie-01-016-16x9.png",
    "file_4x5": "assets/ireland/Dublin/ie-01-016-4x5.png",
    "file_9x16": "assets/ireland/Dublin/ie-01-016-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-017",
+   "country": "Ireland",
+   "region": "Dublin",
+   "city": "Dublin",
+   "folder": "Dublin",
+   "site": "Grafton Street",
+   "place": "Grafton Street",
+   "caption": "Bewley's Oriental Cafe",
+   "scenario_label": "2 October 2026 · 05:39 Europe/Dublin",
+   "composition": "Night, before sunrise · the pedestrian street looking toward the red-brick cafe with the dark mosaic front · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Grafton Street in Dublin at night, a pedestrian shopping street and the red-brick cafe with a dark mosaic front and no readable name",
+   "description": "From the paving the view looks along Grafton Street, a pedestrian shopping street with no carriageway. Victorian brick and stone shops line the street. The cafe is the red-brick building with a dark mosaic shopfront and tall arched windows; the mosaic carries no readable name. It is before sunrise, about 14.4°C, under a mostly clear sky.",
+   "viewpoint": "Public paving on Grafton Street, looking along the pedestrian street toward the red-brick cafe. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Grafton_Street",
+    "https://en.wikipedia.org/wiki/Bewley%27s"
+   ],
+   "anchors": [
+    "Grafton Street is the pedestrian shopping street between College Green and St Stephen's Green",
+    "The cafe is the red-brick building with a dark mosaic shopfront and tall arched windows",
+    "Readable shop names are omitted"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 05:39 scenario is about 109 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 72.6° (east-northeast) and elevation -16.9°. The sky is mostly clear, cloud cover 11%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Dublin/ie-01-017-16x9.png",
+   "file_4x5": "assets/ireland/Dublin/ie-01-017-4x5.png",
+   "file_9x16": "assets/ireland/Dublin/ie-01-017-9x16.png",
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
@@ -705,6 +782,159 @@
    "license_anchor": "#license"
   },
   {
+   "entry_id": "IE-01-021",
+   "country": "Ireland",
+   "region": "Dún Laoghaire–Rathdown",
+   "city": "Dún Laoghaire",
+   "folder": "Dún Laoghaire",
+   "site": "East Pier lighthouse",
+   "place": "East Pier",
+   "caption": "East Pier lighthouse, Dun Laoghaire",
+   "scenario_label": "2 October 2026 · 05:50 Europe/Dublin",
+   "composition": "Night, before sunrise · the granite East Pier lighthouse at the pier head · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the granite East Pier lighthouse at the pier head in Dún Laoghaire, before sunrise under an overcast sky",
+   "description": "From the granite promenade of the East Pier the view looks toward the pier-head lighthouse, a short round tower of grey ashlar granite with a lantern room and a gallery. Low granite battery walls sit at the base. The pier lamps are lit, and the lantern glows. It is before sunrise, about 14.3°C, under an overcast sky.",
+   "viewpoint": "Public walk on the East Pier, looking toward the lighthouse at the pier head. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.dlrcoco.ie/dun-laoghaire-harbour/harbour-history/east-pier-lighthouse",
+    "https://www.archiseek.com/1847-lighthouse-east-pier-dun-laoghaire-co-dublin/"
+   ],
+   "anchors": [
+    "A short granite tower at the East Pier head, the light established in 1847 and the tower heightened in the 1890s",
+    "Low granite battery walls sit around the base of the tower",
+    "The promenade is the East Pier at Dún Laoghaire; this is not the Howth East Pier light"
+   ],
+   "solar": "Night. Model sunrise 07:27 and sunset 18:58 Europe/Dublin on 2 October 2026. The 05:50 scenario is about 97 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 75.2° (east-northeast) and elevation -15.2°. The sky is overcast, cloud cover 91%. The 07:27 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Dún Laoghaire/ie-01-021-16x9.png",
+   "file_4x5": "assets/ireland/Dún Laoghaire/ie-01-021-4x5.png",
+   "file_9x16": "assets/ireland/Dún Laoghaire/ie-01-021-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-022",
+   "country": "Ireland",
+   "region": "Dublin",
+   "city": "Dublin",
+   "folder": "Dublin",
+   "site": "Kilmainham Gaol",
+   "place": "Entrance court",
+   "caption": "Kilmainham Gaol",
+   "scenario_label": "2 October 2026 · 05:50 Europe/Dublin",
+   "composition": "Night, before sunrise · the entrance court and granite doorway of Kilmainham Gaol · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the Kilmainham Gaol entrance court in Dublin, the granite arched doorway and limestone wings, before sunrise under a clear sky",
+   "description": "From the entrance court the view looks at the granite front of Kilmainham Gaol, a rusticated facade with a round-arched doorway and a carved panel in the tympanum. Limestone wings with barred windows enclose the court, and iron railings stand on a granite plinth. The Victorian east-wing hall is not in this exterior frame. It is before sunrise, about 14.3°C, under a clear sky.",
+   "viewpoint": "Public side of the entrance court on Inchicore Road, looking at the arched doorway. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.kilmainhamgaolmuseum.ie/the-building/",
+    "https://www.buildingsofireland.ie/buildings-search/building/50080046/kilmainham-gaol-inchicore-road-kilmainham-dublin-8-co-dublin"
+   ],
+   "anchors": [
+    "The entrance court is enclosed by the granite entrance block and later limestone wings",
+    "A round-arched doorway has rusticated stone and a carved panel in the tympanum",
+    "The Victorian East Wing interior, the panopticon hall, is not in this exterior frame"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 05:50 scenario is about 98 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 75.0° (east-northeast) and elevation -15.2°. The sky is clear, cloud cover 4%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Dublin/ie-01-022-16x9.png",
+   "file_4x5": "assets/ireland/Dublin/ie-01-022-4x5.png",
+   "file_9x16": "assets/ireland/Dublin/ie-01-022-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-023",
+   "country": "Ireland",
+   "region": "Cork",
+   "city": "Cork",
+   "folder": "Cork",
+   "site": "St Fin Barre's Cathedral",
+   "place": "West front",
+   "caption": "St Fin Barre's Cathedral",
+   "scenario_label": "2 October 2026 · 05:50 Europe/Dublin",
+   "composition": "Night, before sunrise · the west front and three spires of St Fin Barre's Cathedral · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the west front of St Fin Barre's Cathedral in Cork, three limestone spires and a rose window, before sunrise under an overcast sky",
+   "description": "From the west the view looks at St Fin Barre's Cathedral, a Cork-limestone Gothic Revival church with three spires, three pointed portals, and a rose window. Two spires rise on the west front and the third stands over the crossing. It is before sunrise, about 14.4°C, under an overcast sky.",
+   "viewpoint": "Public ground west of the cathedral, looking at the west front. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.stfinbarres.ie/present-cathedral/",
+    "https://www.corkcity.ie/en/cork-heritage-open-day/buildings/sacred-spaces/st-fin-barres-cathedral/"
+   ],
+   "anchors": [
+    "Three limestone spires: two on the west front and one over the crossing",
+    "The west front has three pointed portals and a rose window",
+    "William Burges's French Gothic Revival cathedral, in Cork limestone, above the south channel of the Lee"
+   ],
+   "solar": "Night. Model sunrise 07:36 and sunset 19:09 Europe/Dublin on 2 October 2026. The 05:50 scenario is about 106 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 73.6° (east-northeast) and elevation -16.9°. The sky is overcast, cloud cover 100%. The 07:36 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Cork/ie-01-023-16x9.png",
+   "file_4x5": "assets/ireland/Cork/ie-01-023-4x5.png",
+   "file_9x16": "assets/ireland/Cork/ie-01-023-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-024",
+   "country": "Ireland",
+   "region": "Cork",
+   "city": "Cork",
+   "folder": "Cork",
+   "site": "The English Market",
+   "place": "Princes Street hall",
+   "caption": "The English Market, Cork",
+   "scenario_label": "2 October 2026 · 05:50 Europe/Dublin",
+   "composition": "Night, before sunrise · the closed Victorian hall of the English Market, fountain in the aisle · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the English Market interior in Cork, a closed Victorian hall with a cast-iron fountain under a glass roof, before sunrise",
+   "description": "Inside the English Market the view looks along the closed hall, a Victorian covered market with cast-iron columns, a gallery, and a glass roof. A cast-iron fountain stands in the central aisle. The stalls are shuttered and carry no readable names. Through the glass the sky is still dark. It is before sunrise, about 14.4°C, and the sky over Cork is overcast.",
+   "viewpoint": "Inside the Princes Street hall, looking along the central aisle toward the fountain. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.corkcity.ie/en/english-market/history/the-history-of-the-english-market/",
+    "https://en.wikipedia.org/wiki/Princes_Street_Market_(Cork)"
+   ],
+   "anchors": [
+    "A covered Victorian market hall with cast-iron columns, a gallery, and a glass roof",
+    "A cast-iron fountain stands in the central aisle",
+    "Stall names are omitted; the Grand Parade street front is not this interior"
+   ],
+   "solar": "Night. Model sunrise 07:36 and sunset 19:09 Europe/Dublin on 2 October 2026. The 05:50 scenario is about 106 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 73.6° (east-northeast) and elevation -16.9°. The sky is overcast, cloud cover 100%. The 07:36 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "urban",
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Cork/ie-01-024-16x9.png",
+   "file_4x5": "assets/ireland/Cork/ie-01-024-4x5.png",
+   "file_9x16": "assets/ireland/Cork/ie-01-024-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
    "entry_id": "IE-01-025",
    "country": "Ireland",
    "region": "Cork",
@@ -783,6 +1013,122 @@
    "license_anchor": "#license"
   },
   {
+   "entry_id": "IE-01-027",
+   "country": "Ireland",
+   "region": "Cork",
+   "city": "Goleen",
+   "folder": "Goleen",
+   "site": "Mizen Head",
+   "place": "Signal station",
+   "caption": "Mizen Head, Goleen",
+   "scenario_label": "2 October 2026 · 06:04 Europe/Dublin",
+   "composition": "Night, before sunrise · the concrete arch to the Mizen Head signal station · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the concrete arch bridge to the white signal station at Mizen Head, Goleen, above a dark sea chasm, before sunrise",
+   "description": "From the clifftop path the view looks along a single concrete arch to the signal station on the rock beyond. The station is a low white building with a dark roof, not the Fastnet tower. The Atlantic sits in the chasm under the arch. It is before sunrise, about 14.8°C, under an overcast sky.",
+   "viewpoint": "On the clifftop path at Mizen Head, looking across the arched bridge toward the signal station. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://mizenhead.ie/",
+    "https://en.wikipedia.org/wiki/Mizen_Head"
+   ],
+   "anchors": [
+    "A single concrete arch carries the path across the chasm at Mizen Head",
+    "The signal station is the low white building on the far rock",
+    "The Fastnet lighthouse, offshore, is not this building"
+   ],
+   "solar": "Night. Model sunrise 07:41 and sunset 19:14 Europe/Dublin on 2 October 2026. The 06:04 scenario is about 97 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 75.5° (east-northeast) and elevation -15.8°. The sky is overcast, cloud cover 100%. The 07:41 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Goleen/ie-01-027-16x9.png",
+   "file_4x5": "assets/ireland/Goleen/ie-01-027-4x5.png",
+   "file_9x16": "assets/ireland/Goleen/ie-01-027-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-028",
+   "country": "Ireland",
+   "region": "Galway",
+   "city": "Galway",
+   "folder": "Galway",
+   "site": "Eyre Square",
+   "place": "Browne Doorway",
+   "caption": "Eyre Square, Galway",
+   "scenario_label": "2 October 2026 · 06:04 Europe/Dublin",
+   "composition": "Night, before sunrise · the freestanding Browne Doorway and its oriel in Eyre Square · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the Browne Doorway in Eyre Square, Galway, a freestanding limestone arch with an oriel window above it, before sunrise",
+   "description": "From the square the view looks at the Browne Doorway, a freestanding limestone screen. A round-arched door sits between columns, and a projecting oriel window stands directly above it. Carved arms are on the stone. The Latin line and the date are not rendered as readable text. The hooker fountain is not in this frame. It is before sunrise, about 13.1°C, under an overcast sky.",
+   "viewpoint": "Public ground at the north side of Eyre Square, looking at the Browne Doorway. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.visitgalway.ie/explore/heritage-and-history/statues-monuments-memorials/the-browne-doorway/",
+    "https://en.wikipedia.org/wiki/Eyre_Square"
+   ],
+   "anchors": [
+    "The Browne Doorway is a freestanding limestone doorway and oriel, re-erected in Eyre Square in 1905",
+    "The lower part is a round arch between columns; the upper part is the oriel window",
+    "It is not still attached to the house on Lower Abbeygate Street, and it is not the fountain"
+   ],
+   "solar": "Night. Model sunrise 07:39 and sunset 19:10 Europe/Dublin on 2 October 2026. The 06:04 scenario is about 95 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 75.6° (east-northeast) and elevation -14.9°. The sky is overcast, cloud cover 100%. The 07:39 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "urban",
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Galway/ie-01-028-16x9.png",
+   "file_4x5": "assets/ireland/Galway/ie-01-028-4x5.png",
+   "file_9x16": "assets/ireland/Galway/ie-01-028-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-029",
+   "country": "Ireland",
+   "region": "Galway",
+   "city": "Galway",
+   "folder": "Galway",
+   "site": "Galway Cathedral",
+   "place": "River Corrib",
+   "caption": "Galway Cathedral",
+   "scenario_label": "2 October 2026 · 06:04 Europe/Dublin",
+   "composition": "Night, before sunrise · the green copper dome of Galway Cathedral above the River Corrib · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Galway Cathedral's green copper dome above the River Corrib, a limestone church with one dome, before sunrise",
+   "description": "From the riverbank the view looks across the Corrib at Galway Cathedral. The church is grey limestone with one large green copper dome. A rose window faces the water. It is not a Gothic church and it has no spire. The cathedral stands on the west bank beside the Salmon Weir. It is before sunrise, about 13.6°C, under an overcast sky.",
+   "viewpoint": "Public bank of the River Corrib by the Salmon Weir, looking toward the cathedral dome. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.galwaycathedral.ie/",
+    "https://en.wikipedia.org/wiki/Cathedral_of_Our_Lady_Assumed_into_Heaven_and_St_Nicholas,_Galway"
+   ],
+   "anchors": [
+    "Galway Cathedral is the limestone church on the west bank of the Corrib, opened in 1965",
+    "One copper dome, gone green, rises over the roof",
+    "The view is across the river, not an interior and not a Gothic spire"
+   ],
+   "solar": "Night. Model sunrise 07:39 and sunset 19:10 Europe/Dublin on 2 October 2026. The 06:04 scenario is about 95 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 75.6° (east-northeast) and elevation -14.9°. The sky is overcast, cloud cover 100%. The 07:39 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Galway/ie-01-029-16x9.png",
+   "file_4x5": "assets/ireland/Galway/ie-01-029-4x5.png",
+   "file_9x16": "assets/ireland/Galway/ie-01-029-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
    "entry_id": "IE-01-030",
    "country": "Ireland",
    "region": "Galway",
@@ -854,6 +1200,82 @@
    "file_16x9": "assets/ireland/Kilronan/ie-01-031-16x9.png",
    "file_4x5": "assets/ireland/Kilronan/ie-01-031-4x5.png",
    "file_9x16": "assets/ireland/Kilronan/ie-01-031-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-032",
+   "country": "Ireland",
+   "region": "Kerry",
+   "city": "Killarney",
+   "folder": "Killarney",
+   "site": "Muckross House",
+   "place": "Muckross demesne",
+   "caption": "Muckross House, Killarney",
+   "scenario_label": "2 October 2026 · 06:18 Europe/Dublin",
+   "composition": "Night, before sunrise · the limestone front of Muckross House and its lawn · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Muckross House in Killarney, the Elizabethan-revival limestone mansion on its lawn, before sunrise",
+   "description": "From the lawn the view looks at Muckross House, a limestone mansion in the Elizabethan revival, with mullioned windows, steep gables, clustered chimneys, and a porte-cochère. Trees stand at the edge of the grass. The lake is not the subject of this frame. It is before sunrise, about 14.8°C, under an overcast sky.",
+   "viewpoint": "Public lawn in front of Muckross House, looking at the limestone entrance front. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.muckross-house.ie/",
+    "https://en.wikipedia.org/wiki/Muckross_House"
+   ],
+   "anchors": [
+    "Muckross House is the Elizabethan-revival limestone mansion of 1843 in Killarney National Park",
+    "The entrance front has mullioned windows, gables, clustered chimneys, and a porte-cochère",
+    "The house stands on a lawn in the demesne beside Muckross Lake"
+   ],
+   "solar": "Night. Model sunrise 07:40 and sunset 19:13 Europe/Dublin on 2 October 2026. The 06:18 scenario is about 82 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 78.5° (east-northeast) and elevation -13.4°. The sky is overcast, cloud cover 93%. The 07:40 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Killarney/ie-01-032-16x9.png",
+   "file_4x5": "assets/ireland/Killarney/ie-01-032-4x5.png",
+   "file_9x16": "assets/ireland/Killarney/ie-01-032-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-033",
+   "country": "Ireland",
+   "region": "Kerry",
+   "city": "Killarney",
+   "folder": "Killarney",
+   "site": "Ross Castle",
+   "place": "Lough Leane",
+   "caption": "Ross Castle",
+   "scenario_label": "2 October 2026 · 06:18 Europe/Dublin",
+   "composition": "Night, before sunrise · the tower house of Ross Castle on Lough Leane · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Ross Castle on Lough Leane, a stone tower house at the water, before sunrise",
+   "description": "From the shore the view looks at Ross Castle, a square stone keep with bartizans on the lakeward corners and a lower stone range beside it, standing at the edge of Lough Leane. The water is dark and the mountains are only a faint line. It is before sunrise, about 14.8°C, under an overcast sky.",
+   "viewpoint": "Public ground on the shore of Lough Leane, looking at the keep of Ross Castle. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/places-to-visit/ross-castle/",
+    "https://en.wikipedia.org/wiki/Ross_Castle"
+   ],
+   "anchors": [
+    "Ross Castle is the O'Donoghue tower house on the shore of Lough Leane",
+    "The keep is a square stone tower with bartizans on the lakeward corners",
+    "A lower stone range stands against the keep at the water"
+   ],
+   "solar": "Night. Model sunrise 07:40 and sunset 19:13 Europe/Dublin on 2 October 2026. The 06:18 scenario is about 82 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 78.5° (east-northeast) and elevation -13.4°. The sky is overcast, cloud cover 98%. The 07:40 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Killarney/ie-01-033-16x9.png",
+   "file_4x5": "assets/ireland/Killarney/ie-01-033-4x5.png",
+   "file_9x16": "assets/ireland/Killarney/ie-01-033-9x16.png",
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
@@ -1013,6 +1435,199 @@
    "license_anchor": "#license"
   },
   {
+   "entry_id": "IE-01-038",
+   "country": "Ireland",
+   "region": "Kilkenny",
+   "city": "Kilkenny city",
+   "folder": "Kilkenny city",
+   "site": "St Canice's Cathedral",
+   "place": "Church Lane",
+   "caption": "St Canice's Cathedral, Kilkenny city",
+   "scenario_label": "2 October 2026 · 06:33 Europe/Dublin",
+   "composition": "Night, before sunrise · the Gothic cathedral and the flat-topped round tower · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of St Canice's Cathedral in Kilkenny, a Gothic church with a round tower beside the south transept, before sunrise",
+   "description": "From the churchyard the view looks at St Canice's Cathedral, a cruciform Early English church of limestone with a low central tower and battlemented walls. Beside the south transept stands the round tower, a tapering stone cylinder with a flat open top and a doorway raised above the ground. It is before sunrise, about 13.3°C, under a partly cloudy sky.",
+   "viewpoint": "Public ground in the cathedral churchyard, looking toward the south transept and the round tower. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.stcanicescathedral.ie/kilkenny-round-tower/",
+    "https://en.wikipedia.org/wiki/St._Canice%27s_Cathedral"
+   ],
+   "anchors": [
+    "St Canice's is a cruciform Gothic cathedral of limestone with a low central tower",
+    "The round tower stands beside the south transept",
+    "The round tower has a flat open summit, not a conical cap, and its doorway is raised above the ground"
+   ],
+   "solar": "Night. Model sunrise 07:31 and sunset 19:03 Europe/Dublin on 2 October 2026. The 06:33 scenario is about 58 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 83.2° (east) and elevation -9.7°. The sky is partly cloudy, cloud cover 75%. The 07:31 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Kilkenny city/ie-01-038-16x9.png",
+   "file_4x5": "assets/ireland/Kilkenny city/ie-01-038-4x5.png",
+   "file_9x16": "assets/ireland/Kilkenny city/ie-01-038-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-039",
+   "country": "Ireland",
+   "region": "Wexford",
+   "city": "Fethard-on-Sea",
+   "folder": "Fethard-on-Sea",
+   "site": "Hook Lighthouse",
+   "place": "Hook Head",
+   "caption": "Hook Head",
+   "scenario_label": "2 October 2026 · 06:33 Europe/Dublin",
+   "composition": "Night, before sunrise · the white tower with two black bands on Hook Head · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Hook Lighthouse on Hook Head, a white medieval tower with two black bands, before sunrise",
+   "description": "From the headland the view looks at Hook Lighthouse, a broad medieval cylindrical tower painted white with two black bands. A lantern and gallery finish the top. The sea meets the rocks of Hook Head beside the tower. Fethard-on-Sea is the nearby town and is not in this frame. It is before sunrise, about 15.4°C, under an overcast sky.",
+   "viewpoint": "Public ground on Hook Head, looking at the lighthouse. Fethard-on-Sea is the nearby town and is not in this frame. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Hook_Lighthouse",
+    "https://www.irishlights.ie/safety-navigation/our-lighthouses/hook-head.aspx"
+   ],
+   "anchors": [
+    "Hook Lighthouse is the medieval tower on Hook Head",
+    "The shaft is a broad cylinder, white with two black bands",
+    "A lantern and gallery stand at the top, with the sea at the point"
+   ],
+   "solar": "Night. Model sunrise 07:30 and sunset 19:02 Europe/Dublin on 2 October 2026. The 06:33 scenario is about 57 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 83.5° (east) and elevation -9.5°. The sky is overcast, cloud cover 100%. The 07:30 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal",
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Fethard-on-Sea/ie-01-039-16x9.png",
+   "file_4x5": "assets/ireland/Fethard-on-Sea/ie-01-039-4x5.png",
+   "file_9x16": "assets/ireland/Fethard-on-Sea/ie-01-039-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-040",
+   "country": "Ireland",
+   "region": "Wexford",
+   "city": "Wexford town",
+   "folder": "Wexford town",
+   "site": "Irish National Heritage Park",
+   "place": "Ferrycarrig",
+   "caption": "Irish National Heritage Park",
+   "scenario_label": "2 October 2026 · 06:33 Europe/Dublin",
+   "composition": "Night, before sunrise · the reconstructed crannog and ringfort at Ferrycarrig · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the Irish National Heritage Park at Ferrycarrig, a thatched crannog in the water and a ringfort on the bank, in light rain before sunrise",
+   "description": "From the bank the view looks at two reconstructions at the Irish National Heritage Park. A crannog, a thatched roundhouse on timber posts, stands in the water and is reached by a short walkway. Beside it a ringfort, a circular earthen bank, encloses another thatched roundhouse. The park is at Ferrycarrig, outside Wexford town, and the town is not in this frame. It is before sunrise, about 14.8°C, with slight rain under full cloud cover.",
+   "viewpoint": "Public ground at the Irish National Heritage Park, Ferrycarrig, looking across the reconstructions toward the water. Wexford town is nearby and is not in this frame. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://irishheritage.ie/the-park/",
+    "https://irishheritage.ie/the-park/about-the-park/"
+   ],
+   "anchors": [
+    "The crannog is a thatched roundhouse raised on posts in the water, with a timber walkway",
+    "The ringfort is a circular earthen bank enclosing a thatched roundhouse",
+    "Both are reconstructions at Ferrycarrig, not ancient masonry"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 19:00 Europe/Dublin on 2 October 2026. The 06:33 scenario is about 55 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 83.8° (east) and elevation -9.3°. The sky has slight rain, cloud cover 100%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Wexford town/ie-01-040-16x9.png",
+   "file_4x5": "assets/ireland/Wexford town/ie-01-040-4x5.png",
+   "file_9x16": "assets/ireland/Wexford town/ie-01-040-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-041",
+   "country": "Ireland",
+   "region": "Waterford",
+   "city": "Waterford city",
+   "folder": "Waterford city",
+   "site": "Reginald's Tower",
+   "place": "The Quay",
+   "caption": "Reginald's Tower",
+   "scenario_label": "2 October 2026 · 06:45 Europe/Dublin",
+   "composition": "Night, before sunrise · the round stone tower on the Waterford quay beside the Suir · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Reginald's Tower, a round medieval stone tower with a conical roof on the Waterford quay, the River Suir beside it, before sunrise under cloud",
+   "description": "From the quay the view looks at Reginald's Tower, a circular medieval stone tower with thick limestone walls and a conical roof. It stands at the eastern end of the quay, where a short length of the old city wall meets the tower, and the River Suir runs wide beside it. The standing masonry is the medieval tower. The earlier Viking fort on this site is not the stone in the frame. It is before sunrise, about 14.9°C, under an overcast sky.",
+   "viewpoint": "Public quay at the eastern end of Waterford's quays, looking at the round tower and the River Suir. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/places-to-visit/reginalds-tower/",
+    "https://en.wikipedia.org/wiki/Reginald%27s_Tower"
+   ],
+   "anchors": [
+    "A circular stone tower with a conical roof stands at the eastern end of the quay",
+    "The River Suir runs beside the tower, and a short length of the old city wall meets it",
+    "The standing tower is medieval stone on a Viking-era site; the frame is not a wooden fort"
+   ],
+   "solar": "Night. Model sunrise 07:31 and sunset 19:03 Europe/Dublin on 2 October 2026. The 06:45 scenario is about 46 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 85.8° (east) and elevation -7.7°. The sky is overcast, cloud cover 100%. The 07:31 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Waterford city/ie-01-041-16x9.png",
+   "file_4x5": "assets/ireland/Waterford city/ie-01-041-4x5.png",
+   "file_9x16": "assets/ireland/Waterford city/ie-01-041-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-042",
+   "country": "Ireland",
+   "region": "Wicklow",
+   "city": "Roundwood",
+   "folder": "Roundwood",
+   "site": "Lough Tay (Guinness Lake)",
+   "place": "Lough Tay",
+   "caption": "Lough Tay",
+   "scenario_label": "2 October 2026 · 06:45 Europe/Dublin",
+   "composition": "Night, before sunrise · the dark lake and white northern beach beneath Djouce · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Lough Tay, a dark lake with a white sand crescent and Djouce rising beyond it, seen from the mountain road before sunrise",
+   "description": "From the mountain road the view looks across Lough Tay. The water is dark and peaty. A crescent of white sand lines the far northern shore, and the broad shoulder of Djouce rises beyond it. A steep mountainside closes the other side of the valley. The shore is private, so this frame is the public view from the road and not a path down to the beach. Roundwood is the nearby town and is not in this frame. It is before sunrise, about 11.5°C, under an overcast sky.",
+   "viewpoint": "Public pull-in on the R759 above Lough Tay, near the Wicklow Way, looking across the lake toward the white beach and Djouce. The shore is private and is not the standing point. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://visitwicklow.ie/listing/lough-tay-guinness-lake/",
+    "https://en.wikipedia.org/wiki/Lough_Tay"
+   ],
+   "anchors": [
+    "Lough Tay is a dark peaty lake between Djouce and the cliffs of Luggala",
+    "A white sand crescent lines the northern shore",
+    "The public view is from the road above; the shore itself is private"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:59 Europe/Dublin on 2 October 2026. The 06:45 scenario is about 43 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 86.4° (east) and elevation -7.1°. The sky is overcast, cloud cover 99%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "mountain"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Roundwood/ie-01-042-16x9.png",
+   "file_4x5": "assets/ireland/Roundwood/ie-01-042-4x5.png",
+   "file_9x16": "assets/ireland/Roundwood/ie-01-042-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
    "entry_id": "IE-01-043",
    "country": "Ireland",
    "region": "Mayo",
@@ -1052,6 +1667,45 @@
    "license_anchor": "#license"
   },
   {
+   "entry_id": "IE-01-044",
+   "country": "Ireland",
+   "region": "Mayo",
+   "city": "Keel (Achill Island)",
+   "folder": "Keel (Achill Island)",
+   "site": "Keem Bay",
+   "place": "Keem Strand",
+   "caption": "Keem Strand",
+   "scenario_label": "2 October 2026 · 06:45 Europe/Dublin",
+   "composition": "Night, before sunrise · the horseshoe strand beneath the slopes of Croaghaun · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Keem Bay, a horseshoe beach beneath the slopes of Croaghaun on Achill Island, in slight rain before sunrise",
+   "description": "From the sand the view looks into Keem Bay, a horseshoe of steep slopes at the west end of Achill. The slopes of Croaghaun close the cove. Pale sand curves around grey-green water, and a small stream crosses the beach. Keel village is not in this frame. It is before sunrise, about 14.4°C, with slight rain under full cloud cover.",
+   "viewpoint": "Public sand at the back of Keem Strand, looking into the horseshoe. Keel village is not in this frame. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Keem_Bay",
+    "https://en.wikipedia.org/wiki/Achill_Island"
+   ],
+   "anchors": [
+    "Keem is a horseshoe beach at the west end of Achill Island",
+    "The slopes of Croaghaun enclose the cove",
+    "A small stream crosses the pale sand"
+   ],
+   "solar": "Night. Model sunrise 07:44 and sunset 19:14 Europe/Dublin on 2 October 2026. The 06:45 scenario is about 59 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 83.1° (east) and elevation -9.4°. The sky has slight rain, cloud cover 100%. The 07:44 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal",
+    "mountain"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Keel (Achill Island)/ie-01-044-16x9.png",
+   "file_4x5": "assets/ireland/Keel (Achill Island)/ie-01-044-4x5.png",
+   "file_9x16": "assets/ireland/Keel (Achill Island)/ie-01-044-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
    "entry_id": "IE-01-045",
    "country": "Ireland",
    "region": "Donegal",
@@ -1086,6 +1740,44 @@
    "file_16x9": "assets/ireland/Teelin/ie-01-045-16x9.png",
    "file_4x5": "assets/ireland/Teelin/ie-01-045-4x5.png",
    "file_9x16": "assets/ireland/Teelin/ie-01-045-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-046",
+   "country": "Ireland",
+   "region": "Donegal",
+   "city": "Glenveagh",
+   "folder": "Glenveagh",
+   "site": "Glenveagh Castle",
+   "place": "Castle gardens",
+   "caption": "Glenveagh Castle",
+   "scenario_label": "2 October 2026 · 06:56 Europe/Dublin",
+   "composition": "Night, before sunrise · the granite castle and gardens beside Lough Veagh · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Glenveagh Castle, a grey granite castellated mansion beside Lough Veagh, with garden lawns in front and the glen behind, before sunrise under cloud",
+   "description": "From the garden path the view looks at Glenveagh Castle, a castellated mansion of grey granite beside Lough Veagh. The four-storey keep has stepped battlements and a round corner turret, and a lower wing with pointed windows sits against it. Lawn and shrubs fill the pleasure grounds in front of the walls, and the glen hills rise behind the lake. It is a nineteenth-century house in the national park, not a ruined medieval fortress. It is before sunrise, about 12.7°C, under an overcast sky.",
+   "viewpoint": "Public path in the castle gardens, looking toward the granite castle, with Lough Veagh and the glen behind it. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://en.wikipedia.org/wiki/Glenveagh_Castle",
+    "https://www.nationalparks.ie/glenveagh/things-to-do/"
+   ],
+   "anchors": [
+    "A four-storey granite keep with stepped battlements and a round corner turret stands beside Lough Veagh",
+    "A lower wing with pointed windows adjoins the keep, and the pleasure-ground planting is in front of the walls",
+    "This is a nineteenth-century castellated mansion in the national park, not a ruined medieval fortress"
+   ],
+   "solar": "Night. Model sunrise 07:36 and sunset 19:05 Europe/Dublin on 2 October 2026. The 06:56 scenario is about 40 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 87.0° (east) and elevation -6.4°. The sky is overcast, cloud cover 100%. The 07:36 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Glenveagh/ie-01-046-16x9.png",
+   "file_4x5": "assets/ireland/Glenveagh/ie-01-046-4x5.png",
+   "file_9x16": "assets/ireland/Glenveagh/ie-01-046-9x16.png",
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
@@ -1206,6 +1898,198 @@
    "license_anchor": "#license"
   },
   {
+   "entry_id": "IE-01-050",
+   "country": "Ireland",
+   "region": "Meath",
+   "city": "Trim",
+   "folder": "Trim",
+   "site": "Trim Castle",
+   "place": "River Boyne",
+   "caption": "Trim Castle",
+   "scenario_label": "2 October 2026 · 06:56 Europe/Dublin",
+   "composition": "Night, before sunrise · the cruciform keep on the Boyne · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Trim Castle on the River Boyne, the pale limestone cruciform keep and a stretch of curtain wall, before sunrise under cloud",
+   "description": "From the meadow on the south bank the view looks at Trim Castle. The keep is a large pale-limestone tower of cruciform plan, a central block with a rectangular projection on each face, three storeys high, with empty window openings. A curtain wall runs beside it, and the Boyne is in the foreground. The Yellow Steeple across the river is a separate ruin and is not in this frame. It is before sunrise, about 11.9°C, under an overcast sky.",
+   "viewpoint": "Public meadow on the south bank of the Boyne, looking at the cruciform keep. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/places-to-visit/trim-castle/",
+    "https://en.wikipedia.org/wiki/Trim_Castle"
+   ],
+   "anchors": [
+    "The keep is cruciform: a central block with a rectangular projection on each face",
+    "It stands on the south bank of the Boyne, with curtain wall beside it",
+    "The Yellow Steeple across the river is not this keep and is not in this frame"
+   ],
+   "solar": "Night. Model sunrise 07:30 and sunset 19:01 Europe/Dublin on 2 October 2026. The 06:56 scenario is about 34 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 88.2° (east) and elevation -5.8°. The sky is overcast, cloud cover 93%. The 07:30 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Trim/ie-01-050-16x9.png",
+   "file_4x5": "assets/ireland/Trim/ie-01-050-4x5.png",
+   "file_9x16": "assets/ireland/Trim/ie-01-050-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-051",
+   "country": "Ireland",
+   "region": "Louth",
+   "city": "Carlingford",
+   "folder": "Carlingford",
+   "site": "Carlingford Lough",
+   "place": "Harbour",
+   "caption": "Carlingford",
+   "scenario_label": "2 October 2026 · 07:08 Europe/Dublin",
+   "composition": "Night, before sunrise · the stone harbour and Slieve Foye on the lough · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Carlingford harbour, two stone piers and fishing boats on the lough, with Slieve Foye rising behind the town, before sunrise under broken cloud",
+   "description": "From the western quay the view looks along Carlingford harbour. Two limestone piers enclose the tidal basin, with fishing boats at the moorings and the lough opening beyond them. Slieve Foye rises immediately behind the town. The ridge across the water is the far shore, and a small ruined castle on the rock at the north end of the harbour is not the subject of this frame. It is before sunrise, about 12.3°C, under a partly cloudy sky.",
+   "viewpoint": "Public standing point on the western stone quay at Carlingford harbour, looking along the piers toward the lough, with Slieve Foye behind the town. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.buildingsofireland.ie/buildings-search/building/13825044/liberties-of-carlingford-carlingford-co-louth",
+    "https://en.wikipedia.org/wiki/Carlingford,_County_Louth"
+   ],
+   "anchors": [
+    "Two limestone piers enclose the tidal harbour, and the western pier is the quay",
+    "Slieve Foye rises immediately behind the town on the Cooley Peninsula",
+    "The ruined castle at the north end of the harbour is secondary; the subject is the harbour and the mountain backdrop"
+   ],
+   "solar": "Night. Model sunrise 07:28 and sunset 18:58 Europe/Dublin on 2 October 2026. The 07:08 scenario is about 19 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 91.1° (east) and elevation -3.6°. The sky is partly cloudy, cloud cover 66%. The 07:28 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal",
+    "mountain"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Carlingford/ie-01-051-16x9.png",
+   "file_4x5": "assets/ireland/Carlingford/ie-01-051-4x5.png",
+   "file_9x16": "assets/ireland/Carlingford/ie-01-051-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-052",
+   "country": "Ireland",
+   "region": "Offaly",
+   "city": "Shannonbridge",
+   "folder": "Shannonbridge",
+   "site": "Clonmacnoise",
+   "place": "Shannon bank",
+   "caption": "Clonmacnoise",
+   "scenario_label": "2 October 2026 · 07:09 Europe/Dublin",
+   "composition": "Night, before sunrise · the early monastic ruins above the Shannon · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Clonmacnoise, the round tower, roofless cathedral, and a high cross above the River Shannon, before sunrise under cloud",
+   "description": "From the graveyard the view looks across the monastic enclosure at Clonmacnoise. A round tower stands beside the long roofless cathedral, a ringed high cross is in the foreground, and a smaller church nearer the Shannon has a round tower attached to it. The river meadow lies beyond the walls. The outdoor crosses are replicas; the original high crosses are kept in the visitor centre and are not the stones in this frame. It is before sunrise, about 12.5°C, under an overcast sky.",
+   "viewpoint": "Public path inside the monastic enclosure, looking toward the round tower and cathedral, with the Shannon meadow beyond. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/places-to-visit/clonmacnoise-monastic-site/",
+    "https://en.wikipedia.org/wiki/Clonmacnoise"
+   ],
+   "anchors": [
+    "A round tower stands beside the roofless cathedral inside the enclosure above the Shannon",
+    "A smaller church nearer the river has a round tower attached to the building",
+    "The ringed cross in the graveyard is a replica; the original high crosses are in the visitor centre"
+   ],
+   "solar": "Night. Model sunrise 07:35 and sunset 19:06 Europe/Dublin on 2 October 2026. The 07:09 scenario is about 26 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 89.7° (east) and elevation -4.7°. The sky is overcast, cloud cover 96%. The 07:35 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Shannonbridge/ie-01-052-16x9.png",
+   "file_4x5": "assets/ireland/Shannonbridge/ie-01-052-4x5.png",
+   "file_9x16": "assets/ireland/Shannonbridge/ie-01-052-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-053",
+   "country": "Ireland",
+   "region": "Westmeath",
+   "city": "Athlone",
+   "folder": "Athlone",
+   "site": "Athlone Castle",
+   "place": "Shannon bridge",
+   "caption": "Athlone Castle",
+   "scenario_label": "2 October 2026 · 07:09 Europe/Dublin",
+   "composition": "Night, before sunrise · the polygonal keep above the Shannon bridge · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Athlone Castle, the polygonal limestone keep rising above the stone arches of the Shannon bridge, before sunrise under cloud",
+   "description": "From the quay the view looks at Athlone Castle. The freestanding polygonal limestone keep, with a machicolated parapet, stands inside a thick curtain wall with bastions. The multi-arch stone town bridge crosses the Shannon in front of the walls, so the keep reads above the bridge. It is before sunrise, about 12.6°C, under an overcast sky.",
+   "viewpoint": "Public quay beside the Shannon, looking toward the keep with the town bridge in the foreground. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.buildingsofireland.ie/buildings-search/building/15000352/athlone-castle-the-quay-athlone-and-bigmeadow-athlone-co-westmeath",
+    "https://en.wikipedia.org/wiki/Athlone_Castle"
+   ],
+   "anchors": [
+    "The keep is a freestanding polygonal stone tower inside a curtain wall with bastions",
+    "The multi-arch town bridge crosses the Shannon in front of the castle",
+    "The machicolated parapet is the early-nineteenth-century remodelling; the keep is not a roofed house"
+   ],
+   "solar": "Night. Model sunrise 07:35 and sunset 19:06 Europe/Dublin on 2 October 2026. The 07:09 scenario is about 26 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 89.7° (east) and elevation -4.6°. The sky is overcast, cloud cover 99%. The 07:35 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic",
+    "urban"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Athlone/ie-01-053-16x9.png",
+   "file_4x5": "assets/ireland/Athlone/ie-01-053-4x5.png",
+   "file_9x16": "assets/ireland/Athlone/ie-01-053-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-054",
+   "country": "Ireland",
+   "region": "Laois",
+   "city": "Portlaoise",
+   "folder": "Portlaoise",
+   "site": "Rock of Dunamase",
+   "place": "Limestone outcrop",
+   "caption": "Dunamase",
+   "scenario_label": "2 October 2026 · 07:09 Europe/Dublin",
+   "composition": "Night, before sunrise · the castle ruin on the limestone outcrop · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the Rock of Dunamase, ruined curtain walls and a broken gatehouse on a limestone outcrop above the Laois plain, before sunrise under cloud",
+   "description": "From the pasture at the base the view looks up at the Rock of Dunamase. A grey limestone outcrop rises out of the flat ground, curtain walls climb the rock, a broken gatehouse stands partway up, and roofless walls crown the summit. It is before sunrise, about 12.2°C, under an overcast sky.",
+   "viewpoint": "Public approach in the field below the rock, looking up at the ruin. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://heritageireland.ie/unguided-sites/rock-of-dunamase/",
+    "https://laois.ie/heritage-and-conservation/laois-heritage-trail/rock-of-dunamase"
+   ],
+   "anchors": [
+    "The castle stands on a limestone outcrop that rises abruptly from the plain",
+    "A broken gatehouse and curtain walls climb the rock toward the summit",
+    "The walls on the summit are roofless; this is a ruin, not an inhabited castle"
+   ],
+   "solar": "Night. Model sunrise 07:31 and sunset 19:03 Europe/Dublin on 2 October 2026. The 07:09 scenario is about 22 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 90.3° (east) and elevation -4.2°. The sky is overcast, cloud cover 100%. The 07:31 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Portlaoise/ie-01-054-16x9.png",
+   "file_4x5": "assets/ireland/Portlaoise/ie-01-054-4x5.png",
+   "file_9x16": "assets/ireland/Portlaoise/ie-01-054-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
    "entry_id": "IE-01-055",
    "country": "Ireland",
    "region": "Leitrim",
@@ -1239,6 +2123,82 @@
    "file_16x9": "assets/ireland/Glencar/ie-01-055-16x9.png",
    "file_4x5": "assets/ireland/Glencar/ie-01-055-4x5.png",
    "file_9x16": "assets/ireland/Glencar/ie-01-055-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-056",
+   "country": "Ireland",
+   "region": "Donegal",
+   "city": "Leabgarrow",
+   "folder": "Leabgarrow",
+   "site": "Arranmore Island",
+   "place": "Rinrawros Point",
+   "caption": "Arranmore",
+   "scenario_label": "2 October 2026 · 07:22 Europe/Dublin",
+   "composition": "Night, before sunrise · cliff coast and the white lighthouse at Rinrawros Point · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of the white Arranmore lighthouse on the cliff coast at Rinrawros Point, before sunrise in dense drizzle",
+   "description": "From the cliff path the view looks toward the Arranmore lighthouse, a white cylindrical tower on the edge of the north-west cliffs, with the Atlantic below. The harbour at Leabgarrow is not in this frame. It is before sunrise, about 12.4°C, in dense drizzle.",
+   "viewpoint": "Public cliff path near Rinrawros Point, looking toward the lighthouse and the Atlantic. The catalogue pin is in the Leabgarrow area, not on this cliff. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.irishlights.ie/tourism/our-lighthouses/aranmore.aspx",
+    "https://en.wikipedia.org/wiki/Arranmore"
+   ],
+   "anchors": [
+    "A white cylindrical lighthouse tower stands on the cliff at Rinrawros Point, the north-west corner of Arranmore",
+    "The west and north coasts of the island are cliff, with the Atlantic below the light",
+    "Leabgarrow harbour and the ferry are not the subject of this frame"
+   ],
+   "solar": "Night. Model sunrise 07:38 and sunset 19:07 Europe/Dublin on 2 October 2026. The 07:22 scenario is about 16 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 91.8° (east) and elevation -3.0°. The sky is dense drizzle, cloud cover 100%. The 07:38 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "coastal"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Leabgarrow/ie-01-056-16x9.png",
+   "file_4x5": "assets/ireland/Leabgarrow/ie-01-056-4x5.png",
+   "file_9x16": "assets/ireland/Leabgarrow/ie-01-056-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-057",
+   "country": "Ireland",
+   "region": "Cork",
+   "city": "Ballingeary",
+   "folder": "Ballingeary",
+   "site": "Gougane Barra",
+   "place": "St Finbarr's Oratory",
+   "caption": "Gougane Barra",
+   "scenario_label": "2 October 2026 · 07:22 Europe/Dublin",
+   "composition": "Night, before sunrise · St Finbarr's Oratory on the lake island · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of St Finbarr's Oratory, a small limestone chapel on the island in Gougane Barra lake, before sunrise in light drizzle",
+   "description": "From the lake shore the view looks across the water to St Finbarr's Oratory on the small island. The oratory is a low gabled chapel of grey limestone, with a pitched roof, a stone cross on the gable, and a round-headed door. Steep wooded slopes close the valley. It is before sunrise, about 13.7°C, in light drizzle.",
+   "viewpoint": "Public shore of Gougane Barra lake, looking toward the oratory on the island. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.buildingsofireland.ie/buildings-search/building/20908001/st-finbarrs-oratory-derreennacusha-cork",
+    "https://en.wikipedia.org/wiki/Gougane_Barra"
+   ],
+   "anchors": [
+    "A small gabled limestone oratory stands on the island in Gougane Barra lake",
+    "The chapel has a pitched roof, a stone cross on the gable, and a round-headed doorway",
+    "The lake sits in a steep valley of the Shehy Mountains, and a short causeway reaches the island"
+   ],
+   "solar": "Night. Model sunrise 07:39 and sunset 19:12 Europe/Dublin on 2 October 2026. The 07:22 scenario is about 17 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 91.4° (east) and elevation -3.4°. The sky is light drizzle, cloud cover 100%. The 07:39 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Ballingeary/ie-01-057-16x9.png",
+   "file_4x5": "assets/ireland/Ballingeary/ie-01-057-4x5.png",
+   "file_9x16": "assets/ireland/Ballingeary/ie-01-057-9x16.png",
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
@@ -1278,6 +2238,44 @@
    "file_16x9": "assets/ireland/Kinvara/ie-01-058-16x9.png",
    "file_4x5": "assets/ireland/Kinvara/ie-01-058-4x5.png",
    "file_9x16": "assets/ireland/Kinvara/ie-01-058-9x16.png",
+   "motion": null,
+   "license_badge": "Free · no credit needed",
+   "license_anchor": "#license"
+  },
+  {
+   "entry_id": "IE-01-059",
+   "country": "Ireland",
+   "region": "Fingal",
+   "city": "Malahide",
+   "folder": "Malahide",
+   "site": "Malahide Castle",
+   "place": "walled garden",
+   "caption": "Malahide Castle",
+   "scenario_label": "2 October 2026 · 07:22 Europe/Dublin",
+   "composition": "Night, before sunrise · the battlemented castle and the walled garden · AI-generated artistic interpretation",
+   "alt_text": "AI-generated artistic interpretation of Malahide Castle, a battlemented stone front with round towers, and the wall of the walled garden, before sunrise",
+   "description": "From the demesne the view takes in Malahide Castle, a long battlemented stone front with a round tower at each end, and a high garden wall in front of it. A faint light is in the east, and the sun is still below the horizon. It is before sunrise, about 14.7°C, under a mainly clear sky.",
+   "viewpoint": "Public ground in the demesne, looking toward the castle front with the garden wall in the same view. A surveyed tripod mark was not pinned.",
+   "references": [
+    "https://www.buildingsofireland.ie/buildings-search/building/11344019/malahide-castle-fingal",
+    "https://en.wikipedia.org/wiki/Malahide_Castle"
+   ],
+   "anchors": [
+    "The castle front is battlemented stone, with a circular tower at each end",
+    "A high garden wall of the Talbot Botanic Gardens is in the same ground-level view",
+    "The Great Hall and the glasshouses are not the subject of this exterior frame"
+   ],
+   "solar": "Night. Model sunrise 07:27 and sunset 18:58 Europe/Dublin on 2 October 2026. The 07:22 scenario is about 5 minutes before sunrise, and model is_day is 0, so this scene is night. The sun is below the horizon, azimuth 93.8° (east) and elevation -1.5°. The sky is mainly clear, cloud cover 35%. The 07:27 sunrise window was not used; this scenario is the retrieval time. It is night, so a daylight aerial was not eligible. No aerial clip was produced in this run. Backfill: still masters ship now; the aerial clip is outstanding.",
+   "moods": [
+    "historic"
+   ],
+   "approval_status": "Candidate",
+   "format_16x9_approval_status": "Candidate",
+   "format_4x5_approval_status": "Candidate",
+   "format_9x16_approval_status": "Approved",
+   "file_16x9": "assets/ireland/Malahide/ie-01-059-16x9.png",
+   "file_4x5": "assets/ireland/Malahide/ie-01-059-4x5.png",
+   "file_9x16": "assets/ireland/Malahide/ie-01-059-9x16.png",
    "motion": null,
    "license_badge": "Free · no credit needed",
    "license_anchor": "#license"
