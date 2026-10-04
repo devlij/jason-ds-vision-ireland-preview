@@ -114,7 +114,7 @@
     }
     .preview { position: relative; }
     .fmt-tabs { display: flex; gap: 6px; padding: 0.75rem 1.05rem 0; line-height: 1.4; }
-    .day-row { padding: 0.5rem 1.05rem 0; }
+    .day-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 0.5rem 1.05rem 0; }
     .fmt-tab {
       background: rgba(18, 28, 21, 0.85); color: var(--text); border: 1px solid var(--line);
       border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; line-height: 1.2; cursor: pointer;
@@ -123,14 +123,23 @@
     .fmt-tab.is-active {
       background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 700;
     }
-    .day-row button.day-tab {
+    .fmt-tab:disabled, .fmt-tab.is-disabled { opacity: 0.4; cursor: default; }
+    .day-row button.day-tab,
+    .day-row button.night-tab {
       display: inline-block; background: #1c3324; color: var(--text);
       border-radius: 8px; padding: 0.4rem 0.7rem; font-size: 0.85rem; border: 1px solid var(--line);
       cursor: pointer;
     }
-    .day-row button.day-tab:hover { border-color: var(--accent); }
+    .day-row button.day-tab:hover,
+    .day-row button.night-tab:hover { border-color: var(--accent); }
     .day-row button.day-tab.is-active {
       background: #e8b23a; border-color: #e8b23a; color: #1a1405; font-weight: 700;
+    }
+    .day-row button.day-tab.pc-tab.is-active {
+      background: #1f6b4a; border-color: #1f6b4a; color: #f4fff8; font-weight: 700;
+    }
+    .day-row button.night-tab.is-active {
+      background: #c9d7ee; border-color: #c9d7ee; color: #101820; font-weight: 700;
     }
     .thumb {
       display: block; padding: 0.65rem 0.65rem 0; background: #0a120c; line-height: 0;
@@ -354,6 +363,73 @@
       return slash >= 0 ? path.slice(slash + 1) : path;
     }
 
+    function variantKey(fmt, mode) {
+      if (mode === "postcard") {
+        return fmt === "4x5" ? "data-src-45-pc" : fmt === "9x16" ? "data-src-916-pc" : "data-src-16-pc";
+      }
+      if (mode === "day") {
+        return fmt === "4x5" ? "data-src-45-day" : fmt === "9x16" ? "data-src-916-day" : "data-src-16-day";
+      }
+      return fmt === "4x5" ? "data-src-45" : fmt === "9x16" ? "data-src-916" : "data-src-16";
+    }
+    function ownSrc(img, fmt, mode) {
+      return (img && img.getAttribute(variantKey(fmt, mode))) || "";
+    }
+    function variantSrc(img, fmt, mode) {
+      const own = ownSrc(img, fmt, mode);
+      if (own) return own;
+      if (mode === "day") return ownSrc(img, fmt, "scene");
+      return "";
+    }
+    function cardMode(card) {
+      if (card.querySelector(".pc-tab.is-active")) return "postcard";
+      const day = card.querySelector(".day-tab:not(.pc-tab).is-active");
+      if (day && day.getAttribute("data-daynight") === "day") return "day";
+      return "scene";
+    }
+    function applyVariant(card, mode) {
+      const link = card.querySelector("a.thumb");
+      const img = link && link.querySelector("img");
+      let fmt = "16x9";
+      const active = card.querySelector(".fmt-tab.is-active");
+      if (active) fmt = active.getAttribute("data-format") || "16x9";
+      const t916 = card.querySelector('.fmt-tab[data-format="9x16"]');
+      if (t916 && img) {
+        const ok = !!ownSrc(img, "9x16", mode);
+        t916.disabled = !ok;
+        t916.classList.toggle("is-disabled", !ok);
+        if (!ok && t916.classList.contains("is-active")) {
+          const fallback = card.querySelector('.fmt-tab[data-format="16x9"]') || card.querySelector('.fmt-tab[data-format="4x5"]');
+          if (fallback) {
+            card.querySelectorAll(".fmt-tab").forEach((item) => {
+              const on = item === fallback;
+              item.classList.toggle("is-active", on);
+              item.setAttribute("aria-pressed", on ? "true" : "false");
+            });
+            fmt = fallback.getAttribute("data-format") || "16x9";
+          }
+        }
+      }
+      if (img && link) {
+        const next = variantSrc(img, fmt, mode);
+        if (next) { img.src = next; link.href = next; }
+        link.classList.toggle("tall", fmt === "4x5");
+        link.classList.toggle("tall916", fmt === "9x16");
+      }
+      card.querySelectorAll("a.download").forEach((a) => {
+        const f = a.getAttribute("data-dl");
+        const u = variantSrc(img, f, mode);
+        if (u) { a.href = u; a.hidden = false; a.setAttribute("download", fileName(u)); }
+        else a.hidden = true;
+      });
+      const sc = card.querySelector("p.scenario");
+      if (sc) {
+        if (mode === "postcard") sc.textContent = "Postcard collection";
+        else if (mode === "day") sc.textContent = "\u2600 Daylight variant \u00b7 derived from the night interpretation";
+        else sc.textContent = "Scenario: " + (sc.getAttribute("data-scenario") || "");
+      }
+    }
+
     function render() {
       const query = q.value.trim().toLowerCase();
       const reg = region.value;
@@ -379,35 +455,68 @@
         const card = document.createElement('article');
         card.className = 'card';
         card.id = s.entry_id;
-        const file16 = s.file_16x9;
-        const file45 = s.file_4x5 ? s.file_4x5 : null;
-        const file916 = (s.file_9x16 && s.format_9x16_approval_status === "Approved") ? s.file_9x16 : null;
+        const allow916 = s.format_9x16_approval_status === "Approved";
+        const file16 = s.file_16x9 || "";
+        const file45 = s.file_4x5 || "";
+        const file916 = (allow916 && s.file_9x16) ? s.file_9x16 : "";
+        const day16 = s.file_16x9_day || "";
+        const day45 = s.file_4x5_day || "";
+        const day916 = (allow916 && s.file_9x16_day) ? s.file_9x16_day : "";
+        const pc16 = s.file_16x9_postcard || "";
+        const pc45 = s.file_4x5_postcard || "";
+        const pc916 = (allow916 && s.file_9x16_postcard) ? s.file_9x16_postcard : "";
+        const hasPc = !!(pc16 || pc45 || pc916);
+        const hasNight = !!(file16 || file45);
         const motionSrc = s.motion || "";
+        const sceneHero = file16 || file45 || file916;
+        const hero = hasPc ? (pc16 || pc45 || pc916) : sceneHero;
+        const activeFmt = (file16 || pc16) ? "16x9" : ((file45 || pc45) ? "4x5" : "9x16");
+        const imgAttrs = (file16 ? ` data-src-16="${esc(file16)}"` : "")
+          + (file45 ? ` data-src-45="${esc(file45)}"` : "")
+          + (file916 ? ` data-src-916="${esc(file916)}"` : "")
+          + (day16 ? ` data-src-16-day="${esc(day16)}"` : "")
+          + (day45 ? ` data-src-45-day="${esc(day45)}"` : "")
+          + (day916 ? ` data-src-916-day="${esc(day916)}"` : "")
+          + (pc16 ? ` data-src-16-pc="${esc(pc16)}"` : "")
+          + (pc45 ? ` data-src-45-pc="${esc(pc45)}"` : "")
+          + (pc916 ? ` data-src-916-pc="${esc(pc916)}"` : "");
+        const show16 = !!(file16 || pc16);
+        const show45 = !!(file45 || pc45);
+        const show916 = !!(file916 || pc916);
+        const fmtTab = (fmt, label) => {
+          const on = fmt === activeFmt;
+          return `<button type="button" class="fmt-tab${on ? " is-active" : ""}" data-format="${fmt}" aria-pressed="${on ? "true" : "false"}">${label}</button>`;
+        };
+        const dl16 = (hasPc && pc16) ? pc16 : file16;
+        const dl45 = (hasPc && pc45) ? pc45 : file45;
+        const dl916 = (hasPc && pc916) ? pc916 : file916;
+        const dayBtn = (day16 || day45) ? `<button type="button" class="day-tab" data-daynight="night" aria-pressed="false" title="Toggle the daylight variant">\u2600 Daylight</button>` : "";
+        const pcBtn = hasPc ? `<button type="button" class="day-tab pc-tab is-active" data-postcard="on" aria-pressed="true" title="Postcard collection">\u{1F4E9} Postcard</button>` : "";
+        const nightBtn = (hasNight && (hasPc || day16 || day45)) ? `<button type="button" class="night-tab${hasPc ? "" : " is-active"}" data-night="on" aria-pressed="${hasPc ? "false" : "true"}" title="Show the nighttime view">\u{1F319} Night</button>` : "";
+        const variantRow = (nightBtn || dayBtn || pcBtn) ? `<div class="day-row">${nightBtn}${dayBtn}${pcBtn}</div>` : "";
+        const thumbClass = "thumb" + (activeFmt === "4x5" ? " tall" : "") + (activeFmt === "9x16" ? " tall916" : "");
         card.innerHTML = `
           <div class="preview">
-            <a class="thumb" href="${esc(file16)}" target="_blank" rel="noopener">
-              <img src="${esc(file16)}" alt="${esc(imageAlt(s))}" loading="lazy" data-src-16="${esc(file16)}"${file45 ? ` data-src-45="${esc(file45)}"` : ""}${file916 ? ` data-src-916="${esc(file916)}"` : ""} />
+            <a class="${thumbClass}" href="${esc(hero)}" target="_blank" rel="noopener">
+              <img src="${esc(hero)}" alt="${esc(imageAlt(s))}" loading="lazy"${imgAttrs} />
             </a>
           </div>
-          <div class="fmt-tabs" role="group" aria-label="Image size">
-              <button type="button" class="fmt-tab is-active" data-format="16x9" aria-pressed="true">16:9</button>
-              ${file45 ? `<button type="button" class="fmt-tab" data-format="4x5" aria-pressed="false">4:5</button>` : ""}
-              ${file916 ? `<button type="button" class="fmt-tab" data-format="9x16" aria-pressed="false">9:16</button>` : ""}
-            </div>
+          ${(show16 || show45 || show916) ? `<div class="fmt-tabs" role="group" aria-label="Image size">${show16 ? fmtTab("16x9", "16:9") : ""}${show45 ? fmtTab("4x5", "4:5") : ""}${show916 ? fmtTab("9x16", "9:16") : ""}</div>` : ""}
+          ${variantRow}
           <div class="card-body">
             <div class="status-row">
               <div class="entry-id">${esc(s.entry_id)}</div>
               <span class="status ${esc((s.approval_status || 'Candidate').toLowerCase())}">${esc(s.approval_status || 'Candidate')}</span>
             </div>
             <h3 class="caption">${esc(s.caption)}</h3>
-            <p class="scenario" data-scenario="${esc(s.scenario_label)}">Scenario: ${esc(s.scenario_label)}</p>
+            <p class="scenario" data-scenario="${esc(s.scenario_label)}">${hasPc ? "Postcard collection" : `Scenario: ${esc(s.scenario_label)}`}</p>
             <p class="composition">${esc(s.composition)}</p>
             ${s.description ? `<p class="detail">${esc(s.description)}</p>` : ""}
             <div class="actions">
               <a class="badge" href="${esc(s.license_anchor)}">${esc(s.license_badge)}</a>
-              <a class="download" data-dl="16x9" href="${esc(file16)}" download="${esc(fileName(file16))}">Download 16:9</a>
-              ${file45 ? `<a class="download" data-dl="4x5" href="${esc(file45)}" download="${esc(fileName(file45))}">Download 4:5</a>` : ""}
-              ${file916 ? `<a class="download" data-dl="9x16" href="${esc(file916)}" download="${esc(fileName(file916))}">Download 9:16</a>` : ""}
+              ${dl16 ? `<a class="download" data-dl="16x9" href="${esc(dl16)}" download="${esc(fileName(dl16))}">Download 16:9</a>` : ""}
+              ${dl45 ? `<a class="download" data-dl="4x5" href="${esc(dl45)}" download="${esc(fileName(dl45))}">Download 4:5</a>` : ""}
+              ${dl916 ? `<a class="download" data-dl="9x16" href="${esc(dl916)}" download="${esc(fileName(dl916))}">Download 9:16</a>` : ""}
               ${motionSrc ? `<button type="button" class="motion" data-src="${esc(motionSrc)}">Play motion</button>` : ""}
             </div>
           </div>`;
@@ -433,6 +542,39 @@
         if (player.paused) player.play(); else player.pause();
         return;
       }
+      const ntab = event.target.closest('.night-tab');
+      if (ntab) {
+        event.preventDefault();
+        const ncard = ntab.closest('.card');
+        if (!ncard) return;
+        ntab.classList.add('is-active');
+        ntab.setAttribute('aria-pressed', 'true');
+        const nsun = ncard.querySelector('.day-tab:not(.pc-tab)');
+        if (nsun) { nsun.classList.remove('is-active'); nsun.setAttribute('aria-pressed', 'false'); nsun.setAttribute('data-daynight', 'night'); }
+        const npc = ncard.querySelector('.pc-tab');
+        if (npc) { npc.classList.remove('is-active'); npc.setAttribute('aria-pressed', 'false'); npc.setAttribute('data-postcard', 'off'); }
+        applyVariant(ncard, 'scene');
+        return;
+      }
+      const ptab = event.target.closest('.pc-tab');
+      if (ptab) {
+        event.preventDefault();
+        const card = ptab.closest('.card');
+        if (!card) return;
+        const on = !ptab.classList.contains('is-active');
+        ptab.classList.toggle('is-active', on);
+        ptab.setAttribute('aria-pressed', on ? 'true' : 'false');
+        ptab.setAttribute('data-postcard', on ? 'on' : 'off');
+        if (on) { const pnt = card.querySelector('.night-tab'); if (pnt) { pnt.classList.remove('is-active'); pnt.setAttribute('aria-pressed', 'false'); } }
+        const sun = card.querySelector('.day-tab:not(.pc-tab)');
+        if (on && sun) {
+          sun.classList.remove('is-active');
+          sun.setAttribute('aria-pressed', 'false');
+          sun.setAttribute('data-daynight', 'night');
+        }
+        applyVariant(card, on ? 'postcard' : 'scene');
+        return;
+      }
       const dtab = event.target.closest('.day-tab');
       if (dtab) {
         event.preventDefault();
@@ -442,52 +584,28 @@
         dtab.classList.toggle('is-active', isDay);
         dtab.setAttribute('aria-pressed', isDay ? 'true' : 'false');
         dtab.setAttribute('data-daynight', isDay ? 'day' : 'night');
-        const ftab = dcard.querySelector('.fmt-tab.is-active');
-        const dfmt = ftab ? ftab.getAttribute('data-format') : '16x9';
-        const dlink = dcard.querySelector('a.thumb');
-        const dimg = dlink && dlink.querySelector('img');
-        if (dimg && dlink) {
-          const dkey = dfmt === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : dfmt === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
-          const dnext = dimg.getAttribute(dkey);
-          if (dnext) { dimg.src = dnext; dlink.href = dnext; }
+        const pcard = dcard.querySelector('.pc-tab');
+        if (isDay && pcard) {
+          pcard.classList.remove('is-active');
+          pcard.setAttribute('aria-pressed', 'false');
+          pcard.setAttribute('data-postcard', 'off');
         }
-        dcard.querySelectorAll('a.download').forEach((a) => {
-          const f = a.getAttribute('data-dl');
-          const dk = f === '4x5' ? (isDay ? 'data-src-45-day' : 'data-src-45') : f === '9x16' ? (isDay ? 'data-src-916-day' : 'data-src-916') : (isDay ? 'data-src-16-day' : 'data-src-16');
-          const u = dimg && dimg.getAttribute(dk);
-          if (u) a.href = u;
-        });
-        const sc = dcard.querySelector('p.scenario');
-        if (sc) sc.textContent = isDay ? '\u2600 Daylight variant \u00b7 derived from the night interpretation' : 'Scenario: ' + sc.getAttribute('data-scenario');
+        const dnt = dcard.querySelector('.night-tab');
+        if (dnt) { dnt.classList.remove('is-active'); dnt.setAttribute('aria-pressed', 'false'); }
+        applyVariant(dcard, isDay ? 'day' : 'scene');
         return;
       }
       const tab = event.target.closest('.fmt-tab');
-      if (!tab) return;
+      if (!tab || tab.disabled) return;
       event.preventDefault();
       const card = tab.closest('.card');
       if (!card) return;
-      const fmt = tab.getAttribute('data-format');
       card.querySelectorAll('.fmt-tab').forEach((item) => {
         const on = item === tab;
         item.classList.toggle('is-active', on);
         item.setAttribute('aria-pressed', on ? 'true' : 'false');
       });
-      const link = card.querySelector('a.thumb');
-      const img = link && link.querySelector('img');
-      if (!img || !link) return;
-      const dayOn = card.querySelector('.day-tab.is-active');
-      const useDay = dayOn && dayOn.getAttribute('data-daynight') === 'day';
-      const next = fmt === "4x5"
-        ? (useDay && img.getAttribute("data-src-45-day")) || img.getAttribute("data-src-45")
-        : fmt === "9x16"
-        ? (useDay && img.getAttribute("data-src-916-day")) || img.getAttribute("data-src-916")
-        : (useDay && img.getAttribute("data-src-16-day")) || img.getAttribute("data-src-16");
-      if (next) {
-        img.src = next;
-        link.href = next;
-      }
-      link.classList.toggle('tall', fmt === '4x5');
-      link.classList.toggle('tall916', fmt === '9x16');
+      applyVariant(card, cardMode(card));
     });
     q.addEventListener('input', render);
     region.addEventListener('change', render);
@@ -600,21 +718,32 @@
     var INTERVAL=4000;
     var lbFormat='16x9';
     var lbDay='night';
+    var lbPost='off';
     function visibleCards(){return Array.prototype.filter.call(document.querySelectorAll('.card'),function(c){return c.style.display!=='none';});}
     function show(i){
       items=visibleCards().map(function(c){
         var im=c.querySelector('a.thumb img');var t=c.querySelector('h3.caption');
         var src='';
         var daySrc='';
+        var pcSrc='';
         if(im){
-          if(lbDay==='day'){daySrc=(lbFormat==='4x5'?im.getAttribute('data-src-45-day'):lbFormat==='9x16'?im.getAttribute('data-src-916-day'):im.getAttribute('data-src-16-day'))||'';}
-          src=daySrc||(lbFormat==='4x5'?im.getAttribute('data-src-45'):lbFormat==='9x16'?im.getAttribute('data-src-916'):im.getAttribute('data-src-16'));
+          var nk=lbFormat==='4x5'?'data-src-45':lbFormat==='9x16'?'data-src-916':'data-src-16';
+          var dk=lbFormat==='4x5'?'data-src-45-day':lbFormat==='9x16'?'data-src-916-day':'data-src-16-day';
+          var pk=lbFormat==='4x5'?'data-src-45-pc':lbFormat==='9x16'?'data-src-916-pc':'data-src-16-pc';
+          pcSrc=(lbPost==='on')?(im.getAttribute(pk)||''):'';
+          if(pcSrc){src=pcSrc;}
+          else{
+            if(lbDay==='day'){daySrc=im.getAttribute(dk)||'';}
+            src=daySrc||im.getAttribute(nk);
+          }
         }
         if(!src){var a=c.querySelector('a.thumb');src=a?a.href:'';}
         var capT=t?t.textContent:'';
-        if(daySrc)capT=capT+' \u2014 \u2600 Daylight variant';
+        if(pcSrc)capT=capT+' \u2014 Postcard collection';
+        else if(daySrc)capT=capT+' \u2014 \u2600 Daylight variant';
         var altT=(im&&im.alt)?im.alt:capT;
-        if(daySrc)altT=altT+' \u2014 \u2600 Daylight variant';
+        if(pcSrc&&altT)altT=altT+' \u2014 Postcard collection';
+        else if(daySrc&&altT)altT=altT+' \u2014 \u2600 Daylight variant';
         return{src:src,cap:capT,alt:altT};
       }).filter(function(x){return x.src;});
       if(!items.length)return;
@@ -633,7 +762,7 @@
     function hide(){stopSlideshow();overlay.classList.remove('open');overlay.setAttribute('aria-hidden','true');document.body.style.overflow='';}
     document.addEventListener('click',function(e){
       var a=e.target.closest?e.target.closest('a.thumb'):null;
-      if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var dtab=card.querySelector('.day-tab.is-active');lbDay=(dtab&&dtab.getAttribute('data-daynight')==='day')?'day':'night';show(cards.indexOf(card));return;}
+      if(a){e.preventDefault();var cards=visibleCards();var card=a.closest('.card');var tab=card.querySelector('.fmt-tab.is-active');lbFormat=(tab&&tab.getAttribute('data-format')==='9x16')?'9x16':(tab&&tab.getAttribute('data-format')==='4x5')?'4x5':'16x9';var ptab=card.querySelector('.pc-tab.is-active');lbPost=ptab?'on':'off';var dtab=card.querySelector('.day-tab:not(.pc-tab).is-active');lbDay=(dtab&&dtab.getAttribute('data-daynight')==='day')?'day':'night';if(lbPost==='on')lbDay='night';show(cards.indexOf(card));return;}
       if(e.target===overlay||(e.target.closest&&e.target.closest('.lb-close')))hide();
       else if(e.target.closest&&e.target.closest('.lb-play'))togglePlay();
       else if(e.target.closest&&e.target.closest('.lb-prev'))nav(-1);
