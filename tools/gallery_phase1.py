@@ -41,6 +41,82 @@ def master_exists(rel: str | None) -> bool:
     return path.is_file()
 
 
+# Germany's night image is the base still. Ireland's published 16:9, 4:5, and
+# 9:16 masters stay those stills. A separate night capture uses these fields
+# and stays empty until that file is on disk. Genuine daylight, postcard, and
+# the 10-second 360 clip use Germany's own field names.
+NIGHT_KEYS = ("file_night_16x9", "file_night_4x5", "file_night_9x16")
+GENUINE_DAYLIGHT_KEYS = (
+    "file_genuine_daylight_16x9",
+    "file_genuine_daylight_4x5",
+    "file_genuine_daylight_9x16",
+)
+POSTCARD_KEYS = ("file_16x9_postcard", "file_4x5_postcard", "file_9x16_postcard")
+CLIP_360_KEY = "file_motion_10s_4x5"
+STILL_KEYS = ("file_16x9", "file_4x5", "file_9x16")
+_IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp"}
+_VIDEO_SUFFIXES = {".mp4", ".webm"}
+
+
+def _same_file(left: str | None, right: str | None) -> bool:
+    if not left or not right or not isinstance(left, str) or not isinstance(right, str):
+        return False
+    if left == right:
+        return True
+    try:
+        return (ROOT / left).resolve() == (ROOT / right).resolve()
+    except OSError:
+        return False
+
+
+def _variant_file(folder: Path, name: str) -> str | None:
+    rel = (folder / name).as_posix()
+    return rel if master_exists(rel) else None
+
+
+def discover_variants(scene: dict) -> None:
+    """Fill Germany's variant fields from sibling files. Never alias the published still."""
+    rel = scene.get("file_16x9")
+    if not isinstance(rel, str) or not rel.endswith("-16x9.png"):
+        return
+    path = Path(rel)
+    slug = path.name[: -len("-16x9.png")]
+    folder = path.parent
+    found = {
+        "file_night_16x9": _variant_file(folder, f"{slug}-night-16x9.png"),
+        "file_night_4x5": _variant_file(folder, f"{slug}-night-4x5.png"),
+        "file_night_9x16": _variant_file(folder, f"{slug}-night-9x16.png"),
+        "file_genuine_daylight_16x9": _variant_file(folder, f"{slug}-genuine-daylight-16x9.png"),
+        "file_genuine_daylight_4x5": _variant_file(folder, f"{slug}-genuine-daylight-4x5.png"),
+        "file_genuine_daylight_9x16": _variant_file(folder, f"{slug}-genuine-daylight-9x16.png"),
+        "file_16x9_postcard": _variant_file(folder, f"{slug}-postcard-16x9.png"),
+        "file_4x5_postcard": _variant_file(folder, f"{slug}-postcard-4x5.png"),
+        "file_9x16_postcard": _variant_file(folder, f"{slug}-postcard-9x16.png"),
+        CLIP_360_KEY: _variant_file(folder, f"{slug}-motion-10s-4x5.mp4"),
+    }
+    for key, candidate in found.items():
+        if scene.get(key) or not candidate:
+            continue
+        scene[key] = candidate
+
+
+def clear_absent_variant(scene: dict, key: str, *, video: bool = False) -> None:
+    """Drop a variant that is missing or is just the published still under another name."""
+    if key not in scene:
+        return
+    rel = scene.get(key)
+    if not isinstance(rel, str) or not rel:
+        scene[key] = None
+        return
+    suffix = Path(rel).suffix.lower()
+    allowed = _VIDEO_SUFFIXES if video else _IMAGE_SUFFIXES
+    if suffix not in allowed or not master_exists(rel):
+        scene[key] = None
+        return
+    if any(_same_file(rel, scene.get(still)) for still in STILL_KEYS):
+        scene[key] = None
+
+
 def time_of_day(entry_id: str, scene: dict) -> str:
     path = ROOT / "evidence" / "weather" / f"{entry_id}.json"
     if path.is_file():
@@ -65,6 +141,13 @@ def prepare_scene(scene: dict) -> dict | None:
         out.pop("file_9x16", None)
     if out.get("file_4x5") and not master_exists(out.get("file_4x5")):
         out.pop("file_4x5", None)
+    for key in NIGHT_KEYS + GENUINE_DAYLIGHT_KEYS + POSTCARD_KEYS:
+        clear_absent_variant(out, key)
+    clear_absent_variant(out, CLIP_360_KEY, video=True)
+    discover_variants(out)
+    for key in NIGHT_KEYS + GENUINE_DAYLIGHT_KEYS + POSTCARD_KEYS:
+        clear_absent_variant(out, key)
+    clear_absent_variant(out, CLIP_360_KEY, video=True)
     if not master_exists(out.get("file_16x9")):
         return None
     # 9:16 stays on disk. The tab and download render only after Jason clears it.
@@ -213,6 +296,19 @@ def assert_phase1(html: str, meta: dict[str, list]) -> None:
         'fill="#FF883E"',
         "format_9x16_approval_status",
         "phase1Enhance",
+        'class="night-tab"',
+        "Show the night image",
+        "Genuine daylight",
+        "Toggle the genuine daylight capture",
+        "Postcard collection",
+        "pc-tab",
+        'class="gday-tab"',
+        'class="motion-tab"',
+        "360°",
+        "file_night_16x9",
+        "file_genuine_daylight_16x9",
+        "file_16x9_postcard",
+        "file_motion_10s_4x5",
         "getAttribute",
         "avocado_v2:MAI_01",
         "lbFormat",
